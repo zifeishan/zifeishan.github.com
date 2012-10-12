@@ -3,7 +3,7 @@ layout: post
 title: "I start to blog."
 description: ""
 category: 
-tags: []
+tags: [test, jekyll]
 ---
 {% include JB/setup %}
 
