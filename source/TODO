@@ -1,0 +1,81 @@
+High Priority
+====
+
+  * Create working form submission pages for participant applications
+X   + Translate all input form fields into single (easy-to-read) PDF file
+X   + Verify attached files are correct PDF format
+X   + Combine all files together into single (reasonably-named) PDF file
+/   + Setup system to email single PDF file to <apply@beijing3ds.org>
+/   + Verify reasonable security of form application (See:
+      http://code.google.com/p/ratproxy/wiki/RatproxyDoc )
+X   + Setup tests to ensure that all required information is supplied
+      (while allowing for optional information)
+X   + Solicit ideas from recruiting organizer for information to be
+      requested via application page
+
+X * Transfer all existing information / graphics on current (Wordpress-based)
+    website to Donghao's new Markdown/Mustache/Scons-based site
+
+X * Find suitably professional CSS template to apply (ensure license
+    allows our usage, and record details of license in repo)
+
+
+Medium Priority
+====
+
+  * Update / finalize content throughout site
+/   + Finalize questions / material on application form
+    + Definitely needs to add information about sponsors / team / ...
+/   + Create basic templates (empty markdown pages) and then seek help
+      from DAF
+
+  * Test website using actual webserver
+X   + Recommend NGINX as #1; Apache as #2
+X   + Need not be publically available server at this point (probably
+      better if it's not, in fact)
+/   + Save key elements of server configuration files (from relevant
+      '/etc' directory) to repo
+
+  * Setup final web server (see above for testing)
+X   + Coordinate with He ZHENG on this
+X   + He should install whatever Debian packages you request
+X   + He should accept your configuration files (root privileges
+      needed) and directions for their deployment
+/   + Configure the server to support python scripts
+
+Low Priority
+====
+
+  * Determine in what remaining ways website design could be improved
+    + Additional / better images or logos probably high on list
+    + Provide list of suggestions to DAF
+
+  * Add capability to website form to aggregate master list of applicants
+    + Allow for easy examination of list of applicants (rather than
+      having recruiting team have to shuffle through all the PDF
+      files, and manually create such a list)
+    + Should only include applicant name, cell, email, university,
+      major, and year (in other words, the "small" pieces of info)
+    + Can either be a text file (probably 'CSV' format) or else using
+      entries to an easy database (I'd recommend 'SQLite', with
+      everything in a single file)
+      . File gives real benefit of ease of use (though can easily
+        become corrupted if multiple simultaneous requests are not
+        properly serialized --- ugh!)
+      . Database provides ACID guarantees and ensures valid data, but
+        makes life much harder to insert and retrieve (though 'SQLite'
+        is far easier than many others, such as 'MySQL')
+
+  * Setup monitoring framework to ensure webserver does not fail
+    + Coordinate with He ZHENG on this
+    + He already has Cacti setup to do this for other resources, and
+      could add server to those
+    + Ensure automated emails (to <webmaster@beijing3ds.org>), or the
+      like, if there are outages
+
+  * Employ (free) Content-Distribution-Network system for larger files
+    to ease burden on our server
+    + Focus on images, javascript, and css files
+    + Leave main html on our server, so that URLs are sensible
+    + Look into using Coral CDN:
+      http://en.wikipedia.org/wiki/Coral_Content_Distribution_Network

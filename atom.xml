@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Zifei Shan</title>
+ <link href="http://zifeishan.github.com/blog/atom.xml" rel="self"/>
+ <link href="http://zifeishan.github.com/blog"/>
+ <updated>2012-10-12T17:57:04+02:00</updated>
+ <id>http://zifeishan.github.com/blog</id>
+ <author>
+   <name>Zifei Shan</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Yet another testing post</title>
+   <link href="http://zifeishan.github.com/blog/2012/10/12/yet-another-testing-post"/>
+   <updated>2012-10-12T00:00:00+02:00</updated>
+   <id>http://zifeishan.github.com/blog/2012/10/12/yet-another-testing-post</id>
+   <content type="html">&lt;p&gt;This exists only to test some more functions like Prev and Next buttons.&lt;/p&gt;
+
+&lt;p&gt;And I would also like to write some code segments. begin say hello end&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>I start to blog.</title>
+   <link href="http://zifeishan.github.com/blog/2012/10/12/testing-post"/>
+   <updated>2012-10-12T00:00:00+02:00</updated>
+   <id>http://zifeishan.github.com/blog/2012/10/12/testing-post</id>
+   <content type="html">&lt;p&gt;This is actually a testing post. You are welcome to reply under this post.&lt;/p&gt;
+
+&lt;p&gt;I am quite annoyed with &lt;em&gt;jekyll&lt;/em&gt;, as it deleted all my repository when I set the output directory as root of this repo. &amp;gt;_&amp;lt;&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>

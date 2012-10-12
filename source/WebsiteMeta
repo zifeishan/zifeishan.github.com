@@ -1,0 +1,34 @@
+# Professional Website Metadata
+
+OutputDirectory("deploy")
+TemporaryDirectory("temp")
+
+# Choose template here.
+home_template = "styles/home.template"
+template = "styles/main.template"
+
+Mustache("mustaches", "styles/mustaches")
+
+CSS("styles/style.css", ["styles/bootstrap.min.css", "styles/bootstrap-responsive.min.css", "styles/style.css"])
+
+Javascript("scripts/libraries.js", ["scripts/jquery-1.7.2.min.js", "scripts/bootstrap.min.js"])
+
+Images("", Find("styles/*.png"))
+Binaries("", Find("styles/*.svg"))
+
+Binaries("", Find("files/*.pdf"))
+
+Images("", Find("images/*.jpg"))
+Images("", Find("images/*.png"))
+Images("", Find("images/projects/*.jpg"))
+Images("", Find("images/projects/*.png"))
+
+# Partials.
+Partial("nav", "nav.md")
+Partial("footer", "footer.md")
+Partial("fluid", "fluid.md")
+
+# Pages.
+Page("index.html", "index.md", home_template, title = "Home")
+Page("projects/index.html", "projects.md", template, title = "Projects")
+Page("about/index.html", "about.md", template, title = "About")

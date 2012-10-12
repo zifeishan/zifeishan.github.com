@@ -1,0 +1,432 @@
+# Static Website Builder
+# A simple and lightweight static website building script based on SCons.
+# Author: Donghao Ren
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+import re
+import os
+import hashlib
+import subprocess
+import json
+import pystache
+from datetime import datetime
+
+# Minify JS and CSS or not.
+option_minify = ARGUMENTS.get('minify', 'true')
+option_striphtml = ARGUMENTS.get('striphtml', 'false')
+
+# Current time.
+build_time = datetime.now()
+
+# Meta strings, can be used in files with syntax {{key}}
+# Only 0-9a-zA-Z and -, _, . are allowed for key.
+meta_strings = {
+    'build_time'     : build_time.strftime("%B %d, %Y, %I:%M %p"),
+    'build_time_iso' : build_time.isoformat()
+}
+
+# Global variables.
+output_directory = "deploy"
+temporary_directory = "temp"
+
+# Delimiters
+delim_L = "{{"
+delim_R = "}}"
+
+def Delimiter(L, R):
+    global delim_L
+    global delim_R
+    delim_L = L
+    delim_R = R
+    reg_L = re.escape(delim_L)
+    reg_R = re.escape(delim_R)
+    global regex_partial, regex_include, regex_js, regex_css, regex_ref, regex_meta;
+    global regex_mustache, regex_mustache_render, regex_mustache_render_first
+    regex_partial = re.compile(reg_L + r' *partial: *([0-9a-zA-Z\-\_\.]+) *' + reg_R)
+    regex_include = re.compile(reg_L + r' *include: *([0-9a-zA-Z\-\_\.]+) *' + reg_R)
+    regex_js = re.compile(reg_L + r" *js: *([0-9a-zA-Z\-\_\.\,\/]+) *" + reg_R)
+    regex_css = re.compile(reg_L + r" *css: *([0-9a-zA-Z\-\_\.\,\/]+) *" + reg_R)
+    regex_ref = re.compile(reg_L + r" *ref: *([0-9a-zA-Z\-\_\.\,\/]+) *" + reg_R)
+    regex_meta = re.compile(reg_L + r" *([0-9a-zA-Z\_\-\.]+) *" + reg_R)
+    regex_mustache = re.compile(reg_L + r" *begin *: *mustache +([0-9a-zA-Z\-\_\.]+) *" + reg_R
+                                + r"(.*?)" +
+                                reg_L + r" *end *: *mustache *" + reg_R, re.DOTALL)
+    regex_mustache_render = re.compile(reg_L + r" *begin *: *mustache\-render +([0-9a-zA-Z\-\_\.]+) *" + reg_R
+                                + r"(.*?)" +
+                                reg_L + r" *end *: *mustache\-render *" + reg_R, re.DOTALL)
+    regex_mustache_render_first = re.compile(reg_L + r" *begin *: *mustache\-render +([0-9a-zA-Z\-\_\.]+) *" + reg_R)
+
+Delimiter("{{", "}}")
+
+# Resolve include files.
+# soruce: scons file object.
+def resolve_includes(source):
+    global regex_include
+    data = unicode(source.get_text_contents(), 'utf-8')
+    data = regex_include.sub(lambda m: resolve_includes(File(m.group(1))), data)
+    return data
+
+def include_build_function(target, source, env, minify = '', mustache = 0):
+    data = "";
+    for s in source:
+        data += resolve_includes(s)
+
+    for t in target:
+        fn = str(t)
+        if minify == 'js' or minify == 'css':
+            p = subprocess.Popen(["java", "-jar", "utils/yuicompressor.jar", "--type", minify, "-o", fn], stdin = subprocess.PIPE, stdout = None, stderr = subprocess.STDOUT)
+            p.stdin.write(data.encode('utf-8'))
+            p.stdin.close()
+            r = p.wait()
+            if r != 0:
+                return Exception("Failed to build %s" % fn)
+        else:
+            if mustache:
+                mustache_templates = { };
+                    
+                def mustache_renderf(m):
+                    if m.group(1) in mustache_templates:
+                        templ = mustache_templates[m.group(1)]
+                    else:
+                        templ = m.group(1).split(".")
+                        mustache = read_mustache_file(templ[0])
+                        def mustache_subf(m):
+                            mustache_templates[templ[0] + "." + m.group(1)] = m.group(2)
+                            return ""
+                        regex_mustache.sub(lambda m: mustache_subf(m), mustache)
+                        templ = mustache_templates[m.group(1)]
+                    obj = json.loads(m.group(2).replace('\\\n', '\\n'))
+                    return pystache.render(templ, obj)
+                data = regex_mustache_render.sub(lambda m: mustache_renderf(m), data);
+            f = open(str(fn), 'w')
+            f.write(data.encode('utf-8'))
+            f.close()
+    return None
+
+def inc_build_function(target, source, env):
+    return include_build_function(target, source, env)
+
+def inc_build_function_mustache(target, source, env):
+    return include_build_function(target, source, env, mustache = 1)
+
+def js_build_function(target, source, env):
+    return include_build_function(target, source, env, minify = 'js')
+
+def css_build_function(target, source, env):
+    return include_build_function(target, source, env, minify = 'css')
+
+# JS and CSS builder.
+if option_minify == 'true':
+    js_builder = Builder(action = js_build_function)
+    css_builder = Builder(action = css_build_function)
+else:
+    js_builder = Builder(action = inc_build_function)
+    css_builder = Builder(action = inc_build_function)
+
+include_builder = Builder(action = inc_build_function_mustache)
+
+# Markdown builder.
+markdown_builder = Builder(action = 'cat $SOURCES | markdown > $TARGET')
+
+# Copy builder, just copy files.
+copy_builder = Builder(action = 'cp $SOURCE $TARGET')
+
+# Concat builder, concat source files to target files, a line-break is
+# inserted between files.
+def concat_build_function(target, source, env):
+    data = "";
+    for s in source:
+        data += unicode(s.get_text_contents(), 'utf-8') + u"\n"
+    
+    for t in target:
+        f = open(str(t), 'w')
+        f.write(data.encode('utf-8'))
+        f.close()
+    return None
+
+concat_builder = Builder(action = concat_build_function)
+
+# Template scanner, scan for partials, make them dependencies.
+def template_scanner(node, env, path):
+    files = [];
+    text = unicode(node.get_text_contents(), 'utf-8')
+    result = regex_partial.findall(text)
+    for partial in result:
+        files.append(get_partial_path(partial))
+    return env.File(files);
+
+def mustache_scanner(node, env, path):
+    files = [];
+    text = unicode(node.get_text_contents(), 'utf-8')
+    result = regex_mustache_render_first.findall(text)
+    for mustache in result:
+        files.append(get_mustache_path(mustache.split(".")[0]))
+    return env.File(files);    
+
+# Include scanner, scan for included files.
+def include_scanner(node, env, path, parents = []):
+    files = [];
+    text = unicode(node.get_text_contents(), 'utf-8')
+    path = os.path.dirname(node.rstr())
+    if path == "":
+        path = "."
+    result = regex_include.findall(text)
+    for inc in result:
+        if inc in parents:
+            raise Exception("Circular includes on '%s'." % str(node))
+        files.append(path + "/" + inc)
+    r = env.File(files);
+    for inc in result:
+        r += include_scanner(File(inc), env, path, parents + [inc])
+    return r
+
+# Substitute builder, Template + Partials + HTML = Output Page.
+def substitute_build_function(target, source, env):
+    template = unicode(source[1].get_text_contents(), 'utf-8');
+    content = unicode(source[0].get_text_contents(), 'utf-8');
+    template = template.replace(delim_L + "content" + delim_R, content);
+
+    template = regex_partial.sub(lambda m: read_partial_file(m.group(1)), template)
+    
+    for t in target:
+        f = open(str(t), 'w')
+        f.write(template.encode('utf-8'))
+        f.close()
+    return None
+    
+substitute_builder = Builder(action = substitute_build_function)
+
+def strip_html(path):
+    if option_striphtml == 'true':
+        if path.endswith(".html"):
+            path = path[:-5]
+        if path.endswith("index"):
+            path = path[:-5]
+        if path.endswith("/"):
+            path = path[:-1]
+    return path
+
+# HTML builder function.
+# Change {{js: js_files}}, {{css: css_files}} to compiled locations.
+def html_build_function(target, source, env):
+    global regex_js, regex_css, regex_ref, regex_meta
+    
+    data = "";
+    for s in source:
+        data += unicode(s.get_text_contents(), 'utf-8')
+
+    data = regex_meta.sub(lambda m: meta_substitute(m.group(1), m.group(0), meta_strings), data)
+    
+    local_meta = {
+        'title': env['SWB_title'],
+        'pageurl': env['SWB_url'],
+        env['SWB_title']: 'active'
+    }
+    
+    data = regex_meta.sub(lambda m: meta_substitute(m.group(1), m.group(0), local_meta), data)
+
+    for t in target:
+        fn = str(t);
+
+        html = regex_js.sub(lambda m: make_relative_path(fn, m.group(1)), data)
+        html = regex_css.sub(lambda m: make_relative_path(fn, m.group(1)), html)
+        html = regex_ref.sub(lambda m: strip_html(make_relative_path(fn, m.group(1))), html)
+        
+        html = html.replace(delim_L + "L" + delim_R, delim_L)
+        html = html.replace(delim_L + "R" + delim_R, delim_R)
+
+        f = open(fn, 'w')
+        f.write(html.encode('utf-8'))
+        f.close()
+    return None
+
+html_builder = Builder(action = html_build_function)
+
+# ImageMagick builder.
+def imagemagick_generator(source, target, env, for_signature):
+    return 'convert "%s" %s "%s"' % (source[0], env['SWB_args'], target[0])
+
+imagemagick_builder = Builder(generator = imagemagick_generator)
+
+# The SCons environment.
+env = Environment(
+    BUILDERS = {
+        'Javascript' : js_builder,
+        'CSS' : css_builder,
+        'Concat' : concat_builder,
+        'Copy' : copy_builder,
+        'Markdown' : markdown_builder,
+        'Substitute' : substitute_builder,
+        'HTML' : html_builder,
+        'ImageMagick' : imagemagick_builder,
+        'ResolveIncludes' : include_builder
+    }
+);
+
+def union_scanner(scanners):
+    def rf(node, env, path):
+        files = []
+        for scanner in scanners:
+            files = files + scanner(node, env, path)
+        return files
+    return rf
+
+# Add our template scanner.
+env.Append(SCANNERS = Scanner(function = template_scanner, skeys = ['.template']))
+env.Append(SCANNERS = Scanner(function = include_scanner, skeys = ['.js', '.css']))
+env.Append(SCANNERS = Scanner(function = union_scanner([mustache_scanner, include_scanner]),
+                              skeys = ['.html', '.md']))
+# Utility functions.
+def get_file_extension(filename):
+    return os.path.splitext(filename)[1][1:].strip().lower();
+
+def get_partial_path(name):
+    return "%s/%s.partial" % (temporary_directory, name)
+    
+def get_mustache_path(name):
+    return "%s/%s.mustache" % (temporary_directory, name)
+
+def read_partial_file(name):
+    temp = get_partial_path(name)
+    f = open(temp, 'r')
+    content = f.read()
+    f.close()
+    return content
+
+def read_mustache_file(name):
+    temp = get_mustache_path(name)
+    f = open(temp, 'r')
+    content = f.read()
+    f.close()
+    return content    
+
+def get_temp_path(url):
+    return "%s/%s.content" % (temporary_directory, url)
+    
+def content_html(target, source):
+    extension = get_file_extension(source)
+    if extension == "html":
+        temp = "%s/%s.resolved" % (temporary_directory, source)
+        env.ResolveIncludes(temp, source)
+        env.Copy(target, temp)
+    elif extension == "md":
+        temp = "%s/%s.resolved" % (temporary_directory, source)
+        env.ResolveIncludes(temp, source)
+        env.Markdown(target, temp)
+
+def make_relative_path(html_path, file_path):
+    html_path = html_path.replace(output_directory + "/", "");
+    return os.path.relpath(file_path, os.path.dirname(html_path));
+
+def meta_substitute(meta_name, original, metadict):
+    if meta_name in metadict:
+        return metadict[meta_name]
+    return original
+
+# Set output directory.
+def OutputDirectory(dir):
+    global output_directory
+    output_directory = dir
+
+# Set temporary directory.
+def TemporaryDirectory(dir):
+    global temporary_directory
+    temporary_directory = dir
+
+# Add mustache.
+
+def Mustache(name, source):
+    target_name = get_mustache_path(name)
+    env.Copy(target_name, source)
+
+# Add partial.
+def Partial(name, source):
+    target_name = get_partial_path(name)
+    content_html(target_name, source)
+
+# Add page.
+def Page(url, source, template, title = ''):
+    temp_name = get_temp_path(url)
+    content_html(temp_name, source)
+    temp = "%s/%s.compiled" % (temporary_directory, url)
+    output = "%s/%s" % (output_directory, url)
+    env.Substitute(temp, [ temp_name, template ])
+    env.HTML(output, temp, SWB_title = title, SWB_url = url)
+    
+# Add pure HTML file, just expand metadata.
+def HTML(url, source, title = ''):
+    output = "%s/%s" % (output_directory, url)
+    extension = get_file_extension(source)
+    if extension == 'html':
+        temp = "%s/%s.resolved" % (temporary_directory, url)
+        env.ResolveIncludes(temp, source)
+        env.HTML(output, temp, SWB_title = title, SWB_url = url)
+    else:
+        temp_r = "%s/%s.resolved" % (temporary_directory, url)
+        temp_c = "%s/%s.compiled" % (temporary_directory, url)
+        env.ResolveIncludes(temp_r, source)
+        env.Markdown(temp_c, temp_r)
+        env.HTML(output, temp_c, SWB_title = title, SWB_url = url)
+
+# Add Javascript, source can be multiple files.
+def Javascript(url, source):
+    mins = [];
+    output = "%s/%s" % (output_directory, url)
+    for s in source:
+        min = "%s/%s.min" % (temporary_directory, s)
+        env.Javascript(min, s)
+        mins.append(min)
+    env.Concat(output, mins)
+
+# Add CSS, source can be multiple files.
+def CSS(url, source):
+    mins = [];
+    output = "%s/%s" % (output_directory, url)
+    for s in source:
+        min = "%s/%s.min" % (temporary_directory, s)
+        env.CSS(min, s)
+        mins.append(min)
+    env.Concat(output, mins)
+
+def Binary(url, source):
+    output = "%s/%s" % (output_directory, url)
+    env.Copy(output, source)
+
+def Binaries(url_path, list):
+    for file in list:
+        Binary(url_path + file, file)
+
+def Image(url, source):
+    Binary(url, source)
+
+def ImageMagick(url, source, args = ""):
+    output = "%s/%s" % (output_directory, url)
+    env.ImageMagick(output, source, SWB_args = args)
+    
+def Images(url_path, list):
+    Binaries(url_path, list)
+    
+def Find(pattern, directory = "."):
+    dir = Dir(directory)
+    r = dir.glob(pattern, strings=True)
+    return r
+
+# Meta strings.
+def Meta(key, value):
+    global meta_strings;
+    meta_strings[key] = value
+
+# Load Website metadata.
+execfile("WebsiteMeta")

@@ -1,0 +1,56 @@
+<p>I am Zifei SHAN (单子非), a senior undergraduate in <a href="http://http://eecs.pku.edu.cn/">Computer Science</a> department of <a href="http://www.pku.edu.cn">Peking University</a>. Currently I am a visiting student at <a href="http://www.technion.ac.il/en">Technion---Israel Institute of Technology</a>, on a Research Exchange Program.</p>
+
+<p>My research interest spans data mining in social and information networks, and Human Computer Interaction. I get my hands wet in these areas, while keeping myself up with professional research skills, to become a qualified researcher in the future.</p>
+
+<p>I am applying for PhD programs in Computer Science at excellent US universities, and I plan to become a faculty in universities to continue my research career.</p>
+
+<h2>Research Teams</h2>
+
+<p>I am in <a href="http://net.pku.edu.cn/p2p/doku.php">Computer Networks and Distributed Systems Lab</a> of Peking University, advised by professor <a href="http://cn.linkedin.com/pub/yafei-dai/9/291/b1">Yafei Dai</a>. I mainly work with Dr. Jing Jiang on Online Social Networks.</p>
+
+<p>I am one of the co-leaders of DSL4HCI research group, advised by Prof. <a href="http://www.danielfreedman.org">Daniel A. Freedman</a>. My team members are: <a href="http://www.scottcheng.com">Scott Cheng</a>, Chris (Xiuhan) Hu, Chen Yu, and Nex (Xiaomin) Zhu.</p>
+
+<p>I am one of the eight "Technion--Beida Contingent Students" named by Daniel. Other people in our research-exchange program are: Annie Liu, <a href="http://www.haoyuzhang.org">Haoyu Zhang</a>, Zhao Yang, Yilun Zhang, Michelle Ma, Jason Lv, and Winnie Liu. </p>
+
+<h2>Publications</h2>
+
+<ul>
+<li><p><strong>Detecting and Validating Sybil Groups in the Wild,</strong>
+<em>Jing Jiang,</em> <strong>Zifei Shan</strong>, <em>Wenpeng Sha, Xiao Wang, Yafei Dai,</em>  in the proceedings of 32nd International Conference on Distributed Computing Systems Workshops (ICDCSW '12).</p></li>
+<li><p><strong>Detecting, Validating and Measuring Sybil Groups in the Wild,</strong>
+<em>Jing Jiang, <strong>Zifei Shan</strong>, Xiao Wang, Yafei Dai,</em>  submitted to ACM Transactions on Knowledge Discovery from Data (TKDD).</p></li>
+<li><p><strong>GameRank: Ranking and Analyzing Baseball Network,</strong>
+<strong>Zifei Shan</strong>, <em>Shiyingxue Li, Yafei Dai,</em> submitted to 2012 ASE International Conference on Social Informatics.</p></li>
+<li><p><strong>Enhancing and Identifying Cloning Attacks in Online Social Networks,</strong>
+<strong>Zifei Shan</strong>, <em>Haowen Cao, Jason Lv, Cong Yan, Annie Liu,</em> submitted to ACM International Conference on Ubiquitous Information Management and Communication (ICUIMC '13).</p></li>
+<li><p>Participate in <strong>Understanding Latent Interactions in Online Social Networks,</strong>
+<em>Jing Jiang
+, Christo Wilson, Xiao Wang, Wenpeng Sha, Peng Huang, Yafei Dai, Ben Y. Zhao,</em>
+submitted to ACM Transactions on the Web (TWEB), Revise &amp; Resubmit.  <!-- My work includes the measurement of the communities of latent, visible and social graphs in Renren.
+--></p></li>
+</ul>
+
+<h2>Projects</h2>
+
+<p>Here are my <a href="{{ref:projects/}}">current projects</a>.</p>
+
+<h2>Personal</h2>
+
+<p>I love baseball, and I am the founder and former captain of EECS Baseball Team in Peking University. </p>
+
+<p>Click here to find <a href="{{ref:about/}}">more about me</a>.</p>
+
+<!-- Contact Me
+----
+* Email: shanzifei@[pea-key-you] DOT edu DOT cn
+* Address: 
+  - 9-52-8, Canada Village
+  - Technion City, Haifa 32000, Israel
+* Tel: +972-054-597-[nign too eight nign]
+* Follow me on [Renren](http://www.renren.com/258061142), [Weibo](http://www.weibo.com/u/1676198360), [Twitter](https://twitter.com/shanzifei), or [Facebook](https://www.facebook.com/zifei.shan).
+ -->
+<!-- * [link to a page]({{ref: page.html}}) -->
+
+<!-- ![image]({{ref:images/img.jpg}}) -->
+
+<!-- <p><img class="thumb" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit." src="{{ref:images/someimage.jpg}}" /></p> -->

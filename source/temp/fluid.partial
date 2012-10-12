@@ -1,0 +1,20 @@
+<p><a href="{{ref:images/me_large.jpg}}"><img class="thumb" title="Zifei" src="{{ref:images/me_small.jpg}}" /></a></p>
+
+<!-- ![image]({{ref:images/me_small.jpg}}) -->
+
+<ul>
+<li>Email: shanzifei@[pea-key-you] dot edu dot cn</li>
+<li>Address: 
+<ul>
+<li>9-52-8, Canada Village</li>
+<li>Technion City, Haifa 32000, Israel</li>
+</ul></li>
+<li>Tel: +972-054-597-[nign too eight nign]</li>
+<li>Follow me on <a href="http://www.renren.com/258061142">Renren</a>, <a href="http://www.weibo.com/u/1676198360">Weibo</a>, <a href="https://twitter.com/shanzifei">Twitter</a>, or <a href="https://www.facebook.com/zifei.shan">Facebook</a>.</li>
+</ul>
+
+<!-- * [link to a page]({{ref: page.html}}) -->
+
+<!-- ![image]({{ref:images/img.jpg}}) -->
+
+<!-- <p><img class="thumb" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit." src="{{ref:images/someimage.jpg}}" /></p> -->
