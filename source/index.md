@@ -14,8 +14,10 @@ I am one of the co-leaders of DSL4HCI research group, advised by Prof. [Daniel A
 
 I am one of the eight "Technion--Beida Contingent Students" named by Daniel. Other people in our research-exchange program are: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, Yilun Zhang, Michelle Ma, Jason Lv, and Winnie Liu. 
 
-Peer-Reviewed Publications
+Publications
 ----
+
+### Peer-Reviewed Publications
 
 * Jing Jiang, **Zifei Shan**, Wenpeng Sha, Xiao Wang, and Yafei Dai.
   Detecting and Validating Sybil Groups in the Wild.
@@ -31,8 +33,7 @@ Peer-Reviewed Publications
   My work includes the measurement of the communities of latent, visible and social graphs in Renren.
 
 
-Manuscripts in Submission
-----
+### Manuscripts in Submission
 
 * Jing Jiang, **Zifei Shan**, Xiao Wang, and Yafei Dai.
   {Detecting, Validating and Measuring Sybil Groups in the Wild,}
