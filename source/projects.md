@@ -14,9 +14,8 @@ Based on this project, I conducted independent research, and raised GameRank---a
 
 Beijing 3DS Website
 ----
-[Beijing 3DS](http://www.beijing3ds.org) is an interational startup competition. 
-I am the [back-end designer](http://www.beijing3ds.org/about/#team) of the event website. I mainly built NGINX server and application form handler.
-
+[Beijing 3DS](http://www.beijing3ds.org) is an international startup competition held in Beijing. 
+I am the [back-end designer](http://www.beijing3ds.org/about/#team) of the event website. I mainly built NGINX server and application form handler, and successfully processed all the applications for the event.
 
 <!-- Minijava compiler for Android
 ----

@@ -14,26 +14,46 @@ I am one of the co-leaders of DSL4HCI research group, advised by Prof. [Daniel A
 
 I am one of the eight "Technion--Beida Contingent Students" named by Daniel. Other people in our research-exchange program are: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, Yilun Zhang, Michelle Ma, Jason Lv, and Winnie Liu. 
 
-Publications
+Peer-Reviewed Publications
 ----
 
-* **Detecting and Validating Sybil Groups in the Wild,**
-  *Jing Jiang,* **Zifei Shan**, *Wenpeng Sha, Xiao Wang, Yafei Dai,*  in the proceedings of 32nd International Conference on Distributed Computing Systems Workshops (ICDCSW '12).
+* Jing Jiang, **Zifei Shan**, Wenpeng Sha, Xiao Wang, and Yafei Dai.
+  Detecting and Validating Sybil Groups in the Wild.
+  In 
+  *Proc. 32nd International Conference on Distributed Computing Systems Workshops (ICDCSW '12).*
+ 
 
-* **Detecting, Validating and Measuring Sybil Groups in the Wild,**
-  *Jing Jiang, **Zifei Shan**, Xiao Wang, Yafei Dai,*  submitted to ACM Transactions on Knowledge Discovery from Data (TKDD).
+* **Participate in:**
+  Jing Jiang, Christo Wilson, Xiao Wang, Wenpeng Sha, Peng Huang, Yafei Dai, and Ben Y. Zhao.
+  Understanding Latent Interactions in Online Social Networks.
+  Revise \& Resubmit to 
+  *ACM Transactions on the Web (TWEB).*
+  My work includes the measurement of the communities of latent, visible and social graphs in Renren.
 
-* **GameRank: Ranking and Analyzing Baseball Network,**
-  **Zifei Shan**, *Shiyingxue Li, Yafei Dai,* submitted to 2012 ASE International Conference on Social Informatics.
 
-* **Enhancing and Identifying Cloning Attacks in Online Social Networks,**
-  **Zifei Shan**, *Haowen Cao, Jason Lv, Cong Yan, Annie Liu,* submitted to ACM International Conference on Ubiquitous Information Management and Communication (ICUIMC '13).
+Manuscripts in Submission
+----
 
-* Participate in **Understanding Latent Interactions in Online Social Networks,**
-  *Jing Jiang
-  , Christo Wilson, Xiao Wang, Wenpeng Sha, Peng Huang, Yafei Dai, Ben Y. Zhao,*
-  submitted to ACM Transactions on the Web (TWEB), Revise & Resubmit.  <!-- My work includes the measurement of the communities of latent, visible and social graphs in Renren.
- -->
+* Jing Jiang, **Zifei Shan**, Xiao Wang, and Yafei Dai.
+  {Detecting, Validating and Measuring Sybil Groups in the Wild,}
+  submitted to 
+  *ACM Transactions on Knowledge Discovery from Data (TKDD).*
+
+ 
+* **Zifei Shan**, Shiyingxue Li, and Yafei Dai.
+  GameRank: Ranking and Analyzing Baseball Network.
+  submitted to 
+  *2012 ASE International Conference on Social Informatics.*
+
+
+ 
+* **Zifei Shan**, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.
+  Enhancing and Identifying Cloning Attacks in Online Social Networks.
+  submitted to 
+  *ACM International Conference on Ubiquitous Information Management and Communication (ICUIMC '13).*
+
+
+
 
 Projects
 ----
