@@ -4,13 +4,283 @@
  <title>Zifei Shan</title>
  <link href="http://zifeishan.github.com/blog/atom.xml" rel="self"/>
  <link href="http://zifeishan.github.com/blog"/>
- <updated>2012-10-20T17:54:43+02:00</updated>
+ <updated>2012-10-22T02:42:40+02:00</updated>
  <id>http://zifeishan.github.com/blog</id>
  <author>
    <name>Zifei Shan</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>8 weekends to master Git</title>
+   <link href="http://zifeishan.github.com/blog/2012/10/22/8-weekends-to-master-git"/>
+   <updated>2012-10-22T00:00:00+02:00</updated>
+   <id>http://zifeishan.github.com/blog/2012/10/22/8-weekends-to-master-git</id>
+   <content type="html">&lt;p&gt;Git is a version control system. It is a professional research skill, and an amazing way to manage our projects. I write this article to share how I am learning git, and gradually master it, both in its concept and hands-on usage.&lt;/p&gt;
+
+&lt;p&gt;You can see it as a course, and our goal is to &lt;strong&gt;master git in 8 weekends&lt;/strong&gt;, i.e. use your spare time in each week to play with git. Of course, it you want a rush, you can compress this into one week, and hopefully you can also master it.&lt;/p&gt;
+
+&lt;p&gt;In this curriculum, we use two popular materials: one is the book &lt;em&gt;Pro Git&lt;/em&gt;, which introduces Git as a whole, to help you understand the concept, many useful operations, as well as some useful patterns in development; the other is &lt;em&gt;Git Immersion&lt;/em&gt;, a guided tour that walks you through the fundamentals of git, featuring with many good libs.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Materials&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Book: http://git-scm.com/book&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tips: if you are in a ruch, you can read the version with your mother language. Otherwise you are recommended to read the English version.&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Labs: http://gitimmersion.com/&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Really good labs. Good hands-on exercise.&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Requirements&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Default: required&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Optional X: optional, medium priority&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;OptionalXX: optional, low priority&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='week_1'&gt;Week 1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Preparation&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Install Git on your computer.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Get the book and the labs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Reading&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Read the tutorial chapter 1 &amp;#8211; 2.2.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Write a short paragraph explaining your understanding about the three stages of git.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Labs: 1 &amp;#8211; 9&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='week_2'&gt;Week 2&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Reading&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read the tutorial chapter 2.2 &amp;#8211; 2.8.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Labs: 10 &amp;#8211; 23&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='week_3'&gt;Week 3&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Reading&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read the tutorial chapter 3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Labs: 24 &amp;#8211; 35&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='week_4'&gt;Week 4&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Reading&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read the tutorial chapter 4.1, 4.10.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;GitHub Practice&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Create an account on GitHub.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Initial a repository on GitHub&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Clone a repo you like from GitHub.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Labs: 36 &amp;#8211; 44&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='week_5'&gt;Week 5&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Reading&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read the tutorial chapter 5.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Labs: 45 &amp;#8211; 53 (Finished!)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='week_6'&gt;Week 6&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Reading&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Read the tutorial chapter 6.1, 6.3, 6.4.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Know what 6.2, 6.5, 6.6 is talking about.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Optional X: chapter 6.2.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Labs: Review the former labs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='week_7'&gt;Week 7&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Reading&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Read the tutorial chapter 7.1&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Optional X: chapter 8 (if you have used SVN, recommended to read).&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;OptionalXX: chapter 9 (if you are interested in the magic inside git)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Review &amp;amp; Exam preparation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='week_8'&gt;Week 8&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Exam!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I will offer the exam paper (also the solutions) online, hopefully in the middle of November.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Difficulty&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Basics: 50%&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Medium: 30%&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Advanced: 20% (At most to &amp;#8220;Optional X&amp;#8221;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Range&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Book: 30% (theory)&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Lab: 70% (experiment)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;An open-book &amp;amp; open-internet, 1-hour test.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
  
  <entry>
    <title>Yet another testing post</title>
