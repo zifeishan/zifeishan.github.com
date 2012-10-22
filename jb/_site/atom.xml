@@ -4,7 +4,7 @@
  <title>Zifei Shan</title>
  <link href="http://zifeishan.github.com/blog/atom.xml" rel="self"/>
  <link href="http://zifeishan.github.com/blog"/>
- <updated>2012-10-22T02:42:40+02:00</updated>
+ <updated>2012-10-22T02:46:29+02:00</updated>
  <id>http://zifeishan.github.com/blog</id>
  <author>
    <name>Zifei Shan</name>
@@ -280,20 +280,6 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content>
- </entry>
- 
- <entry>
-   <title>Yet another testing post</title>
-   <link href="http://zifeishan.github.com/blog/2012/10/12/yet-another-testing-post"/>
-   <updated>2012-10-12T00:00:00+02:00</updated>
-   <id>http://zifeishan.github.com/blog/2012/10/12/yet-another-testing-post</id>
-   <content type="html">&lt;p&gt;This exists only to test some more functions like Prev and Next buttons.&lt;/p&gt;
-
-&lt;p&gt;And I would also like to write some code segments.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  begin
-    say hello
-  end&lt;/code&gt;&lt;/pre&gt;</content>
  </entry>
  
  <entry>
