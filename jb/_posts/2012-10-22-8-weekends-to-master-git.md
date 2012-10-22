@@ -19,12 +19,12 @@ guided tour that walks you through the fundamentals of git, featuring with many 
 
 * Materials
 
-  - Book: http://git-scm.com/book
+  - Book: [Pro Git](http://git-scm.com/book)
 
         Tips: if you are in a ruch, you can read the version with your mother language. Otherwise you are recommended to read the English version.
 
 
-  - Labs: http://gitimmersion.com/
+  - Labs: [Git Immersion](http://gitimmersion.com/)
 
         Really good labs. Good hands-on exercise.
 
