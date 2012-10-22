@@ -60,20 +60,25 @@ Week 2
 * Reading
 
   - Read the tutorial chapter 2.2 -- 2.8.
+
 * Labs: 10 -- 23
 
 Week 3
 ----
+
 * Reading
 
   - Read the tutorial chapter 3.
+
 * Labs: 24 -- 35
 
 Week 4
 ----
+
 * Reading
 
   - Read the tutorial chapter 4.1, 4.10.
+
 * GitHub Practice
 
   - Create an account on GitHub.
@@ -81,17 +86,21 @@ Week 4
   - Initial a repository on GitHub
 
   - Clone a repo you like from GitHub.
+
 * Labs: 36 -- 44
 
 Week 5
 ----
+
 * Reading
 
   - Read the tutorial chapter 5.
+
 * Labs: 45 -- 53 (Finished!)
 
 Week 6
 ----
+
 * Reading
 
   - Read the tutorial chapter 6.1, 6.3, 6.4.
@@ -99,10 +108,12 @@ Week 6
   - Know what 6.2, 6.5, 6.6 is talking about. 
 
   - Optional X: chapter 6.2.
+
 * Labs: Review the former labs.
 
 Week 7
 ----
+
 * Reading
 
   - Read the tutorial chapter 7.1
@@ -110,10 +121,12 @@ Week 7
   - Optional X: chapter 8 (if you have used SVN, recommended to read).
 
   - OptionalXX: chapter 9 (if you are interested in the magic inside git)
+
 * Review & Exam preparation.
 
 Week 8
 ----
+
 * Exam!
 
   - I will offer the exam paper (also the solutions) online, hopefully in the middle of November.
