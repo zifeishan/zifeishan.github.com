@@ -1,7 +1,7 @@
 
 I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http://http://eecs.pku.edu.cn/) department of [Peking University](http://www.pku.edu.cn). Currently I am a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program.
 
-My research interest spans data mining in social and information networks, and Human Computer Interaction. I get my hands wet in these areas, while keeping myself up with professional research skills, to become a qualified researcher in the future.
+My research interest spans data mining in social and information networks, and Human Computer Interaction. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
 
 I am applying for PhD programs in Computer Science at excellent US universities, and I plan to become a faculty in universities to continue my research career.
 
@@ -32,6 +32,17 @@ Publications
   *ACM Transactions on the Web (TWEB).*
   My work includes the measurement of the communities of latent, visible and social graphs in Renren.
 
+ 
+* **Zifei Shan**, Shiyingxue Li, and Yafei Dai.
+  GameRank: Ranking and Analyzing Baseball Network.
+  accepted for publication by 
+  *2012 ASE International Conference on Social Informatics.* (11.5%)
+
+
+* **Zifei Shan**, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.
+  Enhancing and Identifying Cloning Attacks in Online Social Networks.
+  accepted for publication by 
+  *ACM International Conference on Ubiquitous Information Management and Communication (ICUIMC '13).* (29%)
 
 ### Manuscripts in Submission
 
@@ -40,25 +51,15 @@ Publications
   submitted to 
   *ACM Transactions on Knowledge Discovery from Data (TKDD).*
 
- 
-* **Zifei Shan**, Shiyingxue Li, and Yafei Dai.
-  GameRank: Ranking and Analyzing Baseball Network.
-  submitted to 
-  *2012 ASE International Conference on Social Informatics.*
-
-
- 
-* **Zifei Shan**, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.
-  Enhancing and Identifying Cloning Attacks in Online Social Networks.
-  submitted to 
-  *ACM International Conference on Ubiquitous Information Management and Communication (ICUIMC '13).*
-
-
 
 
 Projects
 ----
 Here are my [current projects]({{ref:projects/}}).
+
+Blog
+----
+Here is my [blog]({{ref:blog/}}).
 
 
 Personal

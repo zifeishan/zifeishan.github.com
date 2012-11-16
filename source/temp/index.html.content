@@ -1,6 +1,6 @@
 <p>I am Zifei SHAN (单子非), a senior undergraduate in <a href="http://http://eecs.pku.edu.cn/">Computer Science</a> department of <a href="http://www.pku.edu.cn">Peking University</a>. Currently I am a visiting student at <a href="http://www.technion.ac.il/en">Technion---Israel Institute of Technology</a>, on a Research Exchange Program.</p>
 
-<p>My research interest spans data mining in social and information networks, and Human Computer Interaction. I get my hands wet in these areas, while keeping myself up with professional research skills, to become a qualified researcher in the future.</p>
+<p>My research interest spans data mining in social and information networks, and Human Computer Interaction. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.</p>
 
 <p>I am applying for PhD programs in Computer Science at excellent US universities, and I plan to become a faculty in universities to continue my research career.</p>
 
@@ -27,28 +27,32 @@ Understanding Latent Interactions in Online Social Networks.
 Revise \&amp; Resubmit to 
 <em>ACM Transactions on the Web (TWEB).</em>
 My work includes the measurement of the communities of latent, visible and social graphs in Renren.</p></li>
+<li><p><strong>Zifei Shan</strong>, Shiyingxue Li, and Yafei Dai.
+GameRank: Ranking and Analyzing Baseball Network.
+accepted for publication by 
+<em>2012 ASE International Conference on Social Informatics.</em> (11.5%)</p></li>
+<li><p><strong>Zifei Shan</strong>, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.
+Enhancing and Identifying Cloning Attacks in Online Social Networks.
+accepted for publication by 
+<em>ACM International Conference on Ubiquitous Information Management and Communication (ICUIMC '13).</em> (29%)</p></li>
 </ul>
 
 <h3>Manuscripts in Submission</h3>
 
 <ul>
-<li><p>Jing Jiang, <strong>Zifei Shan</strong>, Xiao Wang, and Yafei Dai.
+<li>Jing Jiang, <strong>Zifei Shan</strong>, Xiao Wang, and Yafei Dai.
 {Detecting, Validating and Measuring Sybil Groups in the Wild,}
 submitted to 
-<em>ACM Transactions on Knowledge Discovery from Data (TKDD).</em></p></li>
-<li><p><strong>Zifei Shan</strong>, Shiyingxue Li, and Yafei Dai.
-GameRank: Ranking and Analyzing Baseball Network.
-submitted to 
-<em>2012 ASE International Conference on Social Informatics.</em></p></li>
-<li><p><strong>Zifei Shan</strong>, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.
-Enhancing and Identifying Cloning Attacks in Online Social Networks.
-submitted to 
-<em>ACM International Conference on Ubiquitous Information Management and Communication (ICUIMC '13).</em></p></li>
+<em>ACM Transactions on Knowledge Discovery from Data (TKDD).</em></li>
 </ul>
 
 <h2>Projects</h2>
 
 <p>Here are my <a href="{{ref:projects/}}">current projects</a>.</p>
+
+<h2>Blog</h2>
+
+<p>Here is my <a href="{{ref:blog/}}">blog</a>.</p>
 
 <h2>Personal</h2>
 
