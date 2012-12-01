@@ -5,6 +5,7 @@ Throughout my undergraduate career, I have been trying to find the ties between 
 
 I get my hands wet in these areas, while keeping myself up with professional research skills, to become a qualified researcher in the future.
 
+Here is my [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/s/Shan:Zifei.html) link.
 
 CV
 ====
@@ -30,3 +31,13 @@ Amateur Photography
 
 I used to have a camera, but it got lost. From then on I only use cellphone to take photos. I am quite unprofessional and only do it for fun. Here is my little [gallery in Instagram](http://instajelly.com/zifeishan).
 
+
+Friends
+====
+
+My friends are all promising stars in the future academia!
+
+* [Donghao Ren](http://donghaoren.org/): A romantic photographer, designer, builder, Visualization researcher
+* [Scott Cheng](http://scottcheng.com/): A passionate designer, builder, HCIer
+* [Haoyu Zhang](http://www.haoyuzhang.org/): A Distributed System guy, fast learner
+* [Yilun Zhang](http://www.yilunzhang.com/): Someone who models the world as a complex system; A Physics-CS guy.

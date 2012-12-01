@@ -2,7 +2,7 @@
 
 <!-- ![image]({{ref:images/me_small.jpg}}) -->
 
-* Email: shanzifei@[pea-key-you] dot edu dot cn
+* Email: shanzifei AT pku dot edu dot cn
 * Address: 
   - 9-52-8, Canada Village
   - Technion City, Haifa 32000, Israel

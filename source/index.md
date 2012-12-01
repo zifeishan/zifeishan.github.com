@@ -1,7 +1,7 @@
 
 I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http://http://eecs.pku.edu.cn/) department of [Peking University](http://www.pku.edu.cn). Currently I am a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program.
 
-My research interest spans data mining in social and information networks, and Human Computer Interaction. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
+My research interest is data mining and social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
 
 I am applying for PhD programs in Computer Science at excellent US universities, and I plan to become a faculty in universities to continue my research career.
 
@@ -23,25 +23,17 @@ Publications
   Detecting and Validating Sybil Groups in the Wild.
   In 
   *Proc. 32nd International Conference on Distributed Computing Systems Workshops (ICDCSW '12).*
- 
-
-* **Participate in:**
-  Jing Jiang, Christo Wilson, Xiao Wang, Wenpeng Sha, Peng Huang, Yafei Dai, and Ben Y. Zhao.
-  Understanding Latent Interactions in Online Social Networks.
-  Revise \& Resubmit to 
-  *ACM Transactions on the Web (TWEB).*
-  My work includes the measurement of the communities of latent, visible and social graphs in Renren.
-
+  [Link](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6258146)
  
 * **Zifei Shan**, Shiyingxue Li, and Yafei Dai.
   GameRank: Ranking and Analyzing Baseball Network.
-  accepted for publication by 
+  To appear in:
   *2012 ASE International Conference on Social Informatics.* (11.5%)
 
 
 * **Zifei Shan**, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.
   Enhancing and Identifying Cloning Attacks in Online Social Networks.
-  accepted for publication by 
+  To appear in: 
   *ACM International Conference on Ubiquitous Information Management and Communication (ICUIMC '13).* (29%)
 
 ### Manuscripts in Submission
@@ -50,6 +42,13 @@ Publications
   {Detecting, Validating and Measuring Sybil Groups in the Wild,}
   submitted to 
   *ACM Transactions on Knowledge Discovery from Data (TKDD).*
+
+* **Participate in:**
+  Jing Jiang, Christo Wilson, Xiao Wang, Wenpeng Sha, Peng Huang, Yafei Dai, and Ben Y. Zhao.
+  Understanding Latent Interactions in Online Social Networks.
+  Revise \& Resubmit to 
+  *ACM Transactions on the Web (TWEB).*
+  My work includes the measurement of the communities of latent, visible and social graphs in Renren.
 
 
 
