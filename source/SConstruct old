@@ -20,21 +20,20 @@ import os
 import hashlib
 import subprocess
 import json
-import yaml
 import pystache
 from datetime import datetime
 
 # Minify JS and CSS or not.
 option_minify = ARGUMENTS.get('minify', 'true')
-option_striphtml = ARGUMENTS.get('striphtml', 'true')
+option_striphtml = ARGUMENTS.get('striphtml', 'false')
 
 # Current time.
-build_time = datetime.utcnow()
+build_time = datetime.now()
 
 # Meta strings, can be used in files with syntax {{key}}
 # Only 0-9a-zA-Z and -, _, . are allowed for key.
 meta_strings = {
-    'build_time'     : build_time.strftime("%b %d, %Y, %I:%M %p, UTC"),
+    'build_time'     : build_time.strftime("%B %d, %Y, %I:%M %p"),
     'build_time_iso' : build_time.isoformat()
 }
 
@@ -53,14 +52,13 @@ def Delimiter(L, R):
     delim_R = R
     reg_L = re.escape(delim_L)
     reg_R = re.escape(delim_R)
-    global regex_partial, regex_include, regex_js, regex_css, regex_ref, regex_active, regex_meta;
+    global regex_partial, regex_include, regex_js, regex_css, regex_ref, regex_meta;
     global regex_mustache, regex_mustache_render, regex_mustache_render_first
     regex_partial = re.compile(reg_L + r' *partial: *([0-9a-zA-Z\-\_\.]+) *' + reg_R)
     regex_include = re.compile(reg_L + r' *include: *([0-9a-zA-Z\-\_\.]+) *' + reg_R)
     regex_js = re.compile(reg_L + r" *js: *([0-9a-zA-Z\-\_\.\,\/]+) *" + reg_R)
     regex_css = re.compile(reg_L + r" *css: *([0-9a-zA-Z\-\_\.\,\/]+) *" + reg_R)
     regex_ref = re.compile(reg_L + r" *ref: *([0-9a-zA-Z\-\_\.\,\/]+) *" + reg_R)
-    regex_active = re.compile(reg_L + r" *(active|current): *([0-9a-zA-Z\-\_\.\,\/]+) *" + reg_R)
     regex_meta = re.compile(reg_L + r" *([0-9a-zA-Z\_\-\.]+) *" + reg_R)
     regex_mustache = re.compile(reg_L + r" *begin *: *mustache +([0-9a-zA-Z\-\_\.]+) *" + reg_R
                                 + r"(.*?)" +
@@ -69,12 +67,6 @@ def Delimiter(L, R):
                                 + r"(.*?)" +
                                 reg_L + r" *end *: *mustache\-render *" + reg_R, re.DOTALL)
     regex_mustache_render_first = re.compile(reg_L + r" *begin *: *mustache\-render +([0-9a-zA-Z\-\_\.]+) *" + reg_R)
-    
-def ensure_unicode(text, encoding):
-    try:
-      return unicode(text, encoding)
-    except TypeError:
-      return text
 
 Delimiter("{{", "}}")
 
@@ -82,7 +74,7 @@ Delimiter("{{", "}}")
 # soruce: scons file object.
 def resolve_includes(source):
     global regex_include
-    data = ensure_unicode(source.get_text_contents(), 'utf-8')
+    data = unicode(source.get_text_contents(), 'utf-8')
     data = regex_include.sub(lambda m: resolve_includes(File(m.group(1))), data)
     return data
 
@@ -156,7 +148,7 @@ copy_builder = Builder(action = 'cp $SOURCE $TARGET')
 def concat_build_function(target, source, env):
     data = "";
     for s in source:
-        data += ensure_unicode(s.get_text_contents(), 'utf-8') + u"\n"
+        data += unicode(s.get_text_contents(), 'utf-8') + u"\n"
     
     for t in target:
         f = open(str(t), 'w')
@@ -166,28 +158,10 @@ def concat_build_function(target, source, env):
 
 concat_builder = Builder(action = concat_build_function)
 
-# YAML to JSON builder
-def yaml2json_build_function(target, source, env):
-    data = "";
-    for s in source:
-        data += ensure_unicode(s.get_text_contents(), 'utf-8') + u"\n"
-    
-    obj = yaml.load(data)
-    
-    data = json.dumps(obj)
-    
-    for t in target:
-        f = open(str(t), 'w')
-        f.write(data.encode('utf-8'))
-        f.close()
-    return None
-
-yaml2json_builder = Builder(action = yaml2json_build_function)
-
 # Template scanner, scan for partials, make them dependencies.
 def template_scanner(node, env, path):
     files = [];
-    text = ensure_unicode(node.get_text_contents(), 'utf-8')
+    text = unicode(node.get_text_contents(), 'utf-8')
     result = regex_partial.findall(text)
     for partial in result:
         files.append(get_partial_path(partial))
@@ -195,7 +169,7 @@ def template_scanner(node, env, path):
 
 def mustache_scanner(node, env, path):
     files = [];
-    text = ensure_unicode(node.get_text_contents(), 'utf-8')
+    text = unicode(node.get_text_contents(), 'utf-8')
     result = regex_mustache_render_first.findall(text)
     for mustache in result:
         files.append(get_mustache_path(mustache.split(".")[0]))
@@ -204,7 +178,7 @@ def mustache_scanner(node, env, path):
 # Include scanner, scan for included files.
 def include_scanner(node, env, path, parents = []):
     files = [];
-    text = ensure_unicode(node.get_text_contents(), 'utf-8')
+    text = unicode(node.get_text_contents(), 'utf-8')
     path = os.path.dirname(node.rstr())
     if path == "":
         path = "."
@@ -220,8 +194,8 @@ def include_scanner(node, env, path, parents = []):
 
 # Substitute builder, Template + Partials + HTML = Output Page.
 def substitute_build_function(target, source, env):
-    template = ensure_unicode(source[1].get_text_contents(), 'utf-8');
-    content = ensure_unicode(source[0].get_text_contents(), 'utf-8');
+    template = unicode(source[1].get_text_contents(), 'utf-8');
+    content = unicode(source[0].get_text_contents(), 'utf-8');
     template = template.replace(delim_L + "content" + delim_R, content);
 
     template = regex_partial.sub(lambda m: read_partial_file(m.group(1)), template)
@@ -242,15 +216,7 @@ def strip_html(path):
             path = path[:-5]
         if path.endswith("/"):
             path = path[:-1]
-        if path == "":
-            path = "."
     return path
-
-def active_page(this_page, target, str):
-    pA = strip_html(this_page)
-    pB = strip_html(target)
-    if(pA.startswith(pB)): return str
-    return ""
 
 # HTML builder function.
 # Change {{js: js_files}}, {{css: css_files}} to compiled locations.
@@ -259,13 +225,14 @@ def html_build_function(target, source, env):
     
     data = "";
     for s in source:
-        data += ensure_unicode(s.get_text_contents(), 'utf-8')
+        data += unicode(s.get_text_contents(), 'utf-8')
 
     data = regex_meta.sub(lambda m: meta_substitute(m.group(1), m.group(0), meta_strings), data)
     
     local_meta = {
         'title': env['SWB_title'],
-        'pageurl': env['SWB_url']
+        'pageurl': env['SWB_url'],
+        env['SWB_title']: 'active'
     }
     
     data = regex_meta.sub(lambda m: meta_substitute(m.group(1), m.group(0), local_meta), data)
@@ -276,8 +243,7 @@ def html_build_function(target, source, env):
         html = regex_js.sub(lambda m: make_relative_path(fn, m.group(1)), data)
         html = regex_css.sub(lambda m: make_relative_path(fn, m.group(1)), html)
         html = regex_ref.sub(lambda m: strip_html(make_relative_path(fn, m.group(1))), html)
-        html = regex_active.sub(lambda m: active_page(env['SWB_url'], m.group(2), m.group(1)), html)
-                
+        
         html = html.replace(delim_L + "L" + delim_R, delim_L)
         html = html.replace(delim_L + "R" + delim_R, delim_R)
 
@@ -305,8 +271,7 @@ env = Environment(
         'Substitute' : substitute_builder,
         'HTML' : html_builder,
         'ImageMagick' : imagemagick_builder,
-        'ResolveIncludes' : include_builder,
-        'YAML2JSON' : yaml2json_builder
+        'ResolveIncludes' : include_builder
     }
 );
 
@@ -413,7 +378,7 @@ def HTML(url, source, title = ''):
         temp_c = "%s/%s.compiled" % (temporary_directory, url)
         env.ResolveIncludes(temp_r, source)
         env.Markdown(temp_c, temp_r)
-        env.HTML(output, temp_c, SWB_title = title, SWB_url = url)        
+        env.HTML(output, temp_c, SWB_title = title, SWB_url = url)
 
 # Add Javascript, source can be multiple files.
 def Javascript(url, source):
@@ -449,11 +414,7 @@ def Image(url, source):
 def ImageMagick(url, source, args = ""):
     output = "%s/%s" % (output_directory, url)
     env.ImageMagick(output, source, SWB_args = args)
-
-def YAML2JSON(url, source):
-    output = "%s/%s" % (output_directory, url)
-    env.YAML2JSON(output, source)
-
+    
 def Images(url_path, list):
     Binaries(url_path, list)
     

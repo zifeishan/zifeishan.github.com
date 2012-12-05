@@ -15,7 +15,7 @@
 
 <body class="{{title}}">
 
-<div class="navbar navbar-fixed-top">
+<div class="navbar">
   <div class="navbar-inner">
     <div class="container">
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -39,7 +39,7 @@
 
 <!-- <div class="taglineContainer"><div class="taglineContent"><div class="tagline">38 events on 4 continents have given rise to 27 companies receiving $7 million in funding. 13 companies from 3DS have been accepted to accelerators such as Y Combinator, TechStars, and 500 Startups.</div></div></div>
  -->
-<div class="container contentContainer">
+<div class="container">
 
 <div class="content">
   {{content}}

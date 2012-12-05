@@ -1,2 +1,5 @@
 .DS_Store
-jb/_site/
+jb/_site/*
+source/temp/*
+.gitignore
+source/deploy/*

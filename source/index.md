@@ -39,14 +39,14 @@ Publications
 ### Manuscripts in Submission
 
 * Jing Jiang, **Zifei Shan**, Xiao Wang, and Yafei Dai.
-  {Detecting, Validating and Measuring Sybil Groups in the Wild,}
+  Detecting, Validating and Measuring Sybil Groups in the Wild,
   submitted to 
   *ACM Transactions on Knowledge Discovery from Data (TKDD).*
 
 * **Participate in:**
   Jing Jiang, Christo Wilson, Xiao Wang, Wenpeng Sha, Peng Huang, Yafei Dai, and Ben Y. Zhao.
   Understanding Latent Interactions in Online Social Networks.
-  Revise \& Resubmit to 
+  Revise & Resubmit to 
   *ACM Transactions on the Web (TWEB).*
   My work includes the measurement of the communities of latent, visible and social graphs in Renren.
 

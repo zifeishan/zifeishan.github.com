@@ -6,6 +6,10 @@ body {
 ul.nav p {
   display: none;
 }
+
+.navbar {
+
+}
 .container .content {
   font-size: 1.2em;
   line-height: 1.75em;
@@ -23,12 +27,6 @@ ul.nav p {
   .mainContainer {
     padding-top: 70px;
   }
-  .container .content {
-    padding-top: 1em;
-    margin-top: 50px;
-    margin-left: 124px;
-    margin-right: 124px;
-  }
   div.taglineContainer {
     padding-top: 50px;
     margin-bottom: .5em;
@@ -39,9 +37,7 @@ ul.nav p {
   div.tagline {
     padding: 1em 124px;
   }
-  body.Home .container .content {
-    margin-top: 0;
-  }
+  
 }
 @media (max-width: 1000px) {
   .navbar-fixed-top {
@@ -83,15 +79,10 @@ ul.nav p {
     margin-left: 0;
   }
 }
-.container .content {
-  padding-bottom: 1em;
-}
 .mainContainer {
   padding-bottom: 50px;
 }
-.container .content li {
-  line-height: 1.75em;
-}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 1em;
   margin-bottom: .5em;
@@ -117,7 +108,6 @@ div.taglineContainer {
 }
 div.footerContainer {
   padding: 1em 0;
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -148,9 +138,9 @@ div.footer {
   text-align: center;
 }
 a {
--webkit-transition: background-color .25s,color .25s;
--moz-transition: background-color .25s,color .25s;
--ms-transition: background-color .25s,color .25s;
--o-transition: background-color .25s,color .25s;
-transition: background-color .25s,color .25s;
+-webkit-transition: background-color .5s,color .5s;
+-moz-transition: background-color .5s,color .5s;
+-ms-transition: background-color .5s,color .5s;
+-o-transition: background-color .5s,color .5s;
+transition: background-color .5s,color .5s;
 }
