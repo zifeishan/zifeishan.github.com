@@ -11,7 +11,7 @@ Mustache("mustaches", "styles/mustaches")
 
 CSS("styles/style.css", ["styles/bootstrap.min.css", "styles/bootstrap-responsive.min.css", "styles/style.css"])
 
-Javascript("scripts/libraries.js", ["scripts/jquery-1.7.2.min.js", "scripts/bootstrap.min.js"])
+Javascript("scripts/libraries.js", ["scripts/jquery-1.7.2.min.js", "scripts/bootstrap.min.js", "scripts/tracking.js"])
 
 Images("", Find("styles/*.png"))
 Binaries("", Find("styles/*.svg"))
