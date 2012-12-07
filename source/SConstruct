@@ -147,6 +147,7 @@ include_builder = Builder(action = inc_build_function_mustache)
 
 # Markdown builder.
 markdown_builder = Builder(action = 'cat $SOURCES | markdown > $TARGET')
+# markdown_builder = Builder(action = 'cat $SOURCES | php /usr/local/bin/markdown.php > $TARGET')
 
 # Copy builder, just copy files.
 copy_builder = Builder(action = 'cp $SOURCE $TARGET')

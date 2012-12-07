@@ -1,18 +1,20 @@
 
 I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http://http://eecs.pku.edu.cn/) department of [Peking University](http://www.pku.edu.cn). Currently I am a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program.
 
-My research interest is data mining and social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
+My research interest lies in data mining and social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
 
 I am applying for PhD programs in Computer Science at excellent US universities, and I plan to become a faculty in universities to continue my research career.
 
-Research Teams
+Research
 ----
 
 I am in [Computer Networks and Distributed Systems Lab](http://net.pku.edu.cn/p2p/doku.php) of Peking University, advised by professor [Yafei Dai](http://cn.linkedin.com/pub/yafei-dai/9/291/b1). I mainly work with Dr. Jing Jiang on Online Social Networks.
 
 I am one of the co-leaders of DSL4HCI research group, advised by Prof. [Daniel A. Freedman](http://www.danielfreedman.org). My team members are: [Scott Cheng](http://www.scottcheng.com), Chris (Xiuhan) Hu, Chen Yu, and Nex (Xiaomin) Zhu.
 
-I am one of the eight "Technion--Beida Contingent Students" named by Daniel. Other people in our research-exchange program are: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, Yilun Zhang, Michelle Ma, Jason Lv, and Winnie Liu. 
+I am on the "Technion-Peking Research Exchange Program", together with seven other PKU students: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, [Yilun Zhang](http://www.yilunzhang.com), Michelle Ma, Jason Lv, and Winnie Liu. 
+
+Click [HERE]({{ref:research/}}) to know about my research.
 
 Publications
 ----
@@ -23,18 +25,20 @@ Publications
   Detecting and Validating Sybil Groups in the Wild.
   In 
   *Proc. 32nd International Conference on Distributed Computing Systems Workshops (ICDCSW '12).*
-  [Link](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6258146)
+  [PDF](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6258146)
  
 * **Zifei Shan**, Shiyingxue Li, and Yafei Dai.
   GameRank: Ranking and Analyzing Baseball Network.
   To appear in:
   *2012 ASE International Conference on Social Informatics.* (11.5%)
+  [PDF]({{ref:files/gamerank_camera_ready.pdf}})
 
 
 * **Zifei Shan**, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.
   Enhancing and Identifying Cloning Attacks in Online Social Networks.
   To appear in: 
   *ACM International Conference on Ubiquitous Information Management and Communication (ICUIMC '13).* (29%)
+  [PDF]({{ref:files/cloning_camera_ready.pdf}})
 
 ### Manuscripts in Submission
 
@@ -51,10 +55,9 @@ Publications
   My work includes the measurement of the communities of latent, visible and social graphs in Renren.
 
 
-
 Projects
 ----
-Here are my [current projects]({{ref:projects/}}).
+Here are my [course and school projects]({{ref:projects/}}).
 
 Blog
 ----
