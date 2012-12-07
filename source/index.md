@@ -1,12 +1,30 @@
 
 I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http://http://eecs.pku.edu.cn/) department of [Peking University](http://www.pku.edu.cn). Currently I am a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program.
 
-My research interest lies in data mining and social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
+<!-- My research interest lies in data mining and social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
+ -->
 
 I am applying for PhD programs in Computer Science at excellent US universities, and I plan to become a faculty in universities to continue my research career.
 
 Research
 ----
+
+My research interests are data mining and large social networks, 
+in particular network dynamics and robustness, and human behaviors in real-world settings.
+The general goal of my research is discovering knowledge and enriching machines' intelligence, thus enhancing the connection between the real world and the binary one.
+
+During my undergraduate studies I lead independent research projects on
+*ranking and analyzing baseball network*, and <!-- dynamics -->
+*defending against cloning attacks in Onine Social Networks (OSNs)*; <!-- robustness -->
+I am also engaged into research topics in
+*detecting Sybil groups in OSNs* <!-- robustness, dynamics -->
+and *measuring latent and visible user interaction graphs*, <!-- human behaviors -->
+supervised by Professor Yafei Dai in my lab.
+Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
+
+Click [HERE]({{ref:research/}}) to know about my research.
+
+### Research Group
 
 I am in [Computer Networks and Distributed Systems Lab](http://net.pku.edu.cn/p2p/doku.php) of Peking University, advised by professor [Yafei Dai](http://cn.linkedin.com/pub/yafei-dai/9/291/b1). I mainly work with Dr. Jing Jiang on Online Social Networks.
 
@@ -14,7 +32,6 @@ I am one of the co-leaders of DSL4HCI research group, advised by Prof. [Daniel A
 
 I am on the "Technion-Peking Research Exchange Program", together with seven other PKU students: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, [Yilun Zhang](http://www.yilunzhang.com), Michelle Ma, Jason Lv, and Winnie Liu. 
 
-Click [HERE]({{ref:research/}}) to know about my research.
 
 Publications
 ----

@@ -78,19 +78,35 @@
     <div class="span9 content">
       <p>I am Zifei SHAN (单子非), a senior undergraduate in <a href="http://http://eecs.pku.edu.cn/">Computer Science</a> department of <a href="http://www.pku.edu.cn">Peking University</a>. Currently I am a visiting student at <a href="http://www.technion.ac.il/en">Technion---Israel Institute of Technology</a>, on a Research Exchange Program.</p>
 
-<p>My research interest lies in data mining and social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.</p>
+<!-- My research interest lies in data mining and social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
+ -->
 
 <p>I am applying for PhD programs in Computer Science at excellent US universities, and I plan to become a faculty in universities to continue my research career.</p>
 
 <h2>Research</h2>
+
+<p>My research interests are data mining and large social networks, 
+in particular network dynamics and robustness, and human behaviors in real-world settings.
+The general goal of my research is discovering knowledge and enriching machines' intelligence, thus enhancing the connection between the real world and the binary one.</p>
+
+<p>During my undergraduate studies I lead independent research projects on
+<em>ranking and analyzing baseball network</em>, and <!-- dynamics -->
+<em>defending against cloning attacks in Onine Social Networks (OSNs)</em>; <!-- robustness -->
+I am also engaged into research topics in
+<em>detecting Sybil groups in OSNs</em> <!-- robustness, dynamics -->
+and <em>measuring latent and visible user interaction graphs</em>, <!-- human behaviors -->
+supervised by Professor Yafei Dai in my lab.
+Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.</p>
+
+<p>Click <a href="{{ref:research/}}">HERE</a> to know about my research.</p>
+
+<h3>Research Group</h3>
 
 <p>I am in <a href="http://net.pku.edu.cn/p2p/doku.php">Computer Networks and Distributed Systems Lab</a> of Peking University, advised by professor <a href="http://cn.linkedin.com/pub/yafei-dai/9/291/b1">Yafei Dai</a>. I mainly work with Dr. Jing Jiang on Online Social Networks.</p>
 
 <p>I am one of the co-leaders of DSL4HCI research group, advised by Prof. <a href="http://www.danielfreedman.org">Daniel A. Freedman</a>. My team members are: <a href="http://www.scottcheng.com">Scott Cheng</a>, Chris (Xiuhan) Hu, Chen Yu, and Nex (Xiaomin) Zhu.</p>
 
 <p>I am on the "Technion-Peking Research Exchange Program", together with seven other PKU students: Annie Liu, <a href="http://www.haoyuzhang.org">Haoyu Zhang</a>, Zhao Yang, <a href="http://www.yilunzhang.com">Yilun Zhang</a>, Michelle Ma, Jason Lv, and Winnie Liu. </p>
-
-<p>Click <a href="{{ref:research/}}">HERE</a> to know about my research.</p>
 
 <h2>Publications</h2>
 
