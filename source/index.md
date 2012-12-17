@@ -48,7 +48,7 @@ Publications
   GameRank: Ranking and Analyzing Baseball Network.
   To appear in:
   *2012 ASE International Conference on Social Informatics.* (11.5%)
-  [PDF]({{ref:files/gamerank_camera_ready.pdf}})
+  [PDF]({{ref:files/gamerank_zifeishan.pdf}})
 
 
 * **Zifei Shan**, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.

@@ -87,7 +87,11 @@ and test the robustness of each team based on data of in-team
 supports, to see whether the team is too dependent on certain players. 
 Further research might lead to brand new strategies in real games.</p>
 
-Paper available here: <a href="/files/gamerank_camera_ready.pdf">PDF</a>
+<p>Paper available here: [<a href="/files/gamerank_zifeishan.pdf">PDF</a>]
+[<a href="/files/gamerank_slides_zifei.pptx">Slides</a>]</p>
+
+<p>The video recording of my talk will be available online soon.</p>
+
 </div>
 </div>
 </div>
