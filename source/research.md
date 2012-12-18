@@ -91,9 +91,6 @@ Further research might lead to brand new strategies in real games.</p>
 [<a href="/files/gamerank_slides_zifei.pptx">Slides</a>]
 [<a href="https://www.youtube.com/watch?v=1p1BnQcHTp8">Online Talk Video</a>]</p>
 
-
-<p>V recording of my talk will be available online soon.</p>
-
 </div>
 </div>
 </div>
