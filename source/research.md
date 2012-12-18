@@ -88,9 +88,11 @@ supports, to see whether the team is too dependent on certain players.
 Further research might lead to brand new strategies in real games.</p>
 
 <p>Paper available here: [<a href="/files/gamerank_zifeishan.pdf">PDF</a>]
-[<a href="/files/gamerank_slides_zifei.pptx">Slides</a>]</p>
+[<a href="/files/gamerank_slides_zifei.pptx">Slides</a>]
+[<a href="https://www.youtube.com/watch?v=1p1BnQcHTp8">Online Talk Video</a>]</p>
 
-<p>The video recording of my talk will be available online soon.</p>
+
+<p>V recording of my talk will be available online soon.</p>
 
 </div>
 </div>
