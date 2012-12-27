@@ -46,8 +46,8 @@ Publications
  
 * **Zifei Shan**, Shiyingxue Li, and Yafei Dai.
   GameRank: Ranking and Analyzing Baseball Network.
-  To appear in:
-  *2012 ASE International Conference on Social Informatics.* (11.5%)
+  In
+  *Proc. 2012 ASE International Conference on Social Informatics.* (11.5%)
   [PDF]({{ref:files/gamerank_zifeishan.pdf}})
 
 

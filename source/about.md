@@ -4,7 +4,7 @@ About Me
 My research
 ----
 
-Here is [my CV]({{ref: files/cv-zifei.pdf}}).
+Here is [my CV]({{ref: files/CV_Zifei_Shan.pdf}}).
 
 Here is my [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/s/Shan:Zifei.html) link.
 

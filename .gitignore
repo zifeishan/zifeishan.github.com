@@ -5,3 +5,4 @@ source/temp/*
 source/deploy/*
 jb/_site/*
 .gitignore
+source/temp/*
