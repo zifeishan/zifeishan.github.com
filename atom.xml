@@ -4,7 +4,7 @@
  <title>Zifei Shan</title>
  <link href="http://zifeishan.github.com/blog/atom.xml" rel="self"/>
  <link href="http://zifeishan.github.com/blog"/>
- <updated>2013-01-19T21:13:51+02:00</updated>
+ <updated>2013-03-11T15:41:56+08:00</updated>
  <id>http://zifeishan.github.com/blog</id>
  <author>
    <name>Zifei Shan</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>How to rebase your git repo / delete a pushed commit</title>
    <link href="http://zifeishan.github.com/blog/2012/12/02/how-to-rebase-your-git-repo--delete-a-pushed-commit"/>
-   <updated>2012-12-02T00:00:00+02:00</updated>
+   <updated>2012-12-02T00:00:00+08:00</updated>
    <id>http://zifeishan.github.com/blog/2012/12/02/how-to-rebase-your-git-repo--delete-a-pushed-commit</id>
    <content type="html">&lt;p&gt;If you have a commit (or some commits / some huge files) that you really want to totally delete from your repo, to make it cleaner or smaller, you can create a new repo, and use a &amp;#8220;git-rebase&amp;#8221; command to do it.&lt;/p&gt;
 
@@ -99,7 +99,7 @@
  <entry>
    <title>[CH]以色列留学生活点滴</title>
    <link href="http://zifeishan.github.com/blog/2012/11/14/chinese-life-in-israel"/>
-   <updated>2012-11-14T00:00:00+02:00</updated>
+   <updated>2012-11-14T00:00:00+08:00</updated>
    <id>http://zifeishan.github.com/blog/2012/11/14/chinese-life-in-israel</id>
    <content type="html">&lt;p&gt;当以色列国际航空的播音777飞机在本古里安机场轰鸣着稳稳落地，乘客中爆发出欢呼和掌声，我心中的忐忑终于一扫而空，随之而来的是一段未知的旅程即将开启的激动和喜悦。&lt;/p&gt;
 
@@ -153,7 +153,7 @@
  <entry>
    <title>8 weekends to master Git</title>
    <link href="http://zifeishan.github.com/blog/2012/10/22/8-weekends-to-master-git"/>
-   <updated>2012-10-22T00:00:00+02:00</updated>
+   <updated>2012-10-22T00:00:00+08:00</updated>
    <id>http://zifeishan.github.com/blog/2012/10/22/8-weekends-to-master-git</id>
    <content type="html">&lt;p&gt;Git is a version control system. It is a professional research skill, and an amazing way to manage our projects. I write this article to share how I am learning git, and gradually master it, both in its concept and hands-on usage.&lt;/p&gt;
 
@@ -423,7 +423,7 @@
  <entry>
    <title>I start to blog.</title>
    <link href="http://zifeishan.github.com/blog/2012/10/12/testing-post"/>
-   <updated>2012-10-12T00:00:00+02:00</updated>
+   <updated>2012-10-12T00:00:00+08:00</updated>
    <id>http://zifeishan.github.com/blog/2012/10/12/testing-post</id>
    <content type="html">&lt;p&gt;This is actually a testing post. You are welcome to reply under this post.&lt;/p&gt;
 
