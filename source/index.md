@@ -47,14 +47,14 @@ Publications
 * **Zifei Shan**, Shiyingxue Li, and Yafei Dai.
   GameRank: Ranking and Analyzing Baseball Network.
   In
-  *Proc. 2012 ASE International Conference on Social Informatics.* (11.5%)
+  *Proc. 2012 ASE International Conference on Social Informatics.* (Acceptance rate: 11.5%)
   [PDF]({{ref:files/gamerank_zifeishan.pdf}})
 
 
 * **Zifei Shan**, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.
   Enhancing and Identifying Cloning Attacks in Online Social Networks.
-  To appear in: 
-  *ACM International Conference on Ubiquitous Information Management and Communication (ICUIMC '13).* (29%)
+  In 
+  *Proc. the 7th International Conference on Ubiquitous Information Management and Communication (IMCOM / ICUIMC ’13).* (Acceptance rate: 29%)
   [PDF](http://delivery.acm.org/10.1145/2450000/2448615/a59-shan.pdf?ip=162.105.91.67&acc=ACTIVE%20SERVICE&CFID=304062296&CFTOKEN=69551978&__acm__=1364440771_3b01294c1ce3b4a4160d30d888aa3796)
 
 <!-- ### Manuscripts in Submission
