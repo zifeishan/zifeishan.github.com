@@ -3,6 +3,3 @@ jb/_site/*
 source/temp/*
 .gitignore
 source/deploy/*
-jb/_site/*
-.gitignore
-source/temp/*
