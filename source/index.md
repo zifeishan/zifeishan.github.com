@@ -55,9 +55,9 @@ Publications
   Enhancing and Identifying Cloning Attacks in Online Social Networks.
   To appear in: 
   *ACM International Conference on Ubiquitous Information Management and Communication (ICUIMC '13).* (29%)
-  [PDF]({{ref:files/cloning_camera_ready.pdf}})
+  [PDF](http://delivery.acm.org/10.1145/2450000/2448615/a59-shan.pdf?ip=162.105.91.67&acc=ACTIVE%20SERVICE&CFID=304062296&CFTOKEN=69551978&__acm__=1364440771_3b01294c1ce3b4a4160d30d888aa3796)
 
-### Manuscripts in Submission
+<!-- ### Manuscripts in Submission
 
 * Jing Jiang, **Zifei Shan**, Xiao Wang, and Yafei Dai.
   Detecting, Validating and Measuring Sybil Groups in the Wild,
@@ -70,7 +70,7 @@ Publications
   Revise & Resubmit to 
   *ACM Transactions on the Web (TWEB).*
   My work includes the measurement of the communities of latent, visible and social graphs in Renren.
-
+ -->
 
 Projects
 ----

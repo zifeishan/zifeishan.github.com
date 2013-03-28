@@ -123,7 +123,7 @@ notice that the defending strategy is fragile to IP spoofing, so in the
 future I'd like to study stronger metrics of account identity, like
 clicking pattern matching and action time similarity.</p>
 
-<p>Paper: [<a href="/files/cloning_camera_ready.pdf">PDF</a>]</p>
+<p>Paper: [<a href="http://delivery.acm.org/10.1145/2450000/2448615/a59-shan.pdf?ip=162.105.91.67&acc=ACTIVE%20SERVICE&CFID=304062296&CFTOKEN=69551978&__acm__=1364440771_3b01294c1ce3b4a4160d30d888aa3796">PDF</a>]</p>
 <p>Slides: [<a href="/files/cloning_slides_zifei.pptx">PPTX</a>]</p>
 
 </div>
