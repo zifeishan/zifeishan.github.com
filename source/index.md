@@ -4,7 +4,9 @@ I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http:/
 <!-- My research interest lies in data mining and social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
  -->
 
-I am applying for PhD programs in Computer Science at excellent US universities, and I plan to become a faculty in universities to continue my research career.
+I will attend [Stanford University](http://www.stanford.edu/) as a full master student in Computer Science (MSCS), starting from Fall 2013. 
+
+I plan to focus on research during my masters, and apply for PhD programs in Computer Science at top US universities after master graduation. I want to become a faculty member in universities to continue my research career.
 
 Research
 ----
@@ -14,7 +16,7 @@ in particular network dynamics and robustness, and human behaviors in real-world
 The general goal of my research is discovering knowledge and enriching machines' intelligence, thus enhancing the connection between the real world and the binary one.
 
 During my undergraduate studies I lead independent research projects on
-*ranking and analyzing baseball network*, and <!-- dynamics -->
+*ranking and analyzing competitive sports networks*, and <!-- dynamics -->
 *defending against cloning attacks in Onine Social Networks (OSNs)*; <!-- robustness -->
 I am also engaged into research topics in
 *detecting Sybil groups in OSNs* <!-- robustness, dynamics -->
@@ -28,7 +30,7 @@ Click [HERE]({{ref:research/}}) to know about my research.
 
 I am in [Computer Networks and Distributed Systems Lab](http://net.pku.edu.cn/p2p/doku.php) of Peking University, advised by professor [Yafei Dai](http://cn.linkedin.com/pub/yafei-dai/9/291/b1). I mainly work with Dr. Jing Jiang on Online Social Networks.
 
-I am one of the co-leaders of DSL4HCI research group, advised by Prof. [Daniel A. Freedman](http://www.danielfreedman.org). My team members are: [Scott Cheng](http://www.scottcheng.com), Chris (Xiuhan) Hu, Chen Yu, and Nex (Xiaomin) Zhu.
+I am one of the co-leaders of "Universal UI" research group, advised by Prof. [Daniel A. Freedman](http://www.danielfreedman.org). My team members are: [Scott Cheng](http://www.scottcheng.com), [Haoyu Zhang](http://www.haoyuzhang.org), Chris (Xiuhan) Hu, and Chen Yu.
 
 I am on the "Technion-Peking Research Exchange Program", together with seven other PKU students: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, [Yilun Zhang](http://www.yilunzhang.com), Michelle Ma, Jason Lv, and Winnie Liu. 
 
@@ -37,18 +39,13 @@ Publications
 ----
 
 ### Peer-Reviewed Publications
-
-* Jing Jiang, **Zifei Shan**, Wenpeng Sha, Xiao Wang, and Yafei Dai.
-  Detecting and Validating Sybil Groups in the Wild.
-  In 
-  *Proc. 32nd International Conference on Distributed Computing Systems Workshops (ICDCSW '12).*
-  [PDF](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6258146)
  
 * **Zifei Shan**, Shiyingxue Li, and Yafei Dai.
   GameRank: Ranking and Analyzing Baseball Network.
   In
   *Proc. 2012 ASE International Conference on Social Informatics.* (Acceptance rate: 11.5%)
   [PDF]({{ref:files/gamerank_zifeishan.pdf}})
+  [Conference](http://asesite.org/conferences/socialinformatics/2012/)
 
 
 * **Zifei Shan**, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.
@@ -57,20 +54,25 @@ Publications
   *Proc. the 7th International Conference on Ubiquitous Information Management and Communication (IMCOM / ICUIMC ’13).* (Acceptance rate: 29%)
   [PDF](http://delivery.acm.org/10.1145/2450000/2448615/a59-shan.pdf?ip=162.105.91.67&acc=ACTIVE%20SERVICE&CFID=304062296&CFTOKEN=69551978&__acm__=1364440771_3b01294c1ce3b4a4160d30d888aa3796)
 
-<!-- ### Manuscripts in Submission
+* Jing Jiang, **Zifei Shan**, Wenpeng Sha, Xiao Wang, and Yafei Dai.
+  Detecting and Validating Sybil Groups in the Wild.
+  In 
+  *Proc. 32nd International Conference on Distributed Computing Systems Workshops (ICDCSW '12).*
+  [PDF](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6258146)
+  [Conference](http://www.icuimc.org/)
 
-* Jing Jiang, **Zifei Shan**, Xiao Wang, and Yafei Dai.
-  Detecting, Validating and Measuring Sybil Groups in the Wild,
+### Manuscripts in Submission
+
+* Jing Jiang, **Zifei Shan**, Xiao Wang, Li Zhang, and Yafei Dai.
+  Understanding Sybil Groups in the Wild,
   submitted to 
-  *ACM Transactions on Knowledge Discovery from Data (TKDD).*
+  *Science China.*[Journal]
 
-* **Participate in:**
-  Jing Jiang, Christo Wilson, Xiao Wang, Wenpeng Sha, Peng Huang, Yafei Dai, and Ben Y. Zhao.
-  Understanding Latent Interactions in Online Social Networks.
-  Revise & Resubmit to 
-  *ACM Transactions on the Web (TWEB).*
-  My work includes the measurement of the communities of latent, visible and social graphs in Renren.
- -->
+* **Zifei Shan**, Annie Liu, and Haoyu Zhang.
+  Using Decision Tree for User-specific News-Feed Ranking in Online Social Networks,
+  submitted to 
+  *The 2013 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM '13).*[Conference](http://asonam.cpsc.ucalgary.ca/)
+
 
 Projects
 ----
