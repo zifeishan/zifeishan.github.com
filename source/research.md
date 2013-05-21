@@ -210,14 +210,13 @@ and rumors spread among users.
 
 Research Exchange Program at Technion
 ----
-This semester, I join a research exchange program at Technion, advised
-by Professor Daniel Freedman. At Technion I am taking advanced graduate
+In Fall 2012 I joined a research exchange program at Technion, advised
+by Professor Daniel Freedman. At Technion I took advanced graduate
 courses, including seminars in Reliable Distributed Computing by Prof.
 Idit Keidar, and Program Analysis and Synthesis by Prof. Eran Yahav. I
 am also engaging in academic activities at Technion, being exposed to
 lectures and colloquiums on a wide range of topics in Computer Science,
-given by international researchers. Most importantly, I am exploring
-new research directions as part of a vibrant group. Our topics span
+given by international researchers. Most importantly, I explored new research directions as part of a vibrant group. Our topics span
 Programming Language, Systems, and Human Computer Interaction. We
 design description languages to automate the creation of both front-end
 and back-end systems, and discover human behavior

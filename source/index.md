@@ -66,12 +66,7 @@ Publications
 * Jing Jiang, **Zifei Shan**, Xiao Wang, Li Zhang, and Yafei Dai.
   Understanding Sybil Groups in the Wild,
   submitted to 
-  *Science China.*[Journal]
-
-* **Zifei Shan**, Annie Liu, and Haoyu Zhang.
-  Using Decision Tree for User-specific News-Feed Ranking in Online Social Networks,
-  submitted to 
-  *The 2013 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM '13).*[Conference](http://asonam.cpsc.ucalgary.ca/)
+  *Science China.*
 
 
 Projects
