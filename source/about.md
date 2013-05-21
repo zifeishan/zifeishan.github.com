@@ -30,6 +30,14 @@ I have been playing slowpitch softball for over two years. I love this sport, an
 [![image]({{ref:images/eecsbaseball_small.jpg}})]({{ref:images/eecsbaseball.jpg}})
 
 And here is [a photo of me]({{ref:images/me_baseball.jpg}}) playing slowpitch.
+
+We got the CHAMPION of the PKU campus slowpitch competitions!!! We are thrilled at this!
+
+[![image]({{ref:images/eecsbaseball-caps-small.jpg}})]({{ref:images/eecsbaseball-caps.jpg}})
+
+[![image]({{ref:images/eecsbaseball-champion-small.jpg}})]({{ref:images/eecsbaseball-champion.jpg}})
+
+
 <!-- 
 ![image]({{ref:images/me_baseball.jpg}}) -->
 

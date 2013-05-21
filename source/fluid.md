@@ -4,9 +4,9 @@
 
 * Email: shanzifei AT pku dot edu dot cn
 * Address: 
-  - 9-52-8, Canada Village
-  - Technion City, Haifa 32000, Israel
-* Tel: +972-054-597-[nign too eight nign]
+  - 28-306, Peking University
+  - Beijing 100871, China
+* Tel: +86-152-1062-[six three seven three]
 * Follow me on [Renren](http://www.renren.com/258061142), [Weibo](http://www.weibo.com/u/1676198360), [Twitter](https://twitter.com/shanzifei), or [Facebook](https://www.facebook.com/zifei.shan).
 
 <!-- * [link to a page]({{ref: page.html}}) -->

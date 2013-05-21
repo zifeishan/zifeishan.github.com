@@ -225,6 +225,7 @@ patterns in interacting with services.
 
 Future Research Topics
 ----
+
 Other than the future work of my projects mentioned above, I am
 attracted to more questions on constructing networks out of mass data
 and discovering knowledge from them. Specifically, firstly I want to

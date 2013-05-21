@@ -1,12 +1,12 @@
 
-I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http://http://eecs.pku.edu.cn/) department of [Peking University](http://www.pku.edu.cn). Currently I am a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program.
+I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http://http://eecs.pku.edu.cn/) department of [Peking University](http://www.pku.edu.cn). I was also a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program.
 
 <!-- My research interest lies in data mining and social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
  -->
 
 I will attend [Stanford University](http://www.stanford.edu/) as a full master student in Computer Science (MSCS), starting from Fall 2013. 
 
-I plan to focus on research during my masters, and apply for PhD programs in Computer Science at top US universities after master graduation. I want to become a faculty member in universities to continue my research career.
+I plan to focus on research during my masters, and apply to CS PhD programs at top US universities after master graduation. I want to become a faculty member in universities to continue my research career.
 
 Research
 ----
