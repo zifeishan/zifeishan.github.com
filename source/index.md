@@ -1,12 +1,27 @@
+I am Zifei SHAN (单子非), a first-year master student in [Stanford University](http://www.stanford.edu/) Computer Science, starting from Fall 2013. I got a CS bachelor degree from [Peking University](http://www.pku.edu.cn). I was also a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program for half a year.
+<!-- 
+I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http://http://eecs.pku.edu.cn/) department of [Peking University](http://www.pku.edu.cn). I was also a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program. -->
 
-I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http://http://eecs.pku.edu.cn/) department of [Peking University](http://www.pku.edu.cn). I was also a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program.
+My research interest lies in mining and modeling social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under supervision, and led two independent researches to discover knowledge in various networks. 
 
-<!-- My research interest lies in data mining and social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under the supervision of my professors, and led two independent researches to discover knowledge in various networks. Meantime, I am keeping myself up with professional research skills, to become a qualified researcher in the future.
+<!-- 
+I will attend [Stanford University](http://www.stanford.edu/) as a full master student in Computer Science (MSCS), starting from Fall 2013. 
  -->
 
-I will attend [Stanford University](http://www.stanford.edu/) as a full master student in Computer Science (MSCS), starting from Fall 2013. 
+I am exploring Stanford --- the great place with brilliant people and amazing opportunities. I believe that views from interdisciplinary areas can burst into wonderful ideas that refresh the world.
 
 I plan to focus on research during my masters, and apply to CS PhD programs at top US universities after master graduation. I want to become a faculty member in universities to continue my research career.
+
+My Strength Set
+----
+
+These strengths of mine are explored by [Gallup StrengthQuest](http://www.strengthsquest.com/home.aspx). 
+
+- **Includer:** accepting of others.
+- **Individualization:** intrigued with the unique qualities of each person.
+- **Maximizer:** seek to transform something strong into something superb.
+- **Focus:** prioritize, then act.
+- **Futuristic:** inspired by the future and what could be.
 
 Research
 ----
@@ -28,11 +43,11 @@ Click [HERE]({{ref:research/}}) to know about my research.
 
 ### Research Group
 
-I am in [Computer Networks and Distributed Systems Lab](http://net.pku.edu.cn/p2p/doku.php) of Peking University, advised by professor [Yafei Dai](http://cn.linkedin.com/pub/yafei-dai/9/291/b1). I mainly work with Dr. Jing Jiang on Online Social Networks.
+I was in [Computer Networks and Distributed Systems Lab](http://net.pku.edu.cn/p2p/doku.php) of Peking University, advised by professor [Yafei Dai](http://cn.linkedin.com/pub/yafei-dai/9/291/b1). I mainly work with Dr. Jing Jiang on Online Social Networks.
 
 I am one of the co-leaders of "Universal UI" research group, advised by Prof. [Daniel A. Freedman](http://www.danielfreedman.org). My team members are: [Scott Cheng](http://www.scottcheng.com), [Haoyu Zhang](http://www.haoyuzhang.org), Chris (Xiuhan) Hu, and Chen Yu.
 
-I am on the "Technion-Peking Research Exchange Program", together with seven other PKU students: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, [Yilun Zhang](http://www.yilunzhang.com), Michelle Ma, Jason Lv, and Winnie Liu. 
+I was on the "Technion-Peking Research Exchange Program", together with seven other PKU students: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, [Yilun Zhang](http://www.yilunzhang.com), Michelle Ma, Jason Lv, and Winnie Liu. 
 
 
 Publications
