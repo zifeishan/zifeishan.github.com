@@ -12,16 +12,6 @@ I am exploring Stanford --- the great place with brilliant people and amazing op
 
 I plan to focus on research during my masters, and apply to CS PhD programs at top US universities after master graduation. I want to become a faculty member in universities to continue my research career.
 
-My Strength Set
-----
-
-These strengths of mine are explored by [Gallup StrengthQuest](http://www.strengthsquest.com/home.aspx). 
-
-- **Includer:** accepting of others.
-- **Individualization:** intrigued with the unique qualities of each person.
-- **Maximizer:** seek to transform something strong into something superb.
-- **Focus:** prioritize, then act.
-- **Futuristic:** inspired by the future and what could be.
 
 Research
 ----

@@ -8,15 +8,26 @@ Here is [my CV]({{ref: files/CV_Zifei_Shan.pdf}}).
 
 Here is my [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/s/Shan:Zifei.html) link.
 
+My Strength Set
+----
+
+These strengths of mine are explored by [Gallup StrengthQuest](http://www.strengthsquest.com/home.aspx). Not necessarily accurate, just for a quick reference about me.
+
+- **Includer:** accepting of others.
+- **Individualization:** intrigued with the unique qualities of each person.
+- **Maximizer:** seek to transform something strong into something superb.
+- **Focus:** prioritize, then act.
+- **Futuristic:** inspired by the future and what could be.
+
+
 Life at Technion
 ----
 
-This semester, I join a research exchange program at Technion, advised
-by Professor Daniel Freedman. Other than the advanced courses I am taking, 
-academic activities I am engaged in and research projects I am working on,
-I also enjoy the life here.
+During the last year of my undergrad, I joined a research exchange program at Technion in Israel, advised
+by Professor Daniel Freedman. 
+I enjoyed the total immerse of English environment --- both research and courses. I also enjoyed the life in that beautiful and mysterious country.
 
-We have travelled to Jerusalem, the Dead Sea, Bahaii Gardens, Beach at Haifa and Tel-aviv. Below is a photo of our group in the Old City of Jerusalem.
+We travelled to Jerusalem, the Dead Sea, Bahaii Gardens, Beach at Haifa, Tel-aviv and Akko. Below is a photo of our group in the Old City of Jerusalem.
 
 ![image]({{ref:images/techpkugroup.jpg}})
 
@@ -43,7 +54,7 @@ We got the CHAMPION of the PKU campus slowpitch competitions!!! We are thrilled 
 
 ### Amateur Photography
 
-I used to have a camera, but it got stolen. From then on I only use cellphone to take photos. I am quite unprofessional and only do it for fun. Here is my little [gallery in Instagram](http://instajelly.com/zifeishan).
+I used to have a camera, but it got stolen. From then on I only use cellphone to take photos (in my undergrad). I am quite unprofessional and only do it for fun. Here is my little [gallery in Instagram](http://instajelly.com/zifeishan).
 
 
 Links to my Friends
@@ -56,7 +67,8 @@ My friends are all promising stars in the future academia!
 * [Haoyu Zhang](http://www.haoyuzhang.org/): A Distributed System guy, fast learner
 * [Yilun Zhang](http://www.yilunzhang.com/): Someone who models the world as a complex system; A Physics-CS guy.
 
-And they are my dear professors:
+And these are my dear professors:
 
 * [Daniel Freedman](http://www.danielfreedman.org/): My professor in Technion-Peking research exchange program. My research and life advisor.
-* [Ymir Vigfusson](http://www.ymsir.com/): Great professor, cook and [pianist](http://www.ymsir.com/?p=music). We all enjoy the chats and dinners with him.
+* Yafei Dai: My advisor in Peking University. She is a really nice, gentle and helpful teacher.
+* [Ymir Vigfusson](http://www.ymsir.com/): Great professor, cook and [pianist](http://www.ymsir.com/?p=music). We all enjoy the chats and dinners with him at Technion.
