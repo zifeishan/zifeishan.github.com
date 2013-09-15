@@ -88,6 +88,8 @@ Personal
 
 I love baseball, and I am the founder and former captain of EECS Baseball Team in Peking University. 
 
+I love Chinese tea, and welcome to my [Tea House]({{ref:2013/09/14/my-tea-house/}})!
+
 Click here to find [more about me]({{ref:about/}}).
 
 <!-- Contact Me

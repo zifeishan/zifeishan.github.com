@@ -56,6 +56,9 @@ We got the CHAMPION of the PKU campus slowpitch competitions!!! We are thrilled 
 
 I used to have a camera, but it got stolen. From then on I only use cellphone to take photos (in my undergrad). I am quite unprofessional and only do it for fun. Here is my little [gallery in Instagram](http://instajelly.com/zifeishan).
 
+### Chinese Tea
+
+I love making and tasting Chinese tea! I have all kinds of tea in my tea house here in California, and [HERE]({{ref:2013/09/14/my-tea-house/}}) is an introduction about it.
 
 Links to my Friends
 ----
