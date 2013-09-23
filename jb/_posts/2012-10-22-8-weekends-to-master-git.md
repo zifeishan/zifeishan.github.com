@@ -1,17 +1,16 @@
 ---
 layout: post
-title: "8 weekends to master Git"
+title: "7 weekends to master Git"
 description: ""
 category: 
 tags: [git, skills]
 ---
 {% include JB/setup %}
 
-
-Git is a version control system. It is a professional research skill, and an amazing way to manage our projects. I write this article to share how I am learning git, and gradually master it, both in its concept and
+Git is a version control system. It is a professional skill for researchers as well as hackers, and an amazing way to manage our projects. I write this article to share how I was learning git, and gradually master it, both in its concept and
 hands-on usage.
 
-You can see it as a course, and our goal is to **master git in 8 weekends**, i.e. use your spare time in each week to play with git. Of course, it you want a rush, you can compress this into one week, and hopefully you can also master it.
+You can see it as a course, and our goal is to **master git in 7 weekends**, i.e. use your spare time in each week to play with git. Of course, it you want a rush, you can compress this into one week, and hopefully you can also master it.
 
 In this curriculum, we use two popular materials: one is the book *Pro
 Git*, which introduces Git as a whole, to help you understand the concept, many useful operations, as well as some useful patterns in development; the other is *Git Immersion*, a
@@ -21,7 +20,7 @@ guided tour that walks you through the fundamentals of git, featuring with many 
 
   - Book: [Pro Git](http://git-scm.com/book)
 
-        Tips: if you are in a ruch, you can read the version with your mother language. Otherwise you are recommended to read the English version.
+        Tips: if you are in a rush, you can read the version with your mother language. Otherwise you are recommended to read the English version.
 
 
   - Labs: [Git Immersion](http://gitimmersion.com/)
@@ -81,11 +80,17 @@ Week 4
 
 * GitHub Practice
 
-  - Create an account on GitHub.
+  - Create an account on [GitHub](http://github.com/).
 
   - Initial a repository on GitHub
 
   - Clone a repo you like from GitHub.
+
+* Bitbucket Practice
+
+  - Create an account on [Bitbucket](http://bitbucket.org/). Bitbucket has unlimited private repositories, and unlimited number of collaborators if you register using a .edu email address! (if not, please contact them)
+
+  - Initial a private repository on Bitbucket.
 
 * Labs: 36 -- 44
 
@@ -97,6 +102,19 @@ Week 5
   - Read the tutorial chapter 5.
 
 * Labs: 45 -- 53 (Finished!)
+
+* Github Pages Practice: 
+
+  - Refer to [Github Pages](https://help.github.com/pages/).
+
+  - Create your personal website on Github Pages.
+
+  - If you want, you can purchase a domain name (from GoDaddy or somewhere else).
+
+  - You need a DNS service to connect your domain name with GitHub servers. Use DNSPod or anything you like.
+
+  - [HERE](http://beiyuu.com/github-pages/) is a detailed *Chinese* documentation in this process.
+
 
 Week 6
 ----
@@ -122,27 +140,4 @@ Week 7
 
   - OptionalXX: chapter 9 (if you are interested in the magic inside git)
 
-* Review & Exam preparation.
-
-Week 8
-----
-
-* Exam!
-
-  - I will offer the exam paper (also the solutions) online, hopefully in the middle of November.
-
-  - Difficulty
-
-    - Basics: 50%
-
-    - Medium: 30%
-
-    - Advanced: 20% (At most to "Optional X")
-
-  - Range
-
-    - Book: 30% (theory)
-
-    - Lab: 70% (experiment)
-
-  - An open-book & open-internet, 1-hour test.
+*Update: I haven't actually designed an exam for this, so our formally 8-week goal has become a 7-week one... Sorry for my laziness.*

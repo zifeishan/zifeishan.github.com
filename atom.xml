@@ -4,7 +4,7 @@
  <title>Zifei Shan</title>
  <link href="http://zifeishan.github.com/blog/atom.xml" rel="self"/>
  <link href="http://zifeishan.github.com/blog"/>
- <updated>2013-09-14T22:59:55-07:00</updated>
+ <updated>2013-09-23T12:27:37-07:00</updated>
  <id>http://zifeishan.github.com/blog</id>
  <author>
    <name>Zifei Shan</name>
@@ -233,13 +233,13 @@
  </entry>
  
  <entry>
-   <title>8 weekends to master Git</title>
+   <title>7 weekends to master Git</title>
    <link href="http://zifeishan.github.com/blog/2012/10/22/8-weekends-to-master-git"/>
    <updated>2012-10-22T00:00:00-07:00</updated>
    <id>http://zifeishan.github.com/blog/2012/10/22/8-weekends-to-master-git</id>
-   <content type="html">&lt;p&gt;Git is a version control system. It is a professional research skill, and an amazing way to manage our projects. I write this article to share how I am learning git, and gradually master it, both in its concept and hands-on usage.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Git is a version control system. It is a professional skill for researchers as well as hackers, and an amazing way to manage our projects. I write this article to share how I was learning git, and gradually master it, both in its concept and hands-on usage.&lt;/p&gt;
 
-&lt;p&gt;You can see it as a course, and our goal is to &lt;strong&gt;master git in 8 weekends&lt;/strong&gt;, i.e. use your spare time in each week to play with git. Of course, it you want a rush, you can compress this into one week, and hopefully you can also master it.&lt;/p&gt;
+&lt;p&gt;You can see it as a course, and our goal is to &lt;strong&gt;master git in 7 weekends&lt;/strong&gt;, i.e. use your spare time in each week to play with git. Of course, it you want a rush, you can compress this into one week, and hopefully you can also master it.&lt;/p&gt;
 
 &lt;p&gt;In this curriculum, we use two popular materials: one is the book &lt;em&gt;Pro Git&lt;/em&gt;, which introduces Git as a whole, to help you understand the concept, many useful operations, as well as some useful patterns in development; the other is &lt;em&gt;Git Immersion&lt;/em&gt;, a guided tour that walks you through the fundamentals of git, featuring with many good libs.&lt;/p&gt;
 
@@ -251,7 +251,7 @@
 &lt;li&gt;
 &lt;p&gt;Book: &lt;a href='http://git-scm.com/book'&gt;Pro Git&lt;/a&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Tips: if you are in a ruch, you can read the version with your mother language. Otherwise you are recommended to read the English version.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Tips: if you are in a rush, you can read the version with your mother language. Otherwise you are recommended to read the English version.&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
@@ -365,7 +365,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Create an account on GitHub.&lt;/p&gt;
+&lt;p&gt;Create an account on &lt;a href='http://github.com/'&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
@@ -374,6 +374,20 @@
 
 &lt;li&gt;
 &lt;p&gt;Clone a repo you like from GitHub.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Bitbucket Practice&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Create an account on &lt;a href='http://bitbucket.org/'&gt;Bitbucket&lt;/a&gt;. Bitbucket has unlimited private repositories, and unlimited number of collaborators if you register using a .edu email address! (if not, please contact them)&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Initial a private repository on Bitbucket.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -396,6 +410,32 @@
 
 &lt;li&gt;
 &lt;p&gt;Labs: 45 &amp;#8211; 53 (Finished!)&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Github Pages Practice:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Refer to &lt;a href='https://help.github.com/pages/'&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Create your personal website on Github Pages.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;If you want, you can purchase a domain name (from GoDaddy or somewhere else).&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;You need a DNS service to connect your domain name with GitHub servers. Use DNSPod or anything you like.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;a href='http://beiyuu.com/github-pages/'&gt;HERE&lt;/a&gt; is a detailed &lt;em&gt;Chinese&lt;/em&gt; documentation in this process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -445,61 +485,9 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Review &amp;amp; Exam preparation.&lt;/p&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id='week_8'&gt;Week 8&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Exam!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;I will offer the exam paper (also the solutions) online, hopefully in the middle of November.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Difficulty&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Basics: 50%&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Medium: 30%&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Advanced: 20% (At most to &amp;#8220;Optional X&amp;#8221;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Range&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Book: 30% (theory)&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Lab: 70% (experiment)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;An open-book &amp;amp; open-internet, 1-hour test.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;p&gt;&lt;em&gt;Update: I haven&amp;#8217;t actually designed an exam for this, so our formally 8-week goal has become a 7-week one&amp;#8230; Sorry for my laziness.&lt;/em&gt;&lt;/p&gt;</content>
  </entry>
  
  <entry>
