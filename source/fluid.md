@@ -6,8 +6,8 @@
 * Address: 
   - 28-306, Peking University
   - Beijing 100871, China
-* Tel: +86-152-1062-[six three seven three]
-* Follow me on [Renren](http://www.renren.com/258061142), [Weibo](http://www.weibo.com/u/1676198360), [Twitter](https://twitter.com/shanzifei), or [Facebook](https://www.facebook.com/zifei.shan).
+* Tel: +86-152-1062-[six three seven three] / +1-650-561-[too zero three seven]
+* Follow me on [Renren](http://www.renren.com/258061142), [Weibo](http://www.weibo.com/u/1676198360), [Twitter](https://twitter.com/zifeishan), or [Facebook](https://www.facebook.com/zifei.shan).
 
 <!-- * [link to a page]({{ref: page.html}}) -->
 
