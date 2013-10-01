@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Zifei Shan, B.S. Candidate in Peking University; Research-exchange student at Technion">
-  <meta name="keywords" content="Zifei Shan, Peking University, PKU, Beida, Computer Science, Technion">
+  <meta name="description" content="Zifei Shan, M.S. student in Stanford University">
+  <meta name="keywords" content="Zifei Shan, Stanford, Peking University, PKU, Beida, Computer Science, Technion">
 
   <title>Zifei Shan | {{title}}</title>
   <!--<link rel="icon" href="images/favicon.gif" type="image/x-icon"/>-->
@@ -18,51 +18,30 @@
 
 <body class="{{title}}">
 
-<div class="navbar">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-      <!-- <a class="brand" href="/">Zifei Shan</a> -->
-      <div class="brand" style="padding: 5px 20px 0px">
-        <img class="thumb" title="PKU" src="{{ref:images/pkulogo40.png}}" href="http://www.pku.edu.cn"/ >
-        <a href="/" style="color: whiteSmoke">Zifei Shan</a>
-      </div>
-      <div class="nav-collapse">
-        <ul class="nav">
-          {{partial: nav}}
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
+<div class="upper">
+<div class="bs-header" id="content">
+  <div class="container">
+    <h1>Zifei Shan</h1>
+    <p>Improve myself,</p>
+    <p>Impact the world.</p>
   </div>
 </div>
-
-<!-- <div class="taglineContainer"><div class="taglineContent"><div class="tagline">38 events on 4 continents have given rise to 27 companies receiving $7 million in funding. 13 companies from 3DS have been accepted to accelerators such as Y Combinator, TechStars, and 500 Startups.</div></div></div>
- -->
-
+{{partial: nav}}
+</div>
 
 <div class="container">
-  <!-- <div class="content"> -->
-  <div class="row-fluid">
-    <div class="span3">
-      {{partial: fluid}}
-    </div>
-    <div class="span9 content">
+    <div class="content">
       {{content}}
     </div>
-    
-  <!-- </div> -->
-  </div>
 </div>
 
 <div class="footerContainer"><div class="footer">
 {{partial: footer}}
 </div></div>
 
+
 <script type="text/javascript" src="{{js: scripts/libraries.js}}"></script>
+<script type="text/javascript" src="/scripts/main.js"></script>
 <script type="text/javascript">
 $(function() {
   var $window = $(window);

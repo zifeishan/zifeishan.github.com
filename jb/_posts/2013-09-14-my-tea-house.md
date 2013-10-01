@@ -11,6 +11,7 @@ I have a tea house, here in my home near Stanford campus. Here I have all kinds 
 
 I would like to introduce my tea in this blog, and welcome to my house to try them out! You will surely find a flavor you like!
 
+(I am still collecting pictures of my tea, and will upload them gradually.)
 
 Lapsang souchong / Zheng Shan Xiao Zhong (正山小种)
 ====
@@ -41,7 +42,20 @@ Origin: Mountain Wuyi, Fujian Province, China
 
 ### Jiu Chun (韭春)
 
-
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/tea/jiuchun-leaves.jpg" />
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/tea/jiuchun-color.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
 
 - Named by my teacher. It has a very special, variable and inviting taste.
   The taste will even differ when the weather changes.
@@ -60,6 +74,27 @@ Origin: Mountain Wuyi, Fujian Province, China
 ### Cinnamon / Rou Gui (肉桂)
 
 
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/tea/rougui-leaves.jpg" />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/tea/rougui-color.jpg" />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/tea/rougui-incup.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
 ### Narcissus / Shui Hsien (水仙)
 
 
@@ -72,6 +107,20 @@ Smell: like orchid
 
 ### 5-year Smoky Guanyin roasted with wood
 
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/tea/guanyin-leaves.jpg" />
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/tea/guanyin-incup.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
 
 ### Normal Guanyin
 
@@ -105,6 +154,26 @@ Origin: Yunnan Province, China
 
 ### Qing Heng (清蘅)
 
+
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/tea/raw-puer-leaves.jpg" />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/tea/raw-puer-color.jpg" />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/tea/raw-puer-incup.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

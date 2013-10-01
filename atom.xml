@@ -4,7 +4,7 @@
  <title>Zifei Shan</title>
  <link href="http://zifeishan.github.com/blog/atom.xml" rel="self"/>
  <link href="http://zifeishan.github.com/blog"/>
- <updated>2013-09-23T12:27:37-07:00</updated>
+ <updated>2013-10-01T00:58:57-07:00</updated>
  <id>http://zifeishan.github.com/blog</id>
  <author>
    <name>Zifei Shan</name>
@@ -20,6 +20,8 @@
    <content type="html">&lt;p&gt;I have a tea house, here in my home near Stanford campus. Here I have all kinds of tea brought from China, from &lt;a href='http://blog.sina.com.cn/jingqinghe'&gt;my teacher&lt;/a&gt; who researches and makes Chinese tea very professionally.&lt;/p&gt;
 
 &lt;p&gt;I would like to introduce my tea in this blog, and welcome to my house to try them out! You will surely find a flavor you like!&lt;/p&gt;
+
+&lt;p&gt;(I am still collecting pictures of my tea, and will upload them gradually.)&lt;/p&gt;
 
 &lt;h1 id='lapsang_souchong__zheng_shan_xiao_zhong_'&gt;Lapsang souchong / Zheng Shan Xiao Zhong (正山小种)&lt;/h1&gt;
 
@@ -44,7 +46,20 @@
 &lt;/ul&gt;
 
 &lt;h3 id='jiu_chun_'&gt;Jiu Chun (韭春)&lt;/h3&gt;
-
+&lt;div class='row'&gt;
+  &lt;div class='col-md-8 col-md-offset-2'&gt;
+    &lt;div class='col-md-6'&gt;
+      &lt;div class='thumbnail'&gt;
+        &lt;img src='/images/tea/jiuchun-leaves.jpg' title='' class='' /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='col-md-6'&gt;
+      &lt;div class='thumbnail'&gt;
+        &lt;img src='/images/tea/jiuchun-color.jpg' title='' class='' /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Named by my teacher. It has a very special, variable and inviting taste. The taste will even differ when the weather changes.&lt;/p&gt;
@@ -60,7 +75,25 @@
 &lt;p&gt;Type: Oolong &lt;br /&gt;Origin: Mountain Wuyi, Fujian Province, China&lt;/p&gt;
 
 &lt;h3 id='cinnamon__rou_gui_'&gt;Cinnamon / Rou Gui (肉桂)&lt;/h3&gt;
-
+&lt;div class='row'&gt;
+  &lt;div class='col-md-10 col-md-offset-1'&gt;
+    &lt;div class='col-md-4'&gt;
+      &lt;div class='thumbnail'&gt;
+        &lt;img src='/images/tea/rougui-leaves.jpg' title='' class='' /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='col-md-4'&gt;
+      &lt;div class='thumbnail'&gt;
+        &lt;img src='/images/tea/rougui-color.jpg' title='' class='' /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='col-md-4'&gt;
+      &lt;div class='thumbnail'&gt;
+        &lt;img src='/images/tea/rougui-incup.jpg' title='' class='' /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id='narcissus__shui_hsien_'&gt;Narcissus / Shui Hsien (水仙)&lt;/h3&gt;
 
 &lt;h1 id='tie_guanyin_'&gt;Tie Guanyin (铁观音)&lt;/h1&gt;
@@ -68,7 +101,20 @@
 &lt;p&gt;Type: Oolong&lt;br /&gt;Origin: Minnan, Fujian Province, China&lt;br /&gt;Smell: like orchid&lt;/p&gt;
 
 &lt;h3 id='5year_smoky_guanyin_roasted_with_wood'&gt;5-year Smoky Guanyin roasted with wood&lt;/h3&gt;
-
+&lt;div class='row'&gt;
+  &lt;div class='col-md-8 col-md-offset-2'&gt;
+    &lt;div class='col-md-6'&gt;
+      &lt;div class='thumbnail'&gt;
+        &lt;img src='/images/tea/guanyin-leaves.jpg' title='' class='' /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='col-md-6'&gt;
+      &lt;div class='thumbnail'&gt;
+        &lt;img src='/images/tea/guanyin-incup.jpg' title='' class='' /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id='normal_guanyin'&gt;Normal Guanyin&lt;/h3&gt;
 
 &lt;h1 id='huangshan_maofeng'&gt;Huangshan Maofeng&lt;/h1&gt;
@@ -91,7 +137,26 @@
 
 &lt;p&gt;Type: Oolong tea&lt;br /&gt;Origin: Yunnan Province, China&lt;/p&gt;
 
-&lt;h3 id='qing_heng_'&gt;Qing Heng (清蘅)&lt;/h3&gt;</content>
+&lt;h3 id='qing_heng_'&gt;Qing Heng (清蘅)&lt;/h3&gt;
+&lt;div class='row'&gt;
+  &lt;div class='col-md-10 col-md-offset-1'&gt;
+    &lt;div class='col-md-4'&gt;
+      &lt;div class='thumbnail'&gt;
+        &lt;img src='/images/tea/raw-puer-leaves.jpg' title='' class='' /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='col-md-4'&gt;
+      &lt;div class='thumbnail'&gt;
+        &lt;img src='/images/tea/raw-puer-color.jpg' title='' class='' /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='col-md-4'&gt;
+      &lt;div class='thumbnail'&gt;
+        &lt;img src='/images/tea/raw-puer-incup.jpg' title='' class='' /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
  </entry>
  
  <entry>

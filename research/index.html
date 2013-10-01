@@ -15,31 +15,32 @@
 
 <body class="Research">
 
-<div class="navbar">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-      <!-- <a class="brand" href="/">Zifei Shan</a> -->
-      <div class="brand" style="padding: 5px 20px 0px">
-        <img class="thumb" title="PKU" src="../images/pkulogo40.png" href="http://www.pku.edu.cn"/ >
-        <a href="/" style="color: whiteSmoke">Zifei Shan</a>
-      </div>
-      <div class="nav-collapse">
-        <ul class="nav">
-          <p><li class=""><a href="/">Home</a></li>
-<li class="active"><a href="/research">Research</a></li>
-<li class=""><a href="/projects">Projects</a></li>
-<li class=""><a href="/archive">Blog</a></li>
-<li class=""><a href="/about">About</a></li></p>
+<div class="upper">
+<p><header class="navbar navbar-inverse navbar-static-top bs-docs-nav" role="banner"></p>
 
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
+<div class="container">
+  <div class="navbar-header">
+    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a href="../" class="navbar-brand">Zifei Shan</a>
   </div>
+  <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+    <ul class="nav navbar-nav">
+      <li class=""><a href="/">Home</a></li>
+          <li class="active"><a href="/research">Research</a></li>
+          <li class=""><a href="/projects">Projects</a></li>
+          <li class=""><a href="/archive">Blog</a></li>
+          <li class=""><a href="/about">About</a></li>
+    </ul>
+  </nav>
+</div>
+
+<p></header></p>
+
 </div>
 
 <!-- <div class="taglineContainer"><div class="taglineContent"><div class="tagline">38 events on 4 continents have given rise to 27 companies receiving $7 million in funding. 13 companies from 3DS have been accepted to accelerators such as Y Combinator, TechStars, and 500 Startups.</div></div></div>
@@ -67,23 +68,34 @@ separate study on Sybil-attack detection. Finally, I was involved in
 assessing the impact of user-interaction transparency on their
 behavior.</p>
 
-<p>This semester, as an undergraduate research-exchange student at
-Technion, I am taking advanced graduate courses, engaging in academic
-life, and pursuing new research directions as part of a vibrant
-collaboration.</p>
+<h1>Research Group</h1>
+
+<p>I was in <a href="http://net.pku.edu.cn/p2p/doku.php">Computer Networks and Distributed Systems Lab</a> of Peking University, advised by professor <a href="http://cn.linkedin.com/pub/yafei-dai/9/291/b1">Yafei Dai</a>. I mainly work with Dr. Jing Jiang on Online Social Networks.</p>
+
+<p>I am one of the co-leaders of "Universal UI" research group, advised by Prof. <a href="http://www.danielfreedman.org">Daniel A. Freedman</a>. My team members are: <a href="http://www.scottcheng.com">Scott Cheng</a>, <a href="http://www.haoyuzhang.org">Haoyu Zhang</a>, Chris (Xiuhan) Hu, and Chen Yu.</p>
+
+<p>I was on the "Technion-Peking Research Exchange Program", together with seven other PKU students: Annie Liu, <a href="http://www.haoyuzhang.org">Haoyu Zhang</a>, Zhao Yang, <a href="http://www.yilunzhang.com">Yilun Zhang</a>, Michelle Ma, Jason Lv, and Winnie Liu. </p>
+
+<p>Now I am still looking for research groups in Stanford.</p>
 
 <!-- Independent research -->
 
+<h1>Research Projects</h1>
+
 <h2>Ranking and analyzing baseball network</h2>
 
-<div class="row-fluid">
-<div class="span12">
-<div class="span3">
+<div class="row" id="gamerank">
+<div class="col-md-12">
+<div class="col-md-3">
+<div class="thumbnail">
 <p><img class="" title="" src="../images/gamerank_thumb.png" /></p>
-<p><img class="" title="" src="../images/mlbi.jpg" /></p>
 </div>
 
-<div class="span9" markdown=1>
+<div class="thumbnail">
+<p><img class="" title="" src="../images/mlbi.jpg" /></p></div>
+</div>
+
+<div class="col-md-9" markdown=1>
 
 <p>One topic that especially interests me is ranking and analyzing
 baseball networks. This was my course project for 
@@ -146,13 +158,13 @@ Further research might lead to brand new strategies in real games.</p>
 
 <h2>Defending against cloning attacks in OSNs</h2>
 
-<div class="row-fluid">
-<div class="span12">
-<div class="span3">
+<div class="row" id="cloning">
+<div class="col-md-12">
+<div class="col-md-3">
+<div class="thumbnail">
 <img class="" title="" src="../images/cloning_thumb.png" />
-</div>
-
-<div class="span9" markdown=1>
+</div></div>
+<div class="col-md-9" markdown=1>
 
 <p>My other independent research is about defending against cloning
 attacks in Online Social Networks (OSNs). Cloning attackers disguise
@@ -183,13 +195,14 @@ clicking pattern matching and action time similarity.</p>
 
 <h2>Detecting Sybil groups in OSNs</h2>
 
-<div class="row-fluid">
-<div class="span12">
-<div class="span3">
+<div class="row" id="sybil">
+<div class="col-md-12">
+<div class="col-md-3">
+<div class="thumbnail">
 <img class="" title="" src="../images/sybil_thumb.png" />
-</div>
+</div></div>
 
-<div class="span9" markdown=1>
+<div class="col-md-9" markdown=1>
 
 <p>My major research project advised by Professor Yafei Dai in her Lab
 is to detect Sybil Attack groups in OSNs. Sybil Attackers manipulate
@@ -265,7 +278,7 @@ courses, including seminars in Reliable Distributed Computing by Prof.
 Idit Keidar, and Program Analysis and Synthesis by Prof. Eran Yahav. I
 am also engaging in academic activities at Technion, being exposed to
 lectures and colloquiums on a wide range of topics in Computer Science,
-given by international researchers. Most importantly, I explored new research directions as part of a vibrant group. Our topics span
+given by international researchers. Most importantly, I explored new research directions as part of a vibrant group. Our topics col-md-
 Programming Language, Systems, and Human Computer Interaction. We
 design description languages to automate the creation of both front-end
 and back-end systems, and discover human behavior
@@ -310,11 +323,14 @@ we detect them? --></p>
 </div> <!-- /container -->
 
 <div class="footerContainer"><div class="footer">
-<p>&copy;Zifei Shan, 2012</p>
+<p>&copy;Zifei Shan, 2013</p>
 
 </div></div>
 
+
+
 <script type="text/javascript" src="../scripts/libraries.js"></script>
+<script type="text/javascript" src="/scripts/main.js"></script>
 <script type="text/javascript">
 $(function() {
   var $window = $(window);

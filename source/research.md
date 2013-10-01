@@ -19,22 +19,35 @@ separate study on Sybil-attack detection. Finally, I was involved in
 assessing the impact of user-interaction transparency on their
 behavior.
 
-This semester, as an undergraduate research-exchange student at
-Technion, I am taking advanced graduate courses, engaging in academic
-life, and pursuing new research directions as part of a vibrant
-collaboration.
+
+Research Group
+====
+
+I was in [Computer Networks and Distributed Systems Lab](http://net.pku.edu.cn/p2p/doku.php) of Peking University, advised by professor [Yafei Dai](http://cn.linkedin.com/pub/yafei-dai/9/291/b1). I mainly work with Dr. Jing Jiang on Online Social Networks.
+
+I am one of the co-leaders of "Universal UI" research group, advised by Prof. [Daniel A. Freedman](http://www.danielfreedman.org). My team members are: [Scott Cheng](http://www.scottcheng.com), [Haoyu Zhang](http://www.haoyuzhang.org), Chris (Xiuhan) Hu, and Chen Yu.
+
+I was on the "Technion-Peking Research Exchange Program", together with seven other PKU students: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, [Yilun Zhang](http://www.yilunzhang.com), Michelle Ma, Jason Lv, and Winnie Liu. 
+
+Now I am still looking for research groups in Stanford.
 
 <!-- Independent research -->
 
+Research Projects
+====
+
 Ranking and analyzing baseball network
 ----
-<div class="row-fluid">
-<div class="span12">
-<div class="span3">
+<div class="row" id="gamerank">
+<div class="col-md-12">
+<div class="col-md-3">
+<div class="thumbnail">
 <p><img class="" title="" src="{{ref:images/gamerank_thumb.png}}" /></p>
-<p><img class="" title="" src="{{ref:images/mlbi.jpg}}" /></p>
 </div>
-<div class="span9" markdown=1>
+<div class="thumbnail">
+<p><img class="" title="" src="{{ref:images/mlbi.jpg}}" /></p></div>
+</div>
+<div class="col-md-9" markdown=1>
 
 <p>One topic that especially interests me is ranking and analyzing
 baseball networks. This was my course project for 
@@ -97,12 +110,13 @@ Further research might lead to brand new strategies in real games.</p>
 
 Defending against cloning attacks in OSNs
 ----
-<div class="row-fluid">
-<div class="span12">
-<div class="span3">
+<div class="row" id="cloning">
+<div class="col-md-12">
+<div class="col-md-3">
+<div class="thumbnail">
 <img class="" title="" src="{{ref:images/cloning_thumb.png}}" />
-</div>
-<div class="span9" markdown=1>
+</div></div>
+<div class="col-md-9" markdown=1>
 
 <p>My other independent research is about defending against cloning
 attacks in Online Social Networks (OSNs). Cloning attackers disguise
@@ -135,12 +149,13 @@ clicking pattern matching and action time similarity.</p>
 Detecting Sybil groups in OSNs
 ----
 
-<div class="row-fluid">
-<div class="span12">
-<div class="span3">
+<div class="row" id="sybil">
+<div class="col-md-12">
+<div class="col-md-3">
+<div class="thumbnail">
 <img class="" title="" src="{{ref:images/sybil_thumb.png}}" />
-</div>
-<div class="span9" markdown=1>
+</div></div>
+<div class="col-md-9" markdown=1>
 
 <p>My major research project advised by Professor Yafei Dai in her Lab
 is to detect Sybil Attack groups in OSNs. Sybil Attackers manipulate
@@ -216,7 +231,7 @@ courses, including seminars in Reliable Distributed Computing by Prof.
 Idit Keidar, and Program Analysis and Synthesis by Prof. Eran Yahav. I
 am also engaging in academic activities at Technion, being exposed to
 lectures and colloquiums on a wide range of topics in Computer Science,
-given by international researchers. Most importantly, I explored new research directions as part of a vibrant group. Our topics span
+given by international researchers. Most importantly, I explored new research directions as part of a vibrant group. Our topics col-md-
 Programming Language, Systems, and Human Computer Interaction. We
 design description languages to automate the creation of both front-end
 and back-end systems, and discover human behavior

@@ -27,42 +27,43 @@
 
   <body>
 
-<div class="navbar">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-      <!-- <a class="brand" href="/">Zifei Shan</a> -->
-      <div class="brand" style="padding: 5px 20px 0px">
-        <img class="thumb" title="PKU" src="/images/pkulogo40.png" href="http://www.pku.edu.cn"/>
-        <a href="/" style="color: whiteSmoke">Zifei Shan</a>
-      </div>
-      <div class="nav-collapse">
-        <ul class="nav">
+
+<header class="navbar navbar-inverse navbar-static-top bs-docs-nav" role="banner">
+<div class="container">
+  <div class="navbar-header">
+    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a href="/" class="navbar-brand">Zifei Shan</a>
+  </div>
+  <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+    <ul class="nav navbar-nav">
 <li class=""><a href="/">Home</a></li>
 <li class=""><a href="/research">Research</a></li>
 <li class=""><a href="/projects">Projects</a></li>
 <li class="active"><a href="/archive">Blog</a></li>
 <li class=""><a href="/about">About</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </div>
+    </ul>
+  </nav>
 </div>
+</header>
+
+
 
 <div class="container">
   <div class="row">
-    <div class="span10 content" >
+    <div class="col-md-10" >
       
 <div class="page-header">
   <h1>How to rebase your git repo / delete a pushed commit </h1>
 </div>
 
 <div class="row">
-  <div class="span8">
+  
+  <div class="col-md-12">
     <p>If you have a commit (or some commits / some huge files) that you really want to totally delete from your repo, to make it cleaner or smaller, you can create a new repo, and use a &#8220;git-rebase&#8221; command to do it.</p>
 
 <p>The best place of this operation is to delete the stuff you don&#8217;t want while <strong>preserving all the historical commits</strong> of the original repository.</p>
@@ -140,8 +141,39 @@
 <p>Delete and clone the new repo: Now the repo_b still contains TODELETE in a branch, so you can delete it and clone it from remote. Now it is clean.</p>
 </li>
 </ul>
-    <hr>
+  </div>
+  <hr />
+  <div class="col-md-12">
+    <!-- <h4>Published:</h4> -->
+    <div class="date">
+      Published: 02 December 2012
+    </div>
+
+    
+    <h4>Tags</h4>
+    <ul class="tag_box">
+      
+      
+
+
+  
+     
+    	<li><a href="/tags/index.html#git-ref">git <span>2</span></a></li>
+     
+    	<li><a href="/tags/index.html#skills-ref">skills <span>2</span></a></li>
+    
+  
+
+
+
+    </ul>
+      
+  </div>
+
+    <hr />
+
     <div class="pagination">
+      
       <ul>
       
         <li class="prev"><a href="/2012/11/14/chinese-life-in-israel" title="[CH]以色列留学生活点滴">&larr; Previous</a></li>
@@ -151,8 +183,10 @@
         <li class="next"><a href="/2013/09/14/my-tea-house" title="My Tea House">Next &rarr;</a></li>
       
       </ul>
+    
     </div>
-    <hr>
+  
+    <hr />
     
 
 
@@ -174,40 +208,17 @@
 
 
 
-  </div>
   
-  <div class="span4">
-    <h4>Published</h4>
-    <div class="date"><span>02 December 2012</span></div>
-
-  
-    <h4>Tags</h4>
-    <ul class="tag_box">
-    
-    
-
-
-  
-     
-    	<li><a href="/tags/index.html#git-ref">git <span>2</span></a></li>
-     
-    	<li><a href="/tags/index.html#skills-ref">skills <span>2</span></a></li>
-    
-  
-
-
-
-    </ul>
-    
-  </div>
+  <!-- </div>   -->
 </div>
 
 
     </div>
-    <div class="span2 fluid">
-      <div class="well sidebar-nav" style="margin: 10px">
-        <ul class="nav nav-list">
-          <li class="nav-header">Links</li>
+    <div class="col-md-2">
+      <div class="bs-sidebar hidden-print affix" role="complementary">
+        <ul class="nav bs-sidenav">
+          <ul class="nav">
+            <li class="active">Links</li>
               
               
               
@@ -245,9 +256,10 @@
 
 
 
+          </ul>
         </ul>
-      </div><!--/.well -->
-    </div><!--/span-->
+      </div>
+    </div>
   </div>
 </div>
   
@@ -319,7 +331,8 @@
 </div>
 
 <div class="row">
-  <div class="span8">
+  
+  <div class="col-md-12">
     <p>If you have a commit (or some commits / some huge files) that you really want to totally delete from your repo, to make it cleaner or smaller, you can create a new repo, and use a &#8220;git-rebase&#8221; command to do it.</p>
 
 <p>The best place of this operation is to delete the stuff you don&#8217;t want while <strong>preserving all the historical commits</strong> of the original repository.</p>
@@ -397,8 +410,39 @@
 <p>Delete and clone the new repo: Now the repo_b still contains TODELETE in a branch, so you can delete it and clone it from remote. Now it is clean.</p>
 </li>
 </ul>
-    <hr>
+  </div>
+  <hr />
+  <div class="col-md-12">
+    <!-- <h4>Published:</h4> -->
+    <div class="date">
+      Published: 02 December 2012
+    </div>
+
+    
+    <h4>Tags</h4>
+    <ul class="tag_box">
+      
+      
+
+
+  
+     
+    	<li><a href="/tags/index.html#git-ref">git <span>2</span></a></li>
+     
+    	<li><a href="/tags/index.html#skills-ref">skills <span>2</span></a></li>
+    
+  
+
+
+
+    </ul>
+      
+  </div>
+
+    <hr />
+
     <div class="pagination">
+      
       <ul>
       
         <li class="prev"><a href="/2012/11/14/chinese-life-in-israel" title="[CH]以色列留学生活点滴">&larr; Previous</a></li>
@@ -408,8 +452,10 @@
         <li class="next"><a href="/2013/09/14/my-tea-house" title="My Tea House">Next &rarr;</a></li>
       
       </ul>
+    
     </div>
-    <hr>
+  
+    <hr />
     
 
 
@@ -431,32 +477,8 @@
 
 
 
-  </div>
   
-  <div class="span4">
-    <h4>Published</h4>
-    <div class="date"><span>02 December 2012</span></div>
-
-  
-    <h4>Tags</h4>
-    <ul class="tag_box">
-    
-    
-
-
-  
-     
-    	<li><a href="/tags/index.html#git-ref">git <span>2</span></a></li>
-     
-    	<li><a href="/tags/index.html#skills-ref">skills <span>2</span></a></li>
-    
-  
-
-
-
-    </ul>
-    
-  </div>
+  <!-- </div>   -->
 </div>
 
 
@@ -481,7 +503,8 @@
 </div>
 
 <div class="row">
-  <div class="span8">
+  
+  <div class="col-md-12">
     <p>If you have a commit (or some commits / some huge files) that you really want to totally delete from your repo, to make it cleaner or smaller, you can create a new repo, and use a &#8220;git-rebase&#8221; command to do it.</p>
 
 <p>The best place of this operation is to delete the stuff you don&#8217;t want while <strong>preserving all the historical commits</strong> of the original repository.</p>
@@ -559,8 +582,39 @@
 <p>Delete and clone the new repo: Now the repo_b still contains TODELETE in a branch, so you can delete it and clone it from remote. Now it is clean.</p>
 </li>
 </ul>
-    <hr>
+  </div>
+  <hr />
+  <div class="col-md-12">
+    <!-- <h4>Published:</h4> -->
+    <div class="date">
+      Published: 02 December 2012
+    </div>
+
+    
+    <h4>Tags</h4>
+    <ul class="tag_box">
+      
+      
+
+
+  
+     
+    	<li><a href="/tags/index.html#git-ref">git <span>2</span></a></li>
+     
+    	<li><a href="/tags/index.html#skills-ref">skills <span>2</span></a></li>
+    
+  
+
+
+
+    </ul>
+      
+  </div>
+
+    <hr />
+
     <div class="pagination">
+      
       <ul>
       
         <li class="prev"><a href="/2012/11/14/chinese-life-in-israel" title="[CH]以色列留学生活点滴">&larr; Previous</a></li>
@@ -570,8 +624,10 @@
         <li class="next"><a href="/2013/09/14/my-tea-house" title="My Tea House">Next &rarr;</a></li>
       
       </ul>
+    
     </div>
-    <hr>
+  
+    <hr />
     
 
 
@@ -593,32 +649,8 @@
 
 
 
-  </div>
   
-  <div class="span4">
-    <h4>Published</h4>
-    <div class="date"><span>02 December 2012</span></div>
-
-  
-    <h4>Tags</h4>
-    <ul class="tag_box">
-    
-    
-
-
-  
-     
-    	<li><a href="/tags/index.html#git-ref">git <span>2</span></a></li>
-     
-    	<li><a href="/tags/index.html#skills-ref">skills <span>2</span></a></li>
-    
-  
-
-
-
-    </ul>
-    
-  </div>
+  <!-- </div>   -->
 </div>
 
 

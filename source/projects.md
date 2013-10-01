@@ -1,14 +1,15 @@
 Course / School Projects
 ====
 
-## MLB illustrator
+<h2 id="mlbi">MLB illustrator</h2>
 
-<div class="row-fluid">
-    <div class="span12">
-        <div class="span3">
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-3">
+            <div class="thumbnail">
             <a href="{{ref:images/mlbi_large.png}}"><img class="" title="" src="{{ref:images/mlbi_large.png}}" /></a>
-        </div>
-        <div class="span9">
+        </div></div>
+        <div class="col-md-9">
             <p><a href="http://www.zifeishan.org/mlb_illustrator/">MLB illustrator</a> is a project visualizing the MLB game data as a heterogeneous network, providing baseball statistics, and ranking the batting and pitching ability of players.</p>
             <p>Based on this project, I conducted independent research, and raised GameRank---a ranking algorithm for networks with multiple interplaying indicators.</p>
         </div>
@@ -16,15 +17,16 @@ Course / School Projects
 </div>
 
 
-## Beijing 3DS Website
+<h2 id="beijing3ds">Beijing 3DS Website</h2>
 
 
-<div class="row-fluid">
-    <div class="span12">
-        <div class="span3">
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-3">
+            <div class="thumbnail">
             <a href="{{ref:images/bj3ds.png}}"><img class="" title="" src="{{ref:images/bj3ds.png}}" /></a>
-        </div>
-        <div class="span9">
+        </div></div>
+        <div class="col-md-9">
 
 
 <p><a href="http://www.beijing3ds.org">Beijing 3DS</a> is an international startup competition held in Beijing. </p>
@@ -33,28 +35,30 @@ Course / School Projects
     </div>
 </div>
 
-## Question answering system on Chinese Wikipedia
+<h2 id="qa">Question answering system on Chinese Wikipedia</h2>
 
-<div class="row-fluid">
-    <div class="span12">
-        <div class="span3">
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-3">
+            <div class="thumbnail">
             <a href="{{ref:images/chinesewiki.png}}"><img class="" title="" src="{{ref:images/chinesewiki.png}}" /></a>
-        </div>
-        <div class="span9">
+        </div></div>
+        <div class="col-md-9">
 
 <p>Team leader; designed QA algorithm using Chinese NLP techniques.</p>
         </div>
     </div>
 </div>
 
-## WordNet viewer featuring force-driven graph of words
+<h2 id="wordnet">WordNet viewer featuring force-driven graph of words</h2>
 
-<div class="row-fluid">
-    <div class="span12">
-        <div class="span3">
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-3">
+            <div class="thumbnail">
             <a href="{{ref:images/wordnet.png}}"><img class="" title="" src="{{ref:images/wordnet.png}}" /></a>
-        </div>
-        <div class="span9">
+        </div></div>
+        <div class="col-md-9">
 
 
 <p>Designed the dynamic relationship graph with an originated force-driven layout algorithm.</p>
@@ -62,14 +66,15 @@ Course / School Projects
     </div>
 </div>
 
-## 2D Shooting Game programmed with Haaf’s Game Engine
+<h2 id="game">2D Shooting Game programmed with Haaf’s Game Engine</h2>
 
-<div class="row-fluid">
-    <div class="span12">
-        <div class="span3">
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-3">
+            <div class="thumbnail">
             <a href="{{ref:images/2dgame.png}}"><img class="" title="" src="{{ref:images/2dgame.png}}" /></a>
-        </div>
-        <div class="span9">
+        </div></div>
+        <div class="col-md-9">
 <p>Sole developer; used C++ OO programming; designed barrages with a force model.</p>
         </div>
     </div>

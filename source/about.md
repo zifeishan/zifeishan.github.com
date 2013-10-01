@@ -1,12 +1,18 @@
 About Me
 ====
 
-My research
+Contact
 ----
 
-Here is [my CV]({{ref: files/CV_Zifei_Shan.pdf}}).
+* Email: shanzifei AT pku dot edu dot cn
+* Tel: +1-650-561-[too zero three seven] / +86-152-1062-[six three seven three] 
+* Follow me on [Renren](http://www.renren.com/258061142), [Weibo](http://www.weibo.com/u/1676198360), [Twitter](https://twitter.com/zifeishan), [Facebook](https://www.facebook.com/zifei.shan), or [LinkedIn](http://www.linkedin.com/pub/zifei-shan/5a/555/6).
 
-Here is my [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/s/Shan:Zifei.html) link.
+
+More about my research
+----
+
+Here is [my CV]({{ref: files/CV_Zifei_Shan.pdf}}), and my [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/s/Shan:Zifei.html) link.
 
 My Strength Set
 ----
@@ -20,8 +26,9 @@ These strengths of mine are explored by [Gallup StrengthQuest](http://www.streng
 - **Futuristic:** inspired by the future and what could be.
 
 
+<h2 id="technion">
 Life at Technion
-----
+</h2>
 
 During the last year of my undergrad, I joined a research exchange program at Technion in Israel, advised
 by Professor Daniel Freedman. 
@@ -29,34 +36,98 @@ I enjoyed the total immerse of English environment --- both research and courses
 
 We travelled to Jerusalem, the Dead Sea, Bahaii Gardens, Beach at Haifa, Tel-aviv and Akko. Below is a photo of our group in the Old City of Jerusalem.
 
-![image]({{ref:images/techpkugroup.jpg}})
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-12">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/techpkugroup.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+
 
 Hobbies
 ----
 
-### Baseball
+<!-- ### Baseball -->
+
+<h3 id="baseball">Baseball</h3>
 
 I have been playing slowpitch softball for over two years. I love this sport, and I am the founder and former captain of [EECS Baseball Team](http://page.renren.com/601017046) in Peking University. Here is a photo of our team.
 
-[![image]({{ref:images/eecsbaseball_small.jpg}})]({{ref:images/eecsbaseball.jpg}})
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-12">
+      <div class="thumbnail">
+        <a href="/images/eecsbaseball.jpg">
+          <img class="" title="" src="/images/eecsbaseball_small.jpg" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
-And here is [a photo of me]({{ref:images/me_baseball.jpg}}) playing slowpitch.
+And here are photos of me playingslowpitch:
+
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/me_baseball.jpg" />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/me-pitch.jpg" />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/me-bat.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
 
 We got the CHAMPION of the PKU campus slowpitch competitions!!! We are thrilled at this!
 
-[![image]({{ref:images/eecsbaseball-caps-small.jpg}})]({{ref:images/eecsbaseball-caps.jpg}})
 
-[![image]({{ref:images/eecsbaseball-champion-small.jpg}})]({{ref:images/eecsbaseball-champion.jpg}})
-
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="/images/eecsbaseball-caps.jpg">
+          <img class="" title="" src="/images/eecsbaseball-caps-small.jpg" />
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="/images/eecsbaseball-champion.jpg">
+          <img class="" title="" src="/images/eecsbaseball-champion-small.jpg" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- 
 ![image]({{ref:images/me_baseball.jpg}}) -->
 
 ### Amateur Photography
 
-I used to have a camera, but it got stolen. From then on I only use cellphone to take photos (in my undergrad). I am quite unprofessional and only do it for fun. Here is my little [gallery in Instagram](http://instajelly.com/zifeishan).
+I used to have a camera, but it got stolen. From then on I only use cellphone to take photos (in my undergrad). I am quite unprofessional and only do it for fun. Here is my little [gallery in Instagram](http://instajelly.com/zifeishan/).
 
 ### Chinese Tea
+
+<div class="row">
+<div class="thumbnail col-md-6 col-md-offset-3">
+  <a href="/2013/09/14/my-tea-house/">
+    <img class="" title="" src="/images/tea/teahouse.jpg" />
+  </a>
+</div>
+</div>
 
 I love making and tasting Chinese tea! I have all kinds of tea in my tea house here in California, and [HERE]({{ref:2013/09/14/my-tea-house/}}) is an introduction about it.
 
