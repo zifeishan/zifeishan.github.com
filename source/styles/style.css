@@ -1,7 +1,7 @@
 body {
   /*background-image: url(/images/bgworld.jpg);*/
   /*background-repeat: repeat;*/
-  /*background-color: #aaffaa;*/
+  background-color: #fff;
   position: relative;
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
@@ -30,7 +30,7 @@ ul.nav p {
 
 .bs-header {
   padding: 100px 100px 200px 0;
-  color: #aaffaa;
+  color: #eee;
 }
 .bs-header h1 {
   font-size: 4em;
@@ -65,20 +65,20 @@ h1,h2,h3,h4,h5,h6,code,pre,input,button,
   background-color: #000000;
   padding: 0.5em 0;
   text-align: center;
-  color: #336600;
+  color: #153259;
 }
 
 .thumbnail {
-  border: 1px solid #338833;
+  border: 1px solid #3867a8;
 }
 
 a {
-  color: #33AA00;
+  color: #3867a8;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #336600;
+  color: #153259;
   text-decoration: underline;
 }
 a:focus {
@@ -88,9 +88,9 @@ a:focus {
 }
 
 .bs-sidenav {
-  border: 1px solid #338833;
+  border: 1px solid #3867a8;
   padding: 10px;
-  background-color: #c8ffb4;
+  background-color: #fff;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -105,6 +105,6 @@ a:focus {
 
 .bs-sidenav.nav>a:hover,
 .bs-sidenav.nav>a:focus {
-  background-color: #33aa00;
+  background-color: #3867a8;
   text-decoration: none;
 }
