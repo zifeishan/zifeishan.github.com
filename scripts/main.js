@@ -27,17 +27,17 @@ function resize_section(){
   //resize the background images
   if($(window).width()>800){
     $('.bs-header').css('background-size', '100%');
-    console.log('Ahaha')
+    // console.log('Ahaha')
   }
   else{
     $('.bs-header').css('background-size', 'auto 100%');
   }
 
-  //resize the background image of intro section
-  if(height*14.0/9 < width){
-    $('.bs-header').css('background-size', '100%');
-  }
-  else{
-    $('.bs-header').css('background-size', 'auto 100%');
-  }
+  // //resize the background image of intro section
+  // if(height*14.0/9 < width){
+  //   $('.bs-header').css('background-size', '100%');
+  // }
+  // else{
+  //   $('.bs-header').css('background-size', 'auto 100%');
+  // }
 }
