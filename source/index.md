@@ -9,6 +9,7 @@ I plan to focus on research during my Master's, and apply to CS PhD programs at 
 What's New
 ====
 
+* After one quarter's independent study, I decide to continue doing exciting research in Professor [Chris Re](http://cs.stanford.edu/people/chrismre/)'s group! Currently I am working on leveraging structural knowledge to improve ensembled OCR systems. -- Dec 7, 2013
 * Updated pictures of my [tea house]({{ref:2013/09/14/my-tea-house/}}). -- Oct 1, 2013
 * I have redesigned my website! -- Sep 30, 2013
 
