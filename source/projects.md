@@ -1,6 +1,21 @@
 Course / School Projects
 ====
 
+<h2 id="mlbi">Kaleidoscope</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-3">
+            <div class="thumbnail">
+            <a href="{{ref:images/kaleidoscope.png}}"><img class="" title="" src="{{ref:images/kaleidoscope.png}}" /></a>
+        </div></div>
+        <div class="col-md-9">
+            <p><a href="http://54.201.132.108:3000/">Kaleidoscope</a> is an interactive ideation system, assisting humans in the brainstorming by automatically suggesting new ideas. It will record user's ideas into system's backend idea networks, and make suggestions that are relavent, diverse, and inspiring.</p>
+        </div>
+    </div>
+</div>
+
+
 <h2 id="mlbi">MLB illustrator</h2>
 
 <div class="row">
