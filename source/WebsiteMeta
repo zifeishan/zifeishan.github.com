@@ -33,3 +33,5 @@ Page("index.html", "index.md", home_template, title = "Home")
 Page("projects/index.html", "projects.md", template, title = "Projects")
 Page("about/index.html", "about.md", template, title = "About")
 Page("research/index.html", "research.md", template, title = "Research")
+
+Page("kaleidoscope/index.html", "kaleidoscope.md", template, title = "Kaleidoscope")
