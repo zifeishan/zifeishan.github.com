@@ -4,16 +4,13 @@ About Me
 Contact
 ----
 
-* Email: shanzifei AT pku dot edu dot cn
+* Email: zifei AT stanford DOT edu
 * Tel: +1-650-561-[too zero three seven] / +86-152-1062-[six three seven three] 
 * Follow me on [Renren](http://www.renren.com/258061142), [Weibo](http://www.weibo.com/u/1676198360), [Twitter](https://twitter.com/zifeishan), [Facebook](https://www.facebook.com/zifei.shan), or [LinkedIn](http://www.linkedin.com/pub/zifei-shan/5a/555/6).
 
-
-More about my research
-----
-
 Here is [my CV]({{ref: files/CV_Zifei_Shan.pdf}}), and my [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/s/Shan:Zifei.html) link.
 
+<!-- 
 My Strength Set
 ----
 
@@ -24,27 +21,7 @@ These strengths of mine are explored by [Gallup StrengthQuest](http://www.streng
 - **Maximizer:** seek to transform something strong into something superb.
 - **Focus:** prioritize, then act.
 - **Futuristic:** inspired by the future and what could be.
-
-
-<h2 id="technion">
-Life at Technion
-</h2>
-
-During the last year of my undergrad, I joined a research exchange program at Technion in Israel, advised
-by Professor Daniel Freedman. 
-I enjoyed the total immerse of English environment --- both research and courses. I also enjoyed the life in that beautiful and mysterious country.
-
-We travelled to Jerusalem, the Dead Sea, Bahaii Gardens, Beach at Haifa, Tel-aviv and Akko. Below is a photo of our group in the Old City of Jerusalem.
-
-<div class="row">
-  <div class="col-md-8 col-md-offset-2">
-    <div class="col-md-12">
-      <div class="thumbnail">
-        <img class="" title="" src="/images/techpkugroup.jpg" />
-      </div>
-    </div>
-  </div>
-</div>
+ -->
 
 
 Hobbies
@@ -57,7 +34,7 @@ Hobbies
 I have been playing slowpitch softball for over two years. I love this sport, and I am the founder and former captain of [EECS Baseball Team](http://page.renren.com/601017046) in Peking University. Here is a photo of our team.
 
 <div class="row">
-  <div class="col-md-8 col-md-offset-2">
+  <div class="col-md-6 col-md-offset-3">
     <div class="col-md-12">
       <div class="thumbnail">
         <a href="/images/eecsbaseball.jpg">
@@ -130,6 +107,28 @@ I used to have a camera, but it got stolen. From then on I only use cellphone to
 </div>
 
 I love making and tasting Chinese tea! I have all kinds of tea in my tea house here in California, and [HERE]({{ref:2013/09/14/my-tea-house/}}) is an introduction about it.
+
+
+<h2 id="technion">
+Life at Technion
+</h2>
+
+During the last year of my undergrad, I joined a research exchange program at Technion in Israel, advised
+by Professor Daniel Freedman. 
+I enjoyed the total immerse of English environment --- both research and courses. I also enjoyed the life in that beautiful and mysterious country.
+
+We travelled to Jerusalem, the Dead Sea, Bahaii Gardens, Beach at Haifa, Tel-aviv and Akko. Below is a photo of our group in the Old City of Jerusalem.
+
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-12">
+      <div class="thumbnail">
+        <img class="" title="" src="/images/techpkugroup.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+
 
 Links to my Friends
 ----

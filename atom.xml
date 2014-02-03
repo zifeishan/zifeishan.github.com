@@ -4,7 +4,7 @@
  <title>Zifei Shan</title>
  <link href="http://zifeishan.github.com/blog/atom.xml" rel="self"/>
  <link href="http://zifeishan.github.com/blog"/>
- <updated>2013-12-12T23:03:48-08:00</updated>
+ <updated>2014-02-02T21:22:31-08:00</updated>
  <id>http://zifeishan.github.com/blog</id>
  <author>
    <name>Zifei Shan</name>
@@ -50,12 +50,12 @@
   &lt;div class='col-md-8 col-md-offset-2'&gt;
     &lt;div class='col-md-6'&gt;
       &lt;div class='thumbnail'&gt;
-        &lt;img class='' title='' src='/images/tea/jiuchun-leaves.jpg' /&gt;
+        &lt;img title='' class='' src='/images/tea/jiuchun-leaves.jpg' /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class='col-md-6'&gt;
       &lt;div class='thumbnail'&gt;
-        &lt;img class='' title='' src='/images/tea/jiuchun-color.jpg' /&gt;
+        &lt;img title='' class='' src='/images/tea/jiuchun-color.jpg' /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -79,17 +79,17 @@
   &lt;div class='col-md-10 col-md-offset-1'&gt;
     &lt;div class='col-md-4'&gt;
       &lt;div class='thumbnail'&gt;
-        &lt;img class='' title='' src='/images/tea/rougui-leaves.jpg' /&gt;
+        &lt;img title='' class='' src='/images/tea/rougui-leaves.jpg' /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class='col-md-4'&gt;
       &lt;div class='thumbnail'&gt;
-        &lt;img class='' title='' src='/images/tea/rougui-color.jpg' /&gt;
+        &lt;img title='' class='' src='/images/tea/rougui-color.jpg' /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class='col-md-4'&gt;
       &lt;div class='thumbnail'&gt;
-        &lt;img class='' title='' src='/images/tea/rougui-incup.jpg' /&gt;
+        &lt;img title='' class='' src='/images/tea/rougui-incup.jpg' /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -105,12 +105,12 @@
   &lt;div class='col-md-8 col-md-offset-2'&gt;
     &lt;div class='col-md-6'&gt;
       &lt;div class='thumbnail'&gt;
-        &lt;img class='' title='' src='/images/tea/guanyin-leaves.jpg' /&gt;
+        &lt;img title='' class='' src='/images/tea/guanyin-leaves.jpg' /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class='col-md-6'&gt;
       &lt;div class='thumbnail'&gt;
-        &lt;img class='' title='' src='/images/tea/guanyin-incup.jpg' /&gt;
+        &lt;img title='' class='' src='/images/tea/guanyin-incup.jpg' /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -142,17 +142,17 @@
   &lt;div class='col-md-10 col-md-offset-1'&gt;
     &lt;div class='col-md-4'&gt;
       &lt;div class='thumbnail'&gt;
-        &lt;img class='' title='' src='/images/tea/raw-puer-leaves.jpg' /&gt;
+        &lt;img title='' class='' src='/images/tea/raw-puer-leaves.jpg' /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class='col-md-4'&gt;
       &lt;div class='thumbnail'&gt;
-        &lt;img class='' title='' src='/images/tea/raw-puer-color.jpg' /&gt;
+        &lt;img title='' class='' src='/images/tea/raw-puer-color.jpg' /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class='col-md-4'&gt;
       &lt;div class='thumbnail'&gt;
-        &lt;img class='' title='' src='/images/tea/raw-puer-incup.jpg' /&gt;
+        &lt;img title='' class='' src='/images/tea/raw-puer-incup.jpg' /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;

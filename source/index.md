@@ -1,10 +1,16 @@
-I am Zifei SHAN (单子非), a first-year Master's student in [Stanford University](http://www.stanford.edu/) Computer Science, starting from Fall 2013. I got my Bachelor's degree in CS from [Peking University](http://www.pku.edu.cn). I was also a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program for half a year.
+I am Zifei SHAN (单子非), a first-year Master's student in [Stanford University](http://www.stanford.edu/) Computer Science, starting from Fall 2013. 
+
+I am doing research with Professor [Christopher Ré](cs.stanford.edu/people/chrismre/) in [Stanford InfoLab](http://infolab.stanford.edu/).
+I am interested in data mining, specifically using structural knowledge to improve low-level computer tasks. I believe that views from interdisciplinary areas can burst into wonderful ideas that refresh the world.
+
+I got my Bachelor's degree in CS from [Peking University](http://www.pku.edu.cn). I was also a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program for half a year.
+
 <!-- 
 I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http://http://eecs.pku.edu.cn/) department of [Peking University](http://www.pku.edu.cn). I was also a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program. -->
 
-I am exploring Stanford --- the great place with brilliant people and amazing opportunities. I believe that views from interdisciplinary areas can burst into wonderful ideas that refresh the world.
 
-I plan to focus on research during my Master's, and apply to CS PhD programs at top US universities after Master's graduation. I want to become a faculty member in universities to continue my research career.
+<!-- I plan to focus on research during my Master's, and apply to CS PhD programs at top US universities after Master's graduation. I want to become a faculty member in universities to continue my research career.
+ -->
 
 What's New
 ====
@@ -17,7 +23,9 @@ What's New
 Research 
 ====
 
-My research interest lies in mining and modeling social and information networks. During my undergraduate studies I conducted researches in Online Social Networks (OSNs) under supervision, and led two independent researches to discover knowledge in various networks. 
+Currently I am interested in knowledge base construction with joint inference. In our group we are discovering how to use structural knowledge to improve low-level computer tasks like domain-specific OCR. We are using a scalable inference engine [DeepDive](http://deepdive.stanford.edu/) to empower our work.
+
+In undergrad I was working on mining and modeling social and information networks. I conducted researches in Online Social Networks (OSNs) under supervision, and led two independent researches to discover knowledge in various networks. 
 
 <!-- 
 I will attend [Stanford University](http://www.stanford.edu/) as a full master student in Computer Science (MSCS), starting from Fall 2013. 

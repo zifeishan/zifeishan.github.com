@@ -23,15 +23,13 @@ behavior.
 Research Group
 ====
 
-Recently I joined Professor [Chris Re](http://cs.stanford.edu/people/chrismre/)'s group and work on [DeepDive project](http://i.stanford.edu/hazy/projects/). Currently I am working on leveraging structural knowledge to improve ensembled OCR systems, as a very interesting and important use case of the overall system.
+Recently I joined Professor [Chris Re](http://cs.stanford.edu/people/chrismre/)'s group and work on [DeepDive project](http://i.stanford.edu/hazy/projects/). Currently I am working on leveraging structural knowledge to improve ensembled OCR systems, seeking insights how knowledge can help in low-level tasks.
 
 I was in [Computer Networks and Distributed Systems Lab](http://net.pku.edu.cn/p2p/doku.php) of Peking University, advised by professor [Yafei Dai](http://cn.linkedin.com/pub/yafei-dai/9/291/b1). I mainly work with Dr. Jing Jiang on Online Social Networks.
 
 I am one of the co-leaders of "Universal UI" research group, advised by Prof. [Daniel A. Freedman](http://www.danielfreedman.org). My team members are: [Scott Cheng](http://www.scottcheng.com), [Haoyu Zhang](http://www.haoyuzhang.org), Chris (Xiuhan) Hu, and Chen Yu.
 
 I was on the "Technion-Peking Research Exchange Program", together with seven other PKU students: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, [Yilun Zhang](http://www.yilunzhang.com), Michelle Ma, Jason Lv, and Winnie Liu. 
-
-Now I am still looking for research groups in Stanford.
 
 <!-- Independent research -->
 
