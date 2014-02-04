@@ -70,6 +70,7 @@ h1,h2,h3,h4,h5,h6,code,pre,input,button,
 
 .thumbnail {
   border: 1px solid #3867a8;
+  max-width: 400px;
 }
 
 a {

@@ -23,15 +23,11 @@ What's New
 Research 
 ====
 
-Currently I am interested in knowledge base construction with joint inference. In our group we are discovering how to use structural knowledge to improve low-level computer tasks like domain-specific OCR. We are using a scalable inference engine [DeepDive](http://deepdive.stanford.edu/) to empower our work.
+Currently I am interested in knowledge base construction with joint inference. In our group we are discovering how to use structural knowledge to improve low-level computer tasks like domain-specific OCR. We are using our scalable inference engine [DeepDive](http://deepdive.stanford.edu/) to empower our work.
 
-In undergrad I was working on mining and modeling social and information networks. I conducted researches in Online Social Networks (OSNs) under supervision, and led two independent researches to discover knowledge in various networks. 
+In undergrad I was working on mining and modeling social and information networks, including ranking baseball players in a competition network, and detecting Sybil attacks in a massive online social network. 
 
-<!-- 
-I will attend [Stanford University](http://www.stanford.edu/) as a full master student in Computer Science (MSCS), starting from Fall 2013. 
- -->
-
-<div class="row">
+<!-- <div class="row">
 <div class="col-md-10 col-md-offset-1">
   <div class="col-md-4">
     <div class="thumbnail">
@@ -59,6 +55,7 @@ I will attend [Stanford University](http://www.stanford.edu/) as a full master s
   </div>
 </div>
 </div>
+ -->
 
 <!-- Research
 ----
@@ -129,6 +126,14 @@ Projects
 
 <div class="row">
 <div class="col-md-10 col-md-offset-1">
+
+  <div class="col-md-4">
+      <div class="thumbnail">
+      <a href="/projects/#kaleidoscope"><img class="" title="" src="{{ref:images/kaleidoscope.png}}" /></a>
+  </div>
+  <p>Kaleidoscope: idea recommender</p>
+  </div>
+
 
   <div class="col-md-4">
       <div class="thumbnail">
