@@ -1,4 +1,4 @@
-Course / School Projects
+Projects
 ====
 
 <h2 id="kaleidoscope">Kaleidoscope</h2>
