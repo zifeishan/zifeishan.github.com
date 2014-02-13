@@ -20,13 +20,13 @@ What's New
 * Updated pictures of my [tea house]({{ref:2013/09/14/my-tea-house/}}). -- Oct 1, 2013
 * I have redesigned my website! -- Sep 30, 2013
 
-
 Research 
 ====
 
 Currently I am interested in knowledge base construction with joint inference. In our group we are discovering how to use structural knowledge to improve low-level computer tasks like domain-specific OCR. We are using our scalable inference engine [DeepDive](http://deepdive.stanford.edu/) to empower our work.
 
 In undergrad I was working on mining and modeling social and information networks, including ranking baseball players in a competition network, and detecting Sybil attacks in a massive online social network. 
+
 
 <!-- <div class="row">
 <div class="col-md-10 col-md-offset-1">
@@ -77,6 +77,18 @@ Meantime, I am keeping myself up with professional research skills, to become a 
  -->
 
 Click [HERE]({{ref:research/}}) to know about my research.
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="col-md-12">
+      <div class="thumbnail" style="max-width: 100%;">
+        <a href="{{ref:research/}}">
+          <img class="" title="" src="/images/wordcloud.png" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- ### Research Group
