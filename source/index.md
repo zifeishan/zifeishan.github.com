@@ -1,7 +1,15 @@
 I am Zifei SHAN (单子非), a first-year Master's student in [Stanford University](http://www.stanford.edu/) Computer Science, starting from Fall 2013. 
 
-I am doing research with Professor [Christopher Ré](cs.stanford.edu/people/chrismre/) in [Stanford InfoLab](http://infolab.stanford.edu/).
-I am interested in data mining, specifically using structural knowledge to improve low-level computer tasks. I believe that views from interdisciplinary areas can burst into wonderful ideas that refresh the world.
+I am doing research with Professor [Christopher Ré](cs.stanford.edu/people/chrismre/) in [Stanford InfoLab](http://infolab.stanford.edu/). I am currently maintaining [DeepDive](http://deepdive.stanford.edu/).
+
+My recent research focus on building and using knowledge bases.
+Specifically, I am exploring the idea of using joint probabilistic
+inference to integrate all kinds of knowledge in sophisticated computer
+tasks. My current efforts towards this goal include: using high-level
+knowledge to build "smarter" Optical Character Recognition (OCR), and
+Speech Recognition systems.
+
+<!-- I am interested in data mining, specifically using structural knowledge to improve low-level computer tasks. I believe that views from interdisciplinary areas can burst into wonderful ideas that refresh the world. -->
 
 I got my Bachelor's degree in CS from [Peking University](http://www.pku.edu.cn). I was also a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program for half a year.
 
@@ -15,6 +23,7 @@ I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http:/
 What's New
 ====
 
+* Our group's new system, [DeepDive](http://deepdive.stanford.edu/) has been released. DeepDive is a generic probabilistic inference engine that uses a declarative language (SQL) to define factor graphs. I have been in charge of a scalable [feature extraction platform](http://deepdive.stanford.edu/doc/extractors.html) in DeepDive, as well as daily maintains. -- May 15, 2014
 * Check out my project [MD2PDF](https://github.com/zifeishan/md2pdf-batch), a tool to translate markdown files to PDF in batch, using fixed latex templates and descriptive input arguments. 
 * After one quarter's independent study, I decide to continue doing exciting research in Professor [Chris Re](http://cs.stanford.edu/people/chrismre/)'s group! Currently I am working on leveraging structural knowledge to improve ensembled OCR systems. -- Dec 7, 2013
 * Updated pictures of my [tea house]({{ref:2013/09/14/my-tea-house/}}). -- Oct 1, 2013
