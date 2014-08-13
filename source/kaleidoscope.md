@@ -55,16 +55,16 @@ objectives, and craft a working, interactive brainstorming system.
 
 Our backend idea networks use following datasets:
 
-- [DBPedia](dbpedia.org/Datasets), an open dataset of Wikipedia.
-- [ConceptNet](conceptnet5.media.mit.edu), a knowledge networks of concepts.
-- [MIRFLICKR](press.liacs.nl/mirflickr/), an open image collection of 25,000 Flicker images.
+- [DBPedia](http://dbpedia.org/Datasets/), an open dataset of Wikipedia.
+- [ConceptNet](http://conceptnet5.media.mit.edu/), a knowledge networks of concepts.
+- [MIRFLICKR](http://press.liacs.nl/mirflickr/), an open image collection of 25,000 Flicker images.
 
 
 Authors
 ----
 
-- [Zifei Shan](http://www.zifeishan.org)
-- [Yuke Zhu](http://www.stanford.edu/~yukez)
+- [Zifei Shan](http://www.zifeishan.org/)
+- [Yuke Zhu](http://www.stanford.edu/~yukez/)
 - Tianxin Zhao
 
 Also see [Sparkl](http://sparkl.us/)!

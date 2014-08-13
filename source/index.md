@@ -1,6 +1,6 @@
 I am Zifei SHAN (单子非), a first-year Master's student in [Stanford University](http://www.stanford.edu/) Computer Science, starting from Fall 2013. 
 
-I am doing research with Professor [Christopher Ré](cs.stanford.edu/people/chrismre/) in [Stanford InfoLab](http://infolab.stanford.edu/). I am currently maintaining [DeepDive](http://deepdive.stanford.edu/).
+I am doing research with Professor [Christopher Ré](http://cs.stanford.edu/people/chrismre/) in [Stanford InfoLab](http://infolab.stanford.edu/). I am currently maintaining [DeepDive](http://deepdive.stanford.edu/).
 
 My recent research focus on building and using knowledge bases.
 Specifically, I am exploring the idea of using joint probabilistic
