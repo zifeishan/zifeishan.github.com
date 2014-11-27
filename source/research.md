@@ -38,8 +38,8 @@ Recent Projects
 ====
 
 * I am building an open knowledge base for [Public Library of Science (PLOS)](http://www.plos.org/), which integrates scientific entities and relations extracted by DeepDive.
-* I ported DeepDive into MySQL databases, and now it's available since [DeepDive release 0.04](https://github.com/HazyResearch/deepdive/releases). -- Nov 19, 2014
-* Our group's new system, [DeepDive](http://deepdive.stanford.edu/) has been released. DeepDive is a generic probabilistic inference engine that uses a declarative language (SQL) to define factor graphs. I have been in charge of a scalable [feature extraction platform](http://deepdive.stanford.edu/doc/basics/extractors.html) in DeepDive, as well as daily maintains. -- May 15, 2014
+* I ported DeepDive into MySQL databases, and now it's available since [DeepDive release 0.04](https://github.com/HazyResearch/deepdive/releases).
+* I am one of the builders of [DeepDive](http://deepdive.stanford.edu/), a generic probabilistic inference engine that uses a declarative language (SQL) to define factor graphs. I have been in charge of a scalable [feature extraction platform](http://deepdive.stanford.edu/doc/basics/extractors.html) in DeepDive, as well as daily maintains.
 
 
 Previous Research Projects
