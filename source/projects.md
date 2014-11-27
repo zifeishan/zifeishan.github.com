@@ -44,8 +44,8 @@ Projects
         <div class="col-md-9">
 
 
-<p><a href="http://www.beijing3ds.org">Beijing 3DS</a> is an international startup competition held in Beijing. </p>
-<p>I am the <a href="http://www.beijing3ds.org/about/#team">back-end designer</a> of the event website. I mainly built NGINX server and application form handler, and successfully processed all the applications for the event.</p>
+Beijing 3DS is an international startup competition held in Beijing. </p>
+<p>I am the back-end designer of the event website. I mainly built NGINX server and application form handler, and successfully processed all the applications for the event.</p>
         </div>
     </div>
 </div>

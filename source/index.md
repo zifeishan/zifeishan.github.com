@@ -1,17 +1,24 @@
-I am Zifei SHAN (单子非), a first-year Master's student in [Stanford University](http://www.stanford.edu/) Computer Science, starting from Fall 2013. 
+I am Zifei SHAN (单子非), a second-year Master's student in [Stanford
+University](http://www.stanford.edu/) Computer Science.
 
-I am doing research with Professor [Christopher Ré](http://cs.stanford.edu/people/chrismre/) in [Stanford InfoLab](http://infolab.stanford.edu/). I am currently maintaining [DeepDive](http://deepdive.stanford.edu/).
+I am doing research with Professor [Christopher
+Ré](http://cs.stanford.edu/people/chrismre/) in [Stanford
+InfoLab](http://infolab.stanford.edu/). I am one of the builders of
+[DeepDive](http://deepdive.stanford.edu/), a scalable general
+probabilistic inference engine.
+My research aims at building and using knowledge bases, to help
+people better understand and exploit data.
 
-My recent research focus on building and using knowledge bases.
-Specifically, I am exploring the idea of using joint probabilistic
+<!-- Specifically, I am exploring the idea of using joint probabilistic
 inference to integrate all kinds of knowledge in sophisticated computer
 tasks. My current efforts towards this goal include: using high-level
 knowledge to build "smarter" Optical Character Recognition (OCR), and
 Speech Recognition systems.
+ -->
 
 <!-- I am interested in data mining, specifically using structural knowledge to improve low-level computer tasks. I believe that views from interdisciplinary areas can burst into wonderful ideas that refresh the world. -->
 
-I got my Bachelor's degree in CS from [Peking University](http://www.pku.edu.cn). I was also a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program for half a year.
+I got my Bachelor's degree in CS from [Peking University](http://www.pku.edu.cn). I was also a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en) on a Research Exchange Program.
 
 <!-- 
 I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http://http://eecs.pku.edu.cn/) department of [Peking University](http://www.pku.edu.cn). I was also a visiting student at [Technion---Israel Institute of Technology](http://www.technion.ac.il/en), on a Research Exchange Program. -->
@@ -23,7 +30,10 @@ I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http:/
 What's New
 ====
 
-* Our group's new system, [DeepDive](http://deepdive.stanford.edu/) has been released. DeepDive is a generic probabilistic inference engine that uses a declarative language (SQL) to define factor graphs. I have been in charge of a scalable [feature extraction platform](http://deepdive.stanford.edu/doc/extractors.html) in DeepDive, as well as daily maintains. -- May 15, 2014
+* I am building an open knowledge base for [Public Library of Science (PLOS)](http://www.plos.org/), which integrates scientific entities and relations extracted by DeepDive. -- Nov 26, 2014
+* I ported DeepDive into MySQL databases, and now it's available since [DeepDive release 0.04](https://github.com/HazyResearch/deepdive/releases). -- Nov 19, 2014
+* I finished my internship at [Tableau software](http://www.tableausoftware.com/). -- Sep 23, 2014
+* Our group's new system, [DeepDive](http://deepdive.stanford.edu/) has been released. DeepDive is a generic probabilistic inference engine that uses a declarative language (SQL) to define factor graphs. I have been in charge of a scalable [feature extraction platform](http://deepdive.stanford.edu/doc/basics/extractors.html) in DeepDive, as well as daily maintains. -- May 15, 2014
 * Check out my project [MD2PDF](https://github.com/zifeishan/md2pdf-batch), a tool to translate markdown files to PDF in batch, using fixed latex templates and descriptive input arguments. 
 * After one quarter's independent study, I decide to continue doing exciting research in Professor [Chris Re](http://cs.stanford.edu/people/chrismre/)'s group! Currently I am working on leveraging structural knowledge to improve ensembled OCR systems. -- Dec 7, 2013
 * Updated pictures of my [tea house]({{ref:2013/09/14/my-tea-house/}}). -- Oct 1, 2013
@@ -119,7 +129,7 @@ Publications
   In
   *Proc. 2012 ASE International Conference on Social Informatics.* (Acceptance rate: 11.5%)
   [PDF]({{ref:files/gamerank_zifeishan.pdf}})
-  [Conference](http://asesite.org/conferences/socialinformatics/2012/)
+  [Conference](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6542447)
 
 
 * **Zifei Shan**, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.

@@ -64,83 +64,100 @@
 <div class="row">
   
   <div class="col-md-12">
-    <p>If you have a commit (or some commits / some huge files) that you really want to totally delete from your repo, to make it cleaner or smaller, you can create a new repo, and use a &#8220;git-rebase&#8221; command to do it.</p>
+    
+<p>If you have a commit (or some commits / some huge files) that you
+really want to totally delete from your repo, to make it cleaner or
+smaller, you can create a new repo, and use a “git-rebase” command to
+do it.</p>
 
-<p>The best place of this operation is to delete the stuff you don&#8217;t want while <strong>preserving all the historical commits</strong> of the original repository.</p>
+<p>The best place of this operation is to delete the stuff you don’t want
+while <strong>preserving all the historical commits</strong> of the original
+repository.</p>
 
 <p>Suppose the old repo is repo_a, and you should go through this process:</p>
 
 <ul>
-<li>
-<p>Create a new empty repo, say, &#8220;repo_b&#8221;.</p>
-</li>
+  <li>Create a new empty repo, say, “repo_b”.</li>
+  <li>
+    <p>Do not clone repo_b; instead, copy the repo_a to repo_b: </p>
 
-<li>
-<p>Do not clone repo_b; instead, copy the repo_a to repo_b:</p>
+    <pre><code>  $ cp -r repo_a repo_b 
+  $ cd repo_b
+</code></pre>
+  </li>
+  <li>
+    <p>Find the commit you want to delete. For example, you want to delete 
+the commit with a huge file in
+somepath/hugefile. You can locate the commit by <em>git log</em>:</p>
 
-<pre><code>  $ cp -r repo_a repo_b 
-  $ cd repo_b</code></pre>
-</li>
+    <pre><code>  $ git log somepath/hugefile
+</code></pre>
 
-<li>
-<p>Find the commit you want to delete. For example, you want to delete the commit with a huge file in somepath/hugefile. You can locate the commit by <em>git log</em>:</p>
+    <p>then you get a commit-id of the commit you want to delete.</p>
+  </li>
+  <li>
+    <p>Then tag your commit using this:</p>
 
-<pre><code>  $ git log somepath/hugefile</code></pre>
+    <pre><code>  $ git tag TODELETE commit-id
+</code></pre>
+  </li>
+  <li>
+    <p>use the MAGIC rebase:</p>
 
-<p>then you get a commit-id of the commit you want to delete.</p>
-</li>
+    <pre><code>  $ git rebase -i TODELETE~1
+</code></pre>
 
-<li>
-<p>Then tag your commit using this:</p>
+    <p>This will start the rebase in interactive mode -i at the point just
+before the commit you want to whack. The editor will start up
+listing all of the commits since then. Delete the line containing
+the commit you want to obliterate and save the file. Rebase will do
+the rest of the work, deleting only that commit, and replaying all
+of the others back into the log.
+<a href="http://stackoverflow.com/questions/1338728/how-to-delete-a-git-commit">Reference</a></p>
 
-<pre><code>  $ git tag TODELETE commit-id</code></pre>
-</li>
+    <p>It will show a message, on top of the message there are a set of
+“pick” commands. Find the one who pick the TODELETE commit, and
+delete that line.</p>
 
-<li>
-<p>use the MAGIC rebase:</p>
+    <p>Save the message, and the rebase is done! the TODELETE commit is
+gone!</p>
+  </li>
+  <li>
+    <p>Check if it is really gone, by either of these commands:</p>
 
-<pre><code>  $ git rebase -i TODELETE~1</code></pre>
+    <pre><code>    $ git log 
+    $ git hist (if you have configured alias "hist")
+</code></pre>
 
-<p>This will start the rebase in interactive mode -i at the point just before the commit you want to whack. The editor will start up listing all of the commits since then. Delete the line containing the commit you want to obliterate and save the file. Rebase will do the rest of the work, deleting only that commit, and replaying all of the others back into the log. <a href='http://stackoverflow.com/questions/1338728/how-to-delete-a-git-commit'>Reference</a></p>
+    <p>and you find that in master branch you do not have TODELETE commit anymore.</p>
 
-<p>It will show a message, on top of the message there are a set of &#8220;pick&#8221; commands. Find the one who pick the TODELETE commit, and delete that line.</p>
+    <p>If you use </p>
 
-<p>Save the message, and the rebase is done! the TODELETE commit is gone!</p>
-</li>
+    <pre><code>    $ git log --all
+    $ git hist --all (if you have configured alias "hist")
+</code></pre>
 
-<li>
-<p>Check if it is really gone, by either of these commands:</p>
+    <p>you can see that the <em>rebase</em> creates a branch.</p>
+  </li>
+  <li>
+    <p>Push the change to the new repository</p>
 
-<pre><code>    $ git log 
-    $ git hist (if you have configured alias &quot;hist&quot;)</code></pre>
-
-<p>and you find that in master branch you do not have TODELETE commit anymore.</p>
-
-<p>If you use</p>
-
-<pre><code>    $ git log --all
-    $ git hist --all (if you have configured alias &quot;hist&quot;)</code></pre>
-
-<p>you can see that the <em>rebase</em> creates a branch.</p>
-</li>
-
-<li>
-<p>Push the change to the new repository</p>
-
-<pre><code>  $ git remote remove origin git remote add origin
+    <pre><code>  $ git remote remove origin git remote add origin
 
   $ git@YOUR_REMOTE_PATH/repo_b.git git push -u origin master 
-    # to push changes for the first time</code></pre>
-</li>
-
-<li>
-<p>This will change the &#8220;origin&#8221; of the local repo_b, to the remote repo_b, and do the initial push of the new repo.</p>
-</li>
-
-<li>
-<p>Delete and clone the new repo: Now the repo_b still contains TODELETE in a branch, so you can delete it and clone it from remote. Now it is clean.</p>
-</li>
+    # to push changes for the first time
+</code></pre>
+  </li>
+  <li>
+    <p>This will change the “origin” of the local repo_b, to the remote
+repo_b, and do the initial push of the new repo.</p>
+  </li>
+  <li>Delete and clone the new repo: Now the repo_b still contains 
+TODELETE in a branch, so you can delete it and clone it from 
+remote. Now it is clean.</li>
 </ul>
+
+
   </div>
   <hr />
   <div class="col-md-12">
@@ -227,13 +244,13 @@
   
     
       
-      	
-      	<li><a href="/archive/index.html">Blog Archive</a></li>
-      	
-      
     
   
     
+      
+      	
+      	<li><a href="/archive/index.html">Blog Archive</a></li>
+      	
       
     
   

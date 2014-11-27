@@ -19,7 +19,9 @@ System in action
     </div>
 </div>
 
+The system has been taken offline.
 
+<!-- 
 [Try it now!](http://54.201.132.108:3000/)
 ----
 
@@ -39,6 +41,7 @@ Enter the platform [HERE](http://54.201.132.108:3000/)!
 
 NOTE 2: Now we only have a single-threaded backend without a message queue. If your request is lost, please try sending again.
 
+ -->
 
 How it works
 ----

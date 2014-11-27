@@ -1,6 +1,18 @@
 About Me
 ====
 
+Bio
+----
+
+Zifei Shan is a Master's student in the Department of Computer Science
+at Stanford University. He received his Bachelor's degree in Computer
+Science from Peking University. He was also a visiting student at
+Technion---Israel Institute of Technology. He is currently a research
+assistant working with Professor Christopher Re at Stanford. His
+recent research focuses on building and using knowledge bases, to help
+people better understand and exploit data. He is maintaining DeepDive,
+a scalable probabilistic inference engine.
+
 Contact
 ----
 

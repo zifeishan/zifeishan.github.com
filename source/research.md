@@ -1,3 +1,4 @@
+<!-- 
 My Research
 ====
 
@@ -18,22 +19,30 @@ defenses against profile-cloning attacks. I further collaborated on a
 separate study on Sybil-attack detection. Finally, I was involved in
 assessing the impact of user-interaction transparency on their
 behavior.
-
+ -->
 
 Research Group
 ====
 
-Recently I joined Professor [Chris Re](http://cs.stanford.edu/people/chrismre/)'s group and work on [DeepDive project](http://i.stanford.edu/hazy/projects/). Currently I am working on leveraging structural knowledge to improve ensembled OCR systems, seeking insights how knowledge can help in low-level tasks.
+Recently I joined Professor [Chris Re](http://cs.stanford.edu/people/chrismre/)'s group and work on [DeepDive project](http://i.stanford.edu/hazy/projects/). I worked on leveraging structural knowledge to improve ensembled OCR systems, seeking insights how knowledge can help in low-level tasks.
 
 I was in [Computer Networks and Distributed Systems Lab](http://net.pku.edu.cn/p2p/doku.php) of Peking University, advised by professor [Yafei Dai](http://cn.linkedin.com/pub/yafei-dai/9/291/b1). I mainly work with Dr. Jing Jiang on Online Social Networks.
 
-I am one of the co-leaders of "Universal UI" research group, advised by Prof. [Daniel A. Freedman](http://www.danielfreedman.org). My team members are: [Scott Cheng](http://www.scottcheng.com), [Haoyu Zhang](http://www.haoyuzhang.org), Chris (Xiuhan) Hu, and Chen Yu.
+I am one of the co-leaders of "Universal UI" research group, advised by Prof. [Daniel A. Freedman](http://www.danielfreedman.org/). My team members are: [Scott Cheng](http://scottcheng.com/), [Haoyu Zhang](http://www.haoyuzhang.org/), Chris (Xiuhan) Hu, and Chen Yu.
 
 I was on the "Technion-Peking Research Exchange Program", together with seven other PKU students: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, [Yilun Zhang](http://www.yilunzhang.com), Michelle Ma, Jason Lv, and Winnie Liu. 
 
 <!-- Independent research -->
 
-Research Projects
+Recent Projects
+====
+
+* I am building an open knowledge base for [Public Library of Science (PLOS)](http://www.plos.org/), which integrates scientific entities and relations extracted by DeepDive.
+* I ported DeepDive into MySQL databases, and now it's available since [DeepDive release 0.04](https://github.com/HazyResearch/deepdive/releases). -- Nov 19, 2014
+* Our group's new system, [DeepDive](http://deepdive.stanford.edu/) has been released. DeepDive is a generic probabilistic inference engine that uses a declarative language (SQL) to define factor graphs. I have been in charge of a scalable [feature extraction platform](http://deepdive.stanford.edu/doc/basics/extractors.html) in DeepDive, as well as daily maintains. -- May 15, 2014
+
+
+Previous Research Projects
 ====
 
 Ranking and analyzing baseball network
@@ -237,6 +246,7 @@ design description languages to automate the creation of both front-end
 and back-end systems, and discover human behavior
 patterns in interacting with services. 
 
+<!-- 
 Future Research Topics
 ----
 
@@ -272,3 +282,4 @@ duplication has preferential attachment behavior, and how can we
 utilize it? Why do decease genes form hubs or structure holes, and how
 we detect them? -->
 
+ -->

@@ -4,7 +4,7 @@
  <title>Zifei Shan</title>
  <link href="http://zifeishan.github.com/blog/atom.xml" rel="self"/>
  <link href="http://zifeishan.github.com/blog"/>
- <updated>2014-02-13T13:29:22-08:00</updated>
+ <updated>2014-11-26T15:20:28-08:00</updated>
  <id>http://zifeishan.github.com/blog</id>
  <author>
    <name>Zifei Shan</name>
@@ -17,146 +17,167 @@
    <link href="http://zifeishan.github.com/blog/2013/09/14/my-tea-house"/>
    <updated>2013-09-14T00:00:00-07:00</updated>
    <id>http://zifeishan.github.com/blog/2013/09/14/my-tea-house</id>
-   <content type="html">&lt;p&gt;I have a tea house, here in my home near Stanford campus. Here I have all kinds of tea brought from China, from &lt;a href='http://blog.sina.com.cn/jingqinghe'&gt;my teacher&lt;/a&gt; who researches and makes Chinese tea very professionally.&lt;/p&gt;
+   <content type="html">
+&lt;p&gt;I have a tea house, here in my home near Stanford campus. Here I have all kinds of tea brought from China, from &lt;a href=&quot;http://blog.sina.com.cn/jingqinghe&quot;&gt;my teacher&lt;/a&gt; who researches and makes Chinese tea very professionally. &lt;/p&gt;
 
 &lt;p&gt;I would like to introduce my tea in this blog, and welcome to my house to try them out! You will surely find a flavor you like!&lt;/p&gt;
 
 &lt;p&gt;(I am still collecting pictures of my tea, and will upload them gradually.)&lt;/p&gt;
 
-&lt;h1 id='lapsang_souchong__zheng_shan_xiao_zhong_'&gt;Lapsang souchong / Zheng Shan Xiao Zhong (正山小种)&lt;/h1&gt;
+&lt;h1 id=&quot;lapsang-souchong--zheng-shan-xiao-zhong-&quot;&gt;Lapsang souchong / Zheng Shan Xiao Zhong (正山小种)&lt;/h1&gt;
+&lt;p&gt;Type: Red tea&lt;br /&gt;
+Origin: Mountain Wuyi, Fujian Province, China&lt;/p&gt;
 
-&lt;p&gt;Type: Red tea&lt;br /&gt;Origin: Mountain Wuyi, Fujian Province, China&lt;/p&gt;
-
-&lt;h3 id='xiao_chi_gan_'&gt;Xiao Chi Gan (小赤甘)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Sweet and smells nice.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Story: Xiao Chi Gan means &amp;#8220;Small Red Sweetess&amp;#8221; in Chinese. Xiao Chi Gan along with Da Chi Gan were both called Chi Gan by the Wuyi tea farmers. The only difference between them is that the tea tender leaves unfold or not when they are picked. Tea made of tender leaves already unfolding is called Da Chi Gan. Otherwise called Xiao Chi Gan. Chi Gan (including Da Chi Gan and Xiao Chi Gan) is also often called as Bronze Jun Mei. By the name, you must be able to tell that among the members of Lapsang Souchong, Chi Gan (Bronze Jun Mei) is only second to Golden Jun Mei (Jin Jun Mei) and Silver Jun Mei (Yin Jun Mei).&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id='hong_xiu_tian_xiang_'&gt;Hong Xiu Tian Xiang (红袖添香)&lt;/h3&gt;
+&lt;h3 id=&quot;xiao-chi-gan-&quot;&gt;Xiao Chi Gan (小赤甘)&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Named by my teacher. Slightly smoky. Its frangrance and taste is very subtle.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sweet and smells nice.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Story: Xiao Chi Gan means “Small Red Sweetess” in Chinese. Xiao Chi Gan
+along with Da Chi Gan were both called Chi Gan by the Wuyi tea farmers.
+The only difference between them is that the tea tender leaves unfold or
+not when they are picked. Tea made of tender leaves already unfolding is
+called Da Chi Gan. Otherwise called Xiao Chi Gan. Chi Gan (including Da
+Chi Gan and Xiao Chi Gan) is also often called as Bronze Jun Mei. By the
+name, you must be able to tell that among the members of Lapsang
+Souchong, Chi Gan (Bronze Jun Mei) is only second to Golden Jun Mei (Jin
+Jun Mei) and Silver Jun Mei (Yin Jun Mei).&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id='jiu_chun_'&gt;Jiu Chun (韭春)&lt;/h3&gt;
-&lt;div class='row'&gt;
-  &lt;div class='col-md-8 col-md-offset-2'&gt;
-    &lt;div class='col-md-6'&gt;
-      &lt;div class='thumbnail'&gt;
-        &lt;img src='/images/tea/jiuchun-leaves.jpg' class='' title='' /&gt;
+&lt;h3 id=&quot;hong-xiu-tian-xiang-&quot;&gt;Hong Xiu Tian Xiang (红袖添香)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Named by my teacher. Slightly smoky. Its frangrance and taste is very subtle.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jiu-chun-&quot;&gt;Jiu Chun (韭春)&lt;/h3&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-8 col-md-offset-2&quot;&gt;
+    &lt;div class=&quot;col-md-6&quot;&gt;
+      &lt;div class=&quot;thumbnail&quot;&gt;
+        &lt;img class=&quot;&quot; title=&quot;&quot; src=&quot;/images/tea/jiuchun-leaves.jpg&quot; /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class='col-md-6'&gt;
-      &lt;div class='thumbnail'&gt;
-        &lt;img src='/images/tea/jiuchun-color.jpg' class='' title='' /&gt;
+    &lt;div class=&quot;col-md-6&quot;&gt;
+      &lt;div class=&quot;thumbnail&quot;&gt;
+        &lt;img class=&quot;&quot; title=&quot;&quot; src=&quot;/images/tea/jiuchun-color.jpg&quot; /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Named by my teacher. It has a very special, variable and inviting taste. The taste will even differ when the weather changes.&lt;/p&gt;
-&lt;/li&gt;
 
-&lt;li&gt;
-&lt;p&gt;Story: Chinese poet Du Fu had a poem &amp;#8220;夜雨剪春韭&amp;#8221;, means cutting chives on a rainy Spring night. The character &amp;#8220;韭&amp;#8221; (Jiu / chive) also comes from the place where the tea is picked &amp;#8212; JiuCaiWo (韭菜窝), a small village in Wuyi.&lt;/p&gt;
-&lt;/li&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Named by my teacher. It has a very special, variable and inviting taste.
+The taste will even differ when the weather changes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Story: Chinese poet Du Fu had a poem “夜雨剪春韭”, means cutting chives on a
+rainy Spring night. The character “韭” (Jiu / chive) also comes from the
+place where the tea is picked — JiuCaiWo (韭菜窝), a small village in
+Wuyi.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id='rock_tea'&gt;Rock Tea&lt;/h1&gt;
+&lt;h1 id=&quot;rock-tea&quot;&gt;Rock Tea&lt;/h1&gt;
+&lt;p&gt;Type: Oolong  &lt;br /&gt;
+Origin: Mountain Wuyi, Fujian Province, China&lt;/p&gt;
 
-&lt;p&gt;Type: Oolong &lt;br /&gt;Origin: Mountain Wuyi, Fujian Province, China&lt;/p&gt;
+&lt;h3 id=&quot;cinnamon--rou-gui-&quot;&gt;Cinnamon / Rou Gui (肉桂)&lt;/h3&gt;
 
-&lt;h3 id='cinnamon__rou_gui_'&gt;Cinnamon / Rou Gui (肉桂)&lt;/h3&gt;
-&lt;div class='row'&gt;
-  &lt;div class='col-md-10 col-md-offset-1'&gt;
-    &lt;div class='col-md-4'&gt;
-      &lt;div class='thumbnail'&gt;
-        &lt;img src='/images/tea/rougui-leaves.jpg' class='' title='' /&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-10 col-md-offset-1&quot;&gt;
+    &lt;div class=&quot;col-md-4&quot;&gt;
+      &lt;div class=&quot;thumbnail&quot;&gt;
+        &lt;img class=&quot;&quot; title=&quot;&quot; src=&quot;/images/tea/rougui-leaves.jpg&quot; /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class='col-md-4'&gt;
-      &lt;div class='thumbnail'&gt;
-        &lt;img src='/images/tea/rougui-color.jpg' class='' title='' /&gt;
+    &lt;div class=&quot;col-md-4&quot;&gt;
+      &lt;div class=&quot;thumbnail&quot;&gt;
+        &lt;img class=&quot;&quot; title=&quot;&quot; src=&quot;/images/tea/rougui-color.jpg&quot; /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class='col-md-4'&gt;
-      &lt;div class='thumbnail'&gt;
-        &lt;img src='/images/tea/rougui-incup.jpg' class='' title='' /&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id='narcissus__shui_hsien_'&gt;Narcissus / Shui Hsien (水仙)&lt;/h3&gt;
-
-&lt;h1 id='tie_guanyin_'&gt;Tie Guanyin (铁观音)&lt;/h1&gt;
-
-&lt;p&gt;Type: Oolong&lt;br /&gt;Origin: Minnan, Fujian Province, China&lt;br /&gt;Smell: like orchid&lt;/p&gt;
-
-&lt;h3 id='5year_smoky_guanyin_roasted_with_wood'&gt;5-year Smoky Guanyin roasted with wood&lt;/h3&gt;
-&lt;div class='row'&gt;
-  &lt;div class='col-md-8 col-md-offset-2'&gt;
-    &lt;div class='col-md-6'&gt;
-      &lt;div class='thumbnail'&gt;
-        &lt;img src='/images/tea/guanyin-leaves.jpg' class='' title='' /&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class='col-md-6'&gt;
-      &lt;div class='thumbnail'&gt;
-        &lt;img src='/images/tea/guanyin-incup.jpg' class='' title='' /&gt;
+    &lt;div class=&quot;col-md-4&quot;&gt;
+      &lt;div class=&quot;thumbnail&quot;&gt;
+        &lt;img class=&quot;&quot; title=&quot;&quot; src=&quot;/images/tea/rougui-incup.jpg&quot; /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3 id='normal_guanyin'&gt;Normal Guanyin&lt;/h3&gt;
 
-&lt;h1 id='huangshan_maofeng'&gt;Huangshan Maofeng&lt;/h1&gt;
+&lt;h3 id=&quot;narcissus--shui-hsien-&quot;&gt;Narcissus / Shui Hsien (水仙)&lt;/h3&gt;
 
+&lt;h1 id=&quot;tie-guanyin-&quot;&gt;Tie Guanyin (铁观音)&lt;/h1&gt;
+&lt;p&gt;Type: Oolong&lt;br /&gt;
+Origin: Minnan, Fujian Province, China&lt;br /&gt;
+Smell: like orchid&lt;/p&gt;
+
+&lt;h3 id=&quot;year-smoky-guanyin-roasted-with-wood&quot;&gt;5-year Smoky Guanyin roasted with wood&lt;/h3&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-8 col-md-offset-2&quot;&gt;
+    &lt;div class=&quot;col-md-6&quot;&gt;
+      &lt;div class=&quot;thumbnail&quot;&gt;
+        &lt;img class=&quot;&quot; title=&quot;&quot; src=&quot;/images/tea/guanyin-leaves.jpg&quot; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-6&quot;&gt;
+      &lt;div class=&quot;thumbnail&quot;&gt;
+        &lt;img class=&quot;&quot; title=&quot;&quot; src=&quot;/images/tea/guanyin-incup.jpg&quot; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;normal-guanyin&quot;&gt;Normal Guanyin&lt;/h3&gt;
+
+&lt;h1 id=&quot;huangshan-maofeng&quot;&gt;Huangshan Maofeng&lt;/h1&gt;
 &lt;p&gt;Type: Green tea&lt;/p&gt;
 
-&lt;h1 id='cooked_puer_tea'&gt;Cooked Puer Tea&lt;/h1&gt;
+&lt;h1 id=&quot;cooked-puer-tea&quot;&gt;Cooked Puer Tea&lt;/h1&gt;
+&lt;p&gt;Type: black tea&lt;br /&gt;
+Origin: Yunnan Province, China&lt;/p&gt;
 
-&lt;p&gt;Type: black tea&lt;br /&gt;Origin: Yunnan Province, China&lt;/p&gt;
+&lt;h3 id=&quot;f2-tea&quot;&gt;“F2” Tea&lt;/h3&gt;
 
-&lt;h3 id='f2_tea'&gt;&amp;#8220;F2&amp;#8221; Tea&lt;/h3&gt;
-
-&lt;h3 id='wang_ji_'&gt;Wang Ji (忘机)&lt;/h3&gt;
+&lt;h3 id=&quot;wang-ji-&quot;&gt;Wang Ji (忘机)&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Story: name from Li Bai&amp;#8217;s poem &amp;#8220;我醉君复乐，陶然共忘机&amp;#8221;, which means: When I drink with my friend, we enjoy it and forget everything else.&lt;/li&gt;
+  &lt;li&gt;Story: name from Li Bai’s poem “我醉君复乐，陶然共忘机”, which means: When I drink
+with my friend, we enjoy it and forget everything else.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id='raw_puer_tea'&gt;Raw Puer Tea&lt;/h1&gt;
+&lt;h1 id=&quot;raw-puer-tea&quot;&gt;Raw Puer Tea&lt;/h1&gt;
+&lt;p&gt;Type: Oolong tea&lt;br /&gt;
+Origin: Yunnan Province, China&lt;/p&gt;
 
-&lt;p&gt;Type: Oolong tea&lt;br /&gt;Origin: Yunnan Province, China&lt;/p&gt;
+&lt;h3 id=&quot;qing-heng-&quot;&gt;Qing Heng (清蘅)&lt;/h3&gt;
 
-&lt;h3 id='qing_heng_'&gt;Qing Heng (清蘅)&lt;/h3&gt;
-&lt;div class='row'&gt;
-  &lt;div class='col-md-10 col-md-offset-1'&gt;
-    &lt;div class='col-md-4'&gt;
-      &lt;div class='thumbnail'&gt;
-        &lt;img src='/images/tea/raw-puer-leaves.jpg' class='' title='' /&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-10 col-md-offset-1&quot;&gt;
+    &lt;div class=&quot;col-md-4&quot;&gt;
+      &lt;div class=&quot;thumbnail&quot;&gt;
+        &lt;img class=&quot;&quot; title=&quot;&quot; src=&quot;/images/tea/raw-puer-leaves.jpg&quot; /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class='col-md-4'&gt;
-      &lt;div class='thumbnail'&gt;
-        &lt;img src='/images/tea/raw-puer-color.jpg' class='' title='' /&gt;
+    &lt;div class=&quot;col-md-4&quot;&gt;
+      &lt;div class=&quot;thumbnail&quot;&gt;
+        &lt;img class=&quot;&quot; title=&quot;&quot; src=&quot;/images/tea/raw-puer-color.jpg&quot; /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class='col-md-4'&gt;
-      &lt;div class='thumbnail'&gt;
-        &lt;img src='/images/tea/raw-puer-incup.jpg' class='' title='' /&gt;
+    &lt;div class=&quot;col-md-4&quot;&gt;
+      &lt;div class=&quot;thumbnail&quot;&gt;
+        &lt;img class=&quot;&quot; title=&quot;&quot; src=&quot;/images/tea/raw-puer-incup.jpg&quot; /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;</content>
+&lt;/div&gt;
+
+</content>
  </entry>
  
  <entry>
@@ -164,83 +185,100 @@
    <link href="http://zifeishan.github.com/blog/2012/12/02/how-to-rebase-your-git-repo--delete-a-pushed-commit"/>
    <updated>2012-12-02T00:00:00-08:00</updated>
    <id>http://zifeishan.github.com/blog/2012/12/02/how-to-rebase-your-git-repo--delete-a-pushed-commit</id>
-   <content type="html">&lt;p&gt;If you have a commit (or some commits / some huge files) that you really want to totally delete from your repo, to make it cleaner or smaller, you can create a new repo, and use a &amp;#8220;git-rebase&amp;#8221; command to do it.&lt;/p&gt;
+   <content type="html">
+&lt;p&gt;If you have a commit (or some commits / some huge files) that you
+really want to totally delete from your repo, to make it cleaner or
+smaller, you can create a new repo, and use a “git-rebase” command to
+do it.&lt;/p&gt;
 
-&lt;p&gt;The best place of this operation is to delete the stuff you don&amp;#8217;t want while &lt;strong&gt;preserving all the historical commits&lt;/strong&gt; of the original repository.&lt;/p&gt;
+&lt;p&gt;The best place of this operation is to delete the stuff you don’t want
+while &lt;strong&gt;preserving all the historical commits&lt;/strong&gt; of the original
+repository.&lt;/p&gt;
 
 &lt;p&gt;Suppose the old repo is repo_a, and you should go through this process:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Create a new empty repo, say, &amp;#8220;repo_b&amp;#8221;.&lt;/p&gt;
-&lt;/li&gt;
+  &lt;li&gt;Create a new empty repo, say, “repo_b”.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do not clone repo_b; instead, copy the repo_a to repo_b: &lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;Do not clone repo_b; instead, copy the repo_a to repo_b:&lt;/p&gt;
+    &lt;pre&gt;&lt;code&gt;  $ cp -r repo_a repo_b 
+  $ cd repo_b
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Find the commit you want to delete. For example, you want to delete 
+the commit with a huge file in
+somepath/hugefile. You can locate the commit by &lt;em&gt;git log&lt;/em&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  $ cp -r repo_a repo_b 
-  $ cd repo_b&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
+    &lt;pre&gt;&lt;code&gt;  $ git log somepath/hugefile
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;li&gt;
-&lt;p&gt;Find the commit you want to delete. For example, you want to delete the commit with a huge file in somepath/hugefile. You can locate the commit by &lt;em&gt;git log&lt;/em&gt;:&lt;/p&gt;
+    &lt;p&gt;then you get a commit-id of the commit you want to delete.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Then tag your commit using this:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  $ git log somepath/hugefile&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;  $ git tag TODELETE commit-id
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;use the MAGIC rebase:&lt;/p&gt;
 
-&lt;p&gt;then you get a commit-id of the commit you want to delete.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;pre&gt;&lt;code&gt;  $ git rebase -i TODELETE~1
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;li&gt;
-&lt;p&gt;Then tag your commit using this:&lt;/p&gt;
+    &lt;p&gt;This will start the rebase in interactive mode -i at the point just
+before the commit you want to whack. The editor will start up
+listing all of the commits since then. Delete the line containing
+the commit you want to obliterate and save the file. Rebase will do
+the rest of the work, deleting only that commit, and replaying all
+of the others back into the log.
+&lt;a href=&quot;http://stackoverflow.com/questions/1338728/how-to-delete-a-git-commit&quot;&gt;Reference&lt;/a&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  $ git tag TODELETE commit-id&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
+    &lt;p&gt;It will show a message, on top of the message there are a set of
+“pick” commands. Find the one who pick the TODELETE commit, and
+delete that line.&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;use the MAGIC rebase:&lt;/p&gt;
+    &lt;p&gt;Save the message, and the rebase is done! the TODELETE commit is
+gone!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Check if it is really gone, by either of these commands:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  $ git rebase -i TODELETE~1&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;    $ git log 
+    $ git hist (if you have configured alias &quot;hist&quot;)
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;This will start the rebase in interactive mode -i at the point just before the commit you want to whack. The editor will start up listing all of the commits since then. Delete the line containing the commit you want to obliterate and save the file. Rebase will do the rest of the work, deleting only that commit, and replaying all of the others back into the log. &lt;a href='http://stackoverflow.com/questions/1338728/how-to-delete-a-git-commit'&gt;Reference&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;and you find that in master branch you do not have TODELETE commit anymore.&lt;/p&gt;
 
-&lt;p&gt;It will show a message, on top of the message there are a set of &amp;#8220;pick&amp;#8221; commands. Find the one who pick the TODELETE commit, and delete that line.&lt;/p&gt;
+    &lt;p&gt;If you use &lt;/p&gt;
 
-&lt;p&gt;Save the message, and the rebase is done! the TODELETE commit is gone!&lt;/p&gt;
-&lt;/li&gt;
+    &lt;pre&gt;&lt;code&gt;    $ git log --all
+    $ git hist --all (if you have configured alias &quot;hist&quot;)
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;li&gt;
-&lt;p&gt;Check if it is really gone, by either of these commands:&lt;/p&gt;
+    &lt;p&gt;you can see that the &lt;em&gt;rebase&lt;/em&gt; creates a branch.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Push the change to the new repository&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    $ git log 
-    $ git hist (if you have configured alias &amp;quot;hist&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and you find that in master branch you do not have TODELETE commit anymore.&lt;/p&gt;
-
-&lt;p&gt;If you use&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    $ git log --all
-    $ git hist --all (if you have configured alias &amp;quot;hist&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;you can see that the &lt;em&gt;rebase&lt;/em&gt; creates a branch.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Push the change to the new repository&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  $ git remote remove origin git remote add origin
+    &lt;pre&gt;&lt;code&gt;  $ git remote remove origin git remote add origin
 
   $ git@YOUR_REMOTE_PATH/repo_b.git git push -u origin master 
-    # to push changes for the first time&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
+    # to push changes for the first time
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;This will change the “origin” of the local repo_b, to the remote
+repo_b, and do the initial push of the new repo.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Delete and clone the new repo: Now the repo_b still contains 
+TODELETE in a branch, so you can delete it and clone it from 
+remote. Now it is clean.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;
-&lt;p&gt;This will change the &amp;#8220;origin&amp;#8221; of the local repo_b, to the remote repo_b, and do the initial push of the new repo.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Delete and clone the new repo: Now the repo_b still contains TODELETE in a branch, so you can delete it and clone it from remote. Now it is clean.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content>
+</content>
  </entry>
  
  <entry>
@@ -248,53 +286,55 @@
    <link href="http://zifeishan.github.com/blog/2012/11/14/chinese-life-in-israel"/>
    <updated>2012-11-14T00:00:00-08:00</updated>
    <id>http://zifeishan.github.com/blog/2012/11/14/chinese-life-in-israel</id>
-   <content type="html">&lt;p&gt;当以色列国际航空的播音777飞机在本古里安机场轰鸣着稳稳落地，乘客中爆发出欢呼和掌声，我心中的忐忑终于一扫而空，随之而来的是一段未知的旅程即将开启的激动和喜悦。&lt;/p&gt;
+   <content type="html">
+&lt;p&gt;当以色列国际航空的播音777飞机在本古里安机场轰鸣着稳稳落地，乘客中爆发出欢呼和掌声，我心中的忐忑终于一扫而空，随之而来的是一段未知的旅程即将开启的激动和喜悦。 &lt;/p&gt;
 
-&lt;p&gt;作为信息科学技术学院的学生，我从2012年9月起，前往以色列进行一个学期的研究交换。交换学校是以色列理工学院，部门是电子工程系。&lt;/p&gt;
+&lt;p&gt;作为信息科学技术学院的学生，我从2012年9月起，前往以色列进行一个学期的研究交换。交换学校是以色列理工学院，部门是电子工程系。 &lt;/p&gt;
 
-&lt;p&gt;时间一天天过去了，在这里认识了各种人，去过了各种地方，也遇到了各种各样的事情。为了咀嚼回味这段过去的时光、珍惜在这里剩下的时间，我提笔写下这里零零散散的人、事、物。&lt;/p&gt;
+&lt;p&gt;时间一天天过去了，在这里认识了各种人，去过了各种地方，也遇到了各种各样的事情。为了咀嚼回味这段过去的时光、珍惜在这里剩下的时间，我提笔写下这里零零散散的人、事、物。 &lt;/p&gt;
 
-&lt;h2 id='id1'&gt;不同的性格与人生&lt;/h2&gt;
+&lt;h2 id=&quot;section&quot;&gt;不同的性格与人生&lt;/h2&gt;
+&lt;p&gt;来到这里，首先要适应这里的人。这里的人大抵有一种豪放气场，很多人又总是格外随意。这让我们最开始时而担惊受怕，时而分外无奈。但不得不承认，这里的居民对我们十分友好，而且活得洒脱，让人羡慕。 &lt;/p&gt;
 
-&lt;p&gt;来到这里，首先要适应这里的人。这里的人大抵有一种豪放气场，很多人又总是格外随意。这让我们最开始时而担惊受怕，时而分外无奈。但不得不承认，这里的居民对我们十分友好，而且活得洒脱，让人羡慕。&lt;/p&gt;
+&lt;p&gt;或许是因为地方小的缘故，这里的人和人之间距离更近。我在街上跟别人搭话问路不下二三十次，没有一次遭到回绝。所有人都会好心地帮助你，都不会把你当外人。不只是对待稀罕的东方人种，他们自己人之间也不会客气：在站牌前问路的时候，几个素不相识的人会为了解决你的问题而热烈讨论起来。 &lt;/p&gt;
 
-&lt;p&gt;或许是因为地方小的缘故，这里的人和人之间距离更近。我在街上跟别人搭话问路不下二三十次，没有一次遭到回绝。所有人都会好心地帮助你，都不会把你当外人。不只是对待稀罕的东方人种，他们自己人之间也不会客气：在站牌前问路的时候，几个素不相识的人会为了解决你的问题而热烈讨论起来。&lt;/p&gt;
+&lt;p&gt;以色列人的豪放是骨子里的。他们不像我们谨小慎微、礼数周全，他们喜形于色，感情夸张。在耶路撒冷旧城区路过卖石榴汁的小摊，我好奇地看了两眼，就被摊主跳过来，一把拉住我的肩把我拽回去，盛情邀请我买一杯。学校外小广场的日用品店里，不怎么会说英语的女孩丹杜什会兴冲冲地拿着小玩偶教我们希伯来语，还拽着我们表示，“不要跟她们说话，她们不漂亮，我漂亮”。 &lt;/p&gt;
 
-&lt;p&gt;以色列人的豪放是骨子里的。他们不像我们谨小慎微、礼数周全，他们喜形于色，感情夸张。在耶路撒冷旧城区路过卖石榴汁的小摊，我好奇地看了两眼，就被摊主跳过来，一把拉住我的肩把我拽回去，盛情邀请我买一杯。学校外小广场的日用品店里，不怎么会说英语的女孩丹杜什会兴冲冲地拿着小玩偶教我们希伯来语，还拽着我们表示，“不要跟她们说话，她们不漂亮，我漂亮”。&lt;/p&gt;
+&lt;p&gt;这里的军人很多，出没于街道、巴士、火车上，穿着草绿色的军装，无时无刻不挂着佩枪。据说这里军人24小时枪不离手，真令人敬畏。然而，军人并没有我们想象中那样难以接近，军人这个职业就跟学生一样普通，甚至是以色列公民必经的人生阶段——每位男性公民都要去军队服役两年。因此，你可以向军人问路，也能跟他们闲聊。有一次在小广场上，我看到一个军人带着五六个孩子窜来跑去，俨然一支特种兵小分队，我也有幸被搭讪，陪他们欢天喜地地闹了一番。 &lt;/p&gt;
 
-&lt;p&gt;这里的军人很多，出没于街道、巴士、火车上，穿着草绿色的军装，无时无刻不挂着佩枪。据说这里军人24小时枪不离手，真令人敬畏。然而，军人并没有我们想象中那样难以接近，军人这个职业就跟学生一样普通，甚至是以色列公民必经的人生阶段——每位男性公民都要去军队服役两年。因此，你可以向军人问路，也能跟他们闲聊。有一次在小广场上，我看到一个军人带着五六个孩子窜来跑去，俨然一支特种兵小分队，我也有幸被搭讪，陪他们欢天喜地地闹了一番。&lt;/p&gt;
+&lt;p&gt;一位当地居民告诉我，以色列人平均年龄大概有80岁左右，在他眼中，他们活得久就是因为心里事情少：他们不会因为生活中的小事而大惊小怪，不会因为老爸不给自己买辆车、老板今天批评了自己一顿而烦闷。这是因为他们见过大风大浪：很多以色列人都见过恐怖袭击，在年轻的时候就目睹过死亡，所以他们能平静地看待生活中的风波，微笑着迎接美好的明天。跟我之前的想法相反，这里的人没有因为战乱无心生活，正相反，他们更加用心、更加努力地生活。想到这里，我又回忆起飞机降落在以色列时，飞机上人们的欢呼：没有什么比平安地活着更值得我们去赞美了。 &lt;/p&gt;
 
-&lt;p&gt;一位当地居民告诉我，以色列人平均年龄大概有80岁左右，在他眼中，他们活得久就是因为心里事情少：他们不会因为生活中的小事而大惊小怪，不会因为老爸不给自己买辆车、老板今天批评了自己一顿而烦闷。这是因为他们见过大风大浪：很多以色列人都见过恐怖袭击，在年轻的时候就目睹过死亡，所以他们能平静地看待生活中的风波，微笑着迎接美好的明天。跟我之前的想法相反，这里的人没有因为战乱无心生活，正相反，他们更加用心、更加努力地生活。想到这里，我又回忆起飞机降落在以色列时，飞机上人们的欢呼：没有什么比平安地活着更值得我们去赞美了。&lt;/p&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;学校见闻&lt;/h2&gt;
+&lt;p&gt;在以色列理工学院，我们住在比较简陋的宿舍区，但其实条件也不错：五人住一个公寓，每人有自己单独的卧室，共用卫生间、浴室、厨房、客厅。我们宿舍成员有同行的三位北大信科人，还有两位外国交换生。 &lt;/p&gt;
 
-&lt;h2 id='id2'&gt;学校见闻&lt;/h2&gt;
+&lt;p&gt;刚刚在宿舍落脚，我们就认识了舍友杰森·美（为了和我们同行的杰森·中区分）。他是来自美国的研究生，来交换一个学期，学习神经科学，毕业于普林斯顿大学，很是厉害。他个子不高，会说一些中文，经常蹭我们做的饭吃。每次我们一起聊天时如果用汉语讨论，他会默默地说一句，“我猜你们在讨论把我杀掉之后埋哪儿”。我们教了他一些原汁原味的时髦汉语，最时髦的当属“坑爹”，他分毫不差地掌握了其精髓。他每天凌晨1点左右跟女朋友Skype聊天；每天早上10点到12点，他的两种闹钟会齐唱交响，据他说其中有一个闹钟还会满地乱跑。幸好房间隔音不错，他屋里的声音不会吵到我们。总之，杰森·美是一位非常亲切幽默的美国朋友，我们很庆幸有他做舍友。 &lt;/p&gt;
 
-&lt;p&gt;在以色列理工学院，我们住在比较简陋的宿舍区，但其实条件也不错：五人住一个公寓，每人有自己单独的卧室，共用卫生间、浴室、厨房、客厅。我们宿舍成员有同行的三位北大信科人，还有两位外国交换生。&lt;/p&gt;
+&lt;p&gt;还有前舍友艾利（这里最常见的名字就是艾利）：他在我们来之后一周就走了，但给我们留下了宝贵的财富——厨具、背包等，我们永远怀念他。接替艾利的舍友是莫里兹，他是来自德国的研究生，来交换几个月。他身材魁梧，每天七点起床，大部分时间闷在宿舍里，独立自主，基本不蹭我们的饭。他神出鬼没，大概是十分学术而规律的好学生。 &lt;/p&gt;
 
-&lt;p&gt;刚刚在宿舍落脚，我们就认识了舍友杰森·美（为了和我们同行的杰森·中区分）。他是来自美国的研究生，来交换一个学期，学习神经科学，毕业于普林斯顿大学，很是厉害。他个子不高，会说一些中文，经常蹭我们做的饭吃。每次我们一起聊天时如果用汉语讨论，他会默默地说一句，“我猜你们在讨论把我杀掉之后埋哪儿”。我们教了他一些原汁原味的时髦汉语，最时髦的当属“坑爹”，他分毫不差地掌握了其精髓。他每天凌晨1点左右跟女朋友Skype聊天；每天早上10点到12点，他的两种闹钟会齐唱交响，据他说其中有一个闹钟还会满地乱跑。幸好房间隔音不错，他屋里的声音不会吵到我们。总之，杰森·美是一位非常亲切幽默的美国朋友，我们很庆幸有他做舍友。&lt;/p&gt;
+&lt;p&gt;以色列理工学院英文名为Technion，被我们亲切地称为“泰克娘”。泰克娘的计算机在世界排名15左右，电子也很出色。我们跟随丹尼尔·弗里德曼教授来到这里，成为他的学生，从属电子系。这学期我们选了电子系、计算机系、物理系等多个专业的研究生课程，因为只有研究生课中有一些纯英文授课，不存在交流问题。鉴于课程难度太大，大家基本都只选修了5-8学分。 &lt;/p&gt;
 
-&lt;p&gt;还有前舍友艾利（这里最常见的名字就是艾利）：他在我们来之后一周就走了，但给我们留下了宝贵的财富——厨具、背包等，我们永远怀念他。接替艾利的舍友是莫里兹，他是来自德国的研究生，来交换几个月。他身材魁梧，每天七点起床，大部分时间闷在宿舍里，独立自主，基本不蹭我们的饭。他神出鬼没，大概是十分学术而规律的好学生。&lt;/p&gt;
+&lt;p&gt;这里的教授都很友好，也很牛。热情欢迎我们的丹尼尔（被我们戏称为丹牛）是泰克娘的新教授，无疑是一颗璀璨的学术新星。还有和蔼可亲的电子系主任亚当，极擅乒乓球的老爷爷Yoram Moses(Reasoning about knowledge领域的创始人之一)，丹牛的好朋友、酷酷的女教授伊迪特等。这里有很多非常国际化的前沿课程，还有世界级的学术大师。总之学术氛围没的说，当之无愧是世界一流的学术宝地。 &lt;/p&gt;
 
-&lt;p&gt;以色列理工学院英文名为Technion，被我们亲切地称为“泰克娘”。泰克娘的计算机在世界排名15左右，电子也很出色。我们跟随丹尼尔·弗里德曼教授来到这里，成为他的学生，从属电子系。这学期我们选了电子系、计算机系、物理系等多个专业的研究生课程，因为只有研究生课中有一些纯英文授课，不存在交流问题。鉴于课程难度太大，大家基本都只选修了5-8学分。&lt;/p&gt;
+&lt;p&gt;学校建在山上，因为海法作为一个海滨城市，本身就是海岛地貌。从我们宿舍到教室有一个仰角30度、200多米长的陡坡，作为“不骑车会死星人”，我买了自行车后，每天最痛苦的就是早晨骑车爬上这个大坡；最爽的也是晚上骑车飞下这个大坡。 &lt;/p&gt;
 
-&lt;p&gt;这里的教授都很友好，也很牛。热情欢迎我们的丹尼尔（被我们戏称为丹牛）是泰克娘的新教授，无疑是一颗璀璨的学术新星。还有和蔼可亲的电子系主任亚当，极擅乒乓球的老爷爷Yoram Moses(Reasoning about knowledge领域的创始人之一)，丹牛的好朋友、酷酷的女教授伊迪特等。这里有很多非常国际化的前沿课程，还有世界级的学术大师。总之学术氛围没的说，当之无愧是世界一流的学术宝地。&lt;/p&gt;
+&lt;h2 id=&quot;section-2&quot;&gt;异域文化&lt;/h2&gt;
+&lt;p&gt;以色列举国人民信仰犹太教，宗教直接导致的以色列人民异于中国的生活方式，就有很多。在这个国家你基本找不到猪肉；除了禁忌的肉类外，犹太教还忌肉制品和奶制品同时食用，这导致我们几次拿着蛋糕进入饭店时都遭到了善意的提醒。虔诚一些的教徒一天到晚头上都需要戴帽子，以表达“上有神明”的敬畏之情。这里最小的帽子是简单的圆形小布片，男人们都会用发夹把它别在脑后。 &lt;/p&gt;
 
-&lt;p&gt;学校建在山上，因为海法作为一个海滨城市，本身就是海岛地貌。从我们宿舍到教室有一个仰角30度、200多米长的陡坡，作为“不骑车会死星人”，我买了自行车后，每天最痛苦的就是早晨骑车爬上这个大坡；最爽的也是晚上骑车飞下这个大坡。&lt;/p&gt;
+&lt;p&gt;由于宗教原因，在以色列，周五和周六是周末，而且周五下午开始，人们就开始过安息日，直到周六晚上。在安息日，几乎所有的商店都会关闭，公共服务停止运营，没有公交和火车，人们闭门不出，仿佛整座城市都陷入了睡眠。这在我们看来，确实造成了许多不便，但当地人民完全习惯这些，就如同工作一周后必要的休息。更无法忍受的就是节假日：所有节假日公共设施都会关闭，这就导致有时候我们要忍受三四天的断粮生活。 &lt;/p&gt;
 
-&lt;h2 id='id3'&gt;异域文化&lt;/h2&gt;
+&lt;p&gt;安息日和节假日的特点，导致这里盛行“囤货主义”：每逢周末到来之前，大家都去超市买大把的食材回家，准备撑过两天。这导致商品物价都有很奇异的特征：东西越大单价越便宜，而且是大幅便宜：500毫升饮料要7元，1500毫升可能才10元；一大瓶矿泉水4元，六大瓶一起买就每瓶2元。以色列的物价非常高，校内一顿普通的饭要30谢克尔，折合成人民币为48元，不便宜吧？校外就更贵些：公交车6.6谢克尔，约10元人民币，是国内的10倍；出租车价格大概也是国内的十多倍，不能忍。所以，我千里迢迢横穿海法买辆自行车，还是有一定必要性的。 &lt;/p&gt;
 
-&lt;p&gt;以色列举国人民信仰犹太教，宗教直接导致的以色列人民异于中国的生活方式，就有很多。在这个国家你基本找不到猪肉；除了禁忌的肉类外，犹太教还忌肉制品和奶制品同时食用，这导致我们几次拿着蛋糕进入饭店时都遭到了善意的提醒。虔诚一些的教徒一天到晚头上都需要戴帽子，以表达“上有神明”的敬畏之情。这里最小的帽子是简单的圆形小布片，男人们都会用发夹把它别在脑后。&lt;/p&gt;
+&lt;p&gt;这里虽然偶尔会发生冲突，但安全并没有那么岌岌可危。至少在海法是非常安全的，因为这里离南部冲突边境有相当一段距离。况且以色列的防空措施也不是吃素的。说到安全，城市里也有不安全的时候：夜里如果去比较偏僻的地区，比如海法的郊区哈达尔，那还是有可能被抢的。如果被抢，最好乖乖就范，因为我们也打不过本地人：以色列居民大都身材魁梧，都是在军队训练过的，他们的士兵都是一个打七个的猛士，平民想必也不会输给我们。不过，比起在美国很多地区，被抢的概率可能还是小一些吧。 &lt;/p&gt;
 
-&lt;p&gt;由于宗教原因，在以色列，周五和周六是周末，而且周五下午开始，人们就开始过安息日，直到周六晚上。在安息日，几乎所有的商店都会关闭，公共服务停止运营，没有公交和火车，人们闭门不出，仿佛整座城市都陷入了睡眠。这在我们看来，确实造成了许多不便，但当地人民完全习惯这些，就如同工作一周后必要的休息。更无法忍受的就是节假日：所有节假日公共设施都会关闭，这就导致有时候我们要忍受三四天的断粮生活。&lt;/p&gt;
+&lt;p&gt;以色列的特色食物，当属鹰嘴豆系列。鹰嘴豆就是一种当地的豆子，最常见的吃法就是磨成豆泥炒熟吃。以色列常见主食就是直接吃豆泥。另一种吃法就是把豆泥团成丸子然后炸酥，被我们叫做“鹰嘴豆泥炸丸子”。“鹰嘴豆泥炸丸子夹饼”则是更便携的吃法，外面夹上国内也随处可见的“以色列发面饼”，里面放上各种蔬菜和一些丸子，就是一顿正餐了。其他吃法无非豆泥配沙拉、豆泥配炸丸子、豆泥配烤肉、烤肉夹饼……不能不说这里的饮食实在很单一。此外，就是没什么特色的西餐和不伦不类的中餐了。即使是不伦不类的中餐，也算是比较营养、高档的食品了。因此，作为中国人，自己做饭绝对是王道，只要不浪费太多时间。我们每周末都会八人一起做饭聚餐，再邀请杰森·美等蹭饭专业户，在餐桌旁度过热闹的两小时。 &lt;/p&gt;
 
-&lt;p&gt;安息日和节假日的特点，导致这里盛行“囤货主义”：每逢周末到来之前，大家都去超市买大把的食材回家，准备撑过两天。这导致商品物价都有很奇异的特征：东西越大单价越便宜，而且是大幅便宜：500毫升饮料要7元，1500毫升可能才10元；一大瓶矿泉水4元，六大瓶一起买就每瓶2元。以色列的物价非常高，校内一顿普通的饭要30谢克尔，折合成人民币为48元，不便宜吧？校外就更贵些：公交车6.6谢克尔，约10元人民币，是国内的10倍；出租车价格大概也是国内的十多倍，不能忍。所以，我千里迢迢横穿海法买辆自行车，还是有一定必要性的。&lt;/p&gt;
+&lt;p&gt;最后还要谈一谈我去过的城市。特拉维夫，虽然不是首都，但无疑是最繁华的城市，比较现代化，海滩很漂亮，有很高的建筑，但由于我每次都是去办公事——去大使馆聚会、GRE踩点、考GRE、办理美国签证……且每次来回路上都要花六个小时，所以现在一提起特拉维夫，就有浓浓的恶心之情，且一想到坐飞机还要去特拉维夫就陷入绝望。海法，是个宜居城市，感觉这里的人最为亲切，对我们最好，虽然没有特拉维夫那般繁华，却是最温暖的城市，让我想起我的家乡济南。耶路撒冷，这是个奇怪的地方，宗教气息太浓重，让我不太想去第二次，但是旧城区附近的建筑风格真的十分别致，仿佛历经千年的古朴庄严；基督教圣地圣墓教堂有种让人肃然起敬的压抑感，犹太教圣地哭墙里千人黑袍祷告的场景甚为壮观。 &lt;/p&gt;
 
-&lt;p&gt;这里虽然偶尔会发生冲突，但安全并没有那么岌岌可危。至少在海法是非常安全的，因为这里离南部冲突边境有相当一段距离。况且以色列的防空措施也不是吃素的。说到安全，城市里也有不安全的时候：夜里如果去比较偏僻的地区，比如海法的郊区哈达尔，那还是有可能被抢的。如果被抢，最好乖乖就范，因为我们也打不过本地人：以色列居民大都身材魁梧，都是在军队训练过的，他们的士兵都是一个打七个的猛士，平民想必也不会输给我们。不过，比起在美国很多地区，被抢的概率可能还是小一些吧。&lt;/p&gt;
-
-&lt;p&gt;以色列的特色食物，当属鹰嘴豆系列。鹰嘴豆就是一种当地的豆子，最常见的吃法就是磨成豆泥炒熟吃。以色列常见主食就是直接吃豆泥。另一种吃法就是把豆泥团成丸子然后炸酥，被我们叫做“鹰嘴豆泥炸丸子”。“鹰嘴豆泥炸丸子夹饼”则是更便携的吃法，外面夹上国内也随处可见的“以色列发面饼”，里面放上各种蔬菜和一些丸子，就是一顿正餐了。其他吃法无非豆泥配沙拉、豆泥配炸丸子、豆泥配烤肉、烤肉夹饼……不能不说这里的饮食实在很单一。此外，就是没什么特色的西餐和不伦不类的中餐了。即使是不伦不类的中餐，也算是比较营养、高档的食品了。因此，作为中国人，自己做饭绝对是王道，只要不浪费太多时间。我们每周末都会八人一起做饭聚餐，再邀请杰森·美等蹭饭专业户，在餐桌旁度过热闹的两小时。&lt;/p&gt;
-
-&lt;p&gt;最后还要谈一谈我去过的城市。特拉维夫，虽然不是首都，但无疑是最繁华的城市，比较现代化，海滩很漂亮，有很高的建筑，但由于我每次都是去办公事——去大使馆聚会、GRE踩点、考GRE、办理美国签证……且每次来回路上都要花六个小时，所以现在一提起特拉维夫，就有浓浓的恶心之情，且一想到坐飞机还要去特拉维夫就陷入绝望。海法，是个宜居城市，感觉这里的人最为亲切，对我们最好，虽然没有特拉维夫那般繁华，却是最温暖的城市，让我想起我的家乡济南。耶路撒冷，这是个奇怪的地方，宗教气息太浓重，让我不太想去第二次，但是旧城区附近的建筑风格真的十分别致，仿佛历经千年的古朴庄严；基督教圣地圣墓教堂有种让人肃然起敬的压抑感，犹太教圣地哭墙里千人黑袍祷告的场景甚为壮观。&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;零零散散写了这么多，最后只想说，这里真的是个与众不同的地方。无论是为了学术还是旅游，来到这里确实是一次不可多得的机会，这段经历必将成为我人生中难以忘怀的宝贵回忆。&lt;/p&gt;</content>
+
+&lt;p&gt;零零散散写了这么多，最后只想说，这里真的是个与众不同的地方。无论是为了学术还是旅游，来到这里确实是一次不可多得的机会，这段经历必将成为我人生中难以忘怀的宝贵回忆。 &lt;/p&gt;
+
+</content>
  </entry>
  
  <entry>
@@ -302,257 +342,238 @@
    <link href="http://zifeishan.github.com/blog/2012/10/22/8-weekends-to-master-git"/>
    <updated>2012-10-22T00:00:00-07:00</updated>
    <id>http://zifeishan.github.com/blog/2012/10/22/8-weekends-to-master-git</id>
-   <content type="html">&lt;p&gt;Git is a version control system. It is a professional skill for researchers as well as hackers, and an amazing way to manage our projects. I write this article to share how I was learning git, and gradually master it, both in its concept and hands-on usage.&lt;/p&gt;
+   <content type="html">
+&lt;p&gt;Git is a version control system. It is a professional skill for researchers as well as hackers, and an amazing way to manage our projects. I write this article to share how I was learning git, and gradually master it, both in its concept and
+hands-on usage.&lt;/p&gt;
 
 &lt;p&gt;You can see it as a course, and our goal is to &lt;strong&gt;master git in 7 weekends&lt;/strong&gt;, i.e. use your spare time in each week to play with git. Of course, it you want a rush, you can compress this into one week, and hopefully you can also master it.&lt;/p&gt;
 
-&lt;p&gt;In this curriculum, we use two popular materials: one is the book &lt;em&gt;Pro Git&lt;/em&gt;, which introduces Git as a whole, to help you understand the concept, many useful operations, as well as some useful patterns in development; the other is &lt;em&gt;Git Immersion&lt;/em&gt;, a guided tour that walks you through the fundamentals of git, featuring with many good libs.&lt;/p&gt;
+&lt;p&gt;In this curriculum, we use two popular materials: one is the book &lt;em&gt;Pro
+Git&lt;/em&gt;, which introduces Git as a whole, to help you understand the concept, many useful operations, as well as some useful patterns in development; the other is &lt;em&gt;Git Immersion&lt;/em&gt;, a
+guided tour that walks you through the fundamentals of git, featuring with many good libs.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Materials&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;Materials&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Book: &lt;a href=&quot;http://git-scm.com/book&quot;&gt;Pro Git&lt;/a&gt;&lt;/p&gt;
+
+        &lt;pre&gt;&lt;code&gt;Tips: if you are in a rush, you can read the version with your mother language. Otherwise you are recommended to read the English version.
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Labs: &lt;a href=&quot;http://gitimmersion.com/&quot;&gt;Git Immersion&lt;/a&gt;&lt;/p&gt;
+
+        &lt;pre&gt;&lt;code&gt;Really good labs. Good hands-on exercise.
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Requirements&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Default: required&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Optional X: optional, medium priority&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;OptionalXX: optional, low priority&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;week-1&quot;&gt;Week 1&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Book: &lt;a href='http://git-scm.com/book'&gt;Pro Git&lt;/a&gt;&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;Preparation&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Tips: if you are in a rush, you can read the version with your mother language. Otherwise you are recommended to read the English version.&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Install Git on your computer.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Get the book and the labs.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reading&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;Labs: &lt;a href='http://gitimmersion.com/'&gt;Git Immersion&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Really good labs. Good hands-on exercise.&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Read the tutorial chapter 1 – 2.2.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Write a short paragraph explaining your understanding about the 
+three stages of git.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Labs: 1 – 9&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
 
-&lt;li&gt;
-&lt;p&gt;Requirements&lt;/p&gt;
+&lt;h2 id=&quot;week-2&quot;&gt;Week 2&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Default: required&lt;/p&gt;
-&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reading&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;Optional X: optional, medium priority&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;OptionalXX: optional, low priority&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Read the tutorial chapter 2.2 – 2.8.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Labs: 10 – 23&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id='week_1'&gt;Week 1&lt;/h2&gt;
+&lt;h2 id=&quot;week-3&quot;&gt;Week 3&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Preparation&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reading&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Read the tutorial chapter 3.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Labs: 24 – 35&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;week-4&quot;&gt;Week 4&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Install Git on your computer.&lt;/p&gt;
-&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reading&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;Get the book and the labs.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Read the tutorial chapter 4.1, 4.10.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;GitHub Practice&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Create an account on &lt;a href=&quot;http://github.com/&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Initial a repository on GitHub&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Clone a repo you like from GitHub.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bitbucket Practice&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Create an account on &lt;a href=&quot;http://bitbucket.org/&quot;&gt;Bitbucket&lt;/a&gt;. Bitbucket has unlimited private repositories, and unlimited number of collaborators if you register using a .edu email address! (if not, please contact them)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Initial a private repository on Bitbucket.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Labs: 36 – 44&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
 
-&lt;li&gt;
-&lt;p&gt;Reading&lt;/p&gt;
+&lt;h2 id=&quot;week-5&quot;&gt;Week 5&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Read the tutorial chapter 1 &amp;#8211; 2.2.&lt;/p&gt;
-&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reading&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;Write a short paragraph explaining your understanding about the three stages of git.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Read the tutorial chapter 5.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Labs: 45 – 53 (Finished!)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Github Pages Practice: &lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Refer to &lt;a href=&quot;https://help.github.com/pages/&quot;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Create your personal website on Github Pages.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;If you want, you can purchase a domain name (from GoDaddy or somewhere else).&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;You need a DNS service to connect your domain name with GitHub servers. Use DNSPod or anything you like.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;http://beiyuu.com/github-pages/&quot;&gt;HERE&lt;/a&gt; is a detailed &lt;em&gt;Chinese&lt;/em&gt; documentation in this process.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
 
-&lt;li&gt;
-&lt;p&gt;Labs: 1 &amp;#8211; 9&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id='week_2'&gt;Week 2&lt;/h2&gt;
+&lt;h2 id=&quot;week-6&quot;&gt;Week 6&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Reading&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reading&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Read the tutorial chapter 6.1, 6.3, 6.4.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Know what 6.2, 6.5, 6.6 is talking about. &lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Optional X: chapter 6.2.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Labs: Review the former labs.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;week-7&quot;&gt;Week 7&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Read the tutorial chapter 2.2 &amp;#8211; 2.8.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reading&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;Labs: 10 &amp;#8211; 23&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id='week_3'&gt;Week 3&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Reading&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Read the tutorial chapter 3.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Labs: 24 &amp;#8211; 35&lt;/p&gt;
-&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Read the tutorial chapter 7.1&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Optional X: chapter 8 (if you have used SVN, recommended to read).&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;OptionalXX: chapter 9 (if you are interested in the magic inside git)&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id='week_4'&gt;Week 4&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Reading&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Read the tutorial chapter 4.1, 4.10.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;GitHub Practice&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Create an account on &lt;a href='http://github.com/'&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Initial a repository on GitHub&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Clone a repo you like from GitHub.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Bitbucket Practice&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Create an account on &lt;a href='http://bitbucket.org/'&gt;Bitbucket&lt;/a&gt;. Bitbucket has unlimited private repositories, and unlimited number of collaborators if you register using a .edu email address! (if not, please contact them)&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Initial a private repository on Bitbucket.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Labs: 36 &amp;#8211; 44&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id='week_5'&gt;Week 5&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Reading&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Read the tutorial chapter 5.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Labs: 45 &amp;#8211; 53 (Finished!)&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Github Pages Practice:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Refer to &lt;a href='https://help.github.com/pages/'&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Create your personal website on Github Pages.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;If you want, you can purchase a domain name (from GoDaddy or somewhere else).&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;You need a DNS service to connect your domain name with GitHub servers. Use DNSPod or anything you like.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;a href='http://beiyuu.com/github-pages/'&gt;HERE&lt;/a&gt; is a detailed &lt;em&gt;Chinese&lt;/em&gt; documentation in this process.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id='week_6'&gt;Week 6&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Reading&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Read the tutorial chapter 6.1, 6.3, 6.4.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Know what 6.2, 6.5, 6.6 is talking about.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Optional X: chapter 6.2.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Labs: Review the former labs.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id='week_7'&gt;Week 7&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Reading&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Read the tutorial chapter 7.1&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Optional X: chapter 8 (if you have used SVN, recommended to read).&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;OptionalXX: chapter 9 (if you are interested in the magic inside git)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;Update: I haven&amp;#8217;t actually designed an exam for this, so our formally 8-week goal has become a 7-week one&amp;#8230; Sorry for my laziness.&lt;/em&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;em&gt;Update: I haven’t actually designed an exam for this, so our formally 8-week goal has become a 7-week one… Sorry for my laziness.&lt;/em&gt;&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
@@ -560,9 +581,12 @@
    <link href="http://zifeishan.github.com/blog/2012/10/12/testing-post"/>
    <updated>2012-10-12T00:00:00-07:00</updated>
    <id>http://zifeishan.github.com/blog/2012/10/12/testing-post</id>
-   <content type="html">&lt;p&gt;This is actually a testing post. You are welcome to reply under this post.&lt;/p&gt;
+   <content type="html">
+&lt;p&gt;This is actually a testing post. You are welcome to reply under this post.&lt;/p&gt;
 
-&lt;p&gt;I am quite annoyed with &lt;em&gt;jekyll&lt;/em&gt;, as it deleted all my repository when I set the output directory as root of this repo. &amp;gt;_&amp;lt;&lt;/p&gt;</content>
+&lt;p&gt;I am quite annoyed with &lt;em&gt;jekyll&lt;/em&gt;, as it deleted all my repository when I set the output directory as root of this repo. &amp;gt;_&amp;lt;&lt;/p&gt;
+
+</content>
  </entry>
  
  
