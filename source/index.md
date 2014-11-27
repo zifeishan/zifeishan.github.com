@@ -124,6 +124,9 @@ Publications
 
 <!-- ### Peer-Reviewed Publications -->
  
+* Feature Engineering for Knowledge Base Construction. In *Computing Research Repository (CoRR).*
+  [arXiv](http://arxiv.org/abs/1407.6439)
+
 * **Zifei Shan**, Shiyingxue Li, and Yafei Dai.
   GameRank: Ranking and Analyzing Baseball Network.
   In
