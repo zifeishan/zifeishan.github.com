@@ -1,13 +1,14 @@
 I am Zifei SHAN (单子非), a second-year Master's student in [Stanford
 University](http://www.stanford.edu/) Computer Science.
+I am applying for a PhD program in top US universities. 
 
 I am doing research with Professor [Christopher
 Ré](http://cs.stanford.edu/people/chrismre/) in [Stanford
 InfoLab](http://infolab.stanford.edu/). I am one of the builders of
 [DeepDive](http://deepdive.stanford.edu/), a scalable general
-probabilistic inference engine.
-My research aims at building and using knowledge bases, to help
-people better understand and exploit data.
+probabilistic inference engine. My research aims at building and using
+knowledge bases, to deliver the power of data from the academia to
+anyone in need.
 
 <!-- Specifically, I am exploring the idea of using joint probabilistic
 inference to integrate all kinds of knowledge in sophisticated computer
@@ -30,6 +31,8 @@ I am Zifei SHAN (单子非), a senior undergraduate in [Computer Science](http:/
 What's New
 ====
 
+* Through January to March, I will be visiting Toshiba in Japan as a research intern. I will be building a knowledge base of patent data, as well as a predictor on whether a newly submitted patent will be approved or rejected.
+* I am helping Toshiba to build an knowledge base of semiconductor materials and their mobility numbers.
 * I am building an open knowledge base for [Public Library of Science (PLOS)](http://www.plos.org/), which integrates scientific entities and relations extracted by DeepDive. -- Nov 26, 2014
 * I ported DeepDive into MySQL databases, and now it's available since [DeepDive release 0.04](https://github.com/HazyResearch/deepdive/releases). -- Nov 19, 2014
 * I finished my internship at [Tableau software](http://www.tableausoftware.com/). -- Sep 23, 2014
@@ -42,7 +45,14 @@ What's New
 Research 
 ====
 
-Currently I am interested in knowledge base construction with joint inference. In our group we are discovering how to use structural knowledge to improve low-level computer tasks like domain-specific OCR. We are using our scalable inference engine [DeepDive](http://deepdive.stanford.edu/) to empower our work.
+I am intrigued by building systems that are more capable of turning
+data into knowledge, and turning knowledge to power. During my
+master's studies at Stanford, I have the honor to work with Professor
+[Christopher Ré](http://cs.stanford.edu/people/chrismre/) on Knowledge
+Base Construction (KBC), the process of populating relational
+databases with information extracted from data. I develop
+[DeepDive](http://deepdive.stanford.edu/), a data management tool that
+is powerful for KBC.
 
 In undergrad I was working on mining and modeling social and information networks, including ranking baseball players in a competition network, and detecting Sybil attacks in a massive online social network. 
 
@@ -124,29 +134,36 @@ Publications
 
 <!-- ### Peer-Reviewed Publications -->
  
-* Feature Engineering for Knowledge Base Construction. In *Computing Research Repository (CoRR).*
+* Feature Engineering for Knowledge Base Construction. In *In IEEE Data Eng. Bull. 37(3): 26-40 (2014).*
   [arXiv](http://arxiv.org/abs/1407.6439)
+
+* Jing Jiang, **Zifei Shan**, Xiao Wang, Li Zhang, and Yafei Dai. 
+  Understanding Sybil Groups in the Wild. 
+  To appear in *Journal of Computer Science and Technology, 2015*.
+  [PDF]({{ref:files/sybil_final.pdf}})
 
 * **Zifei Shan**, Shiyingxue Li, and Yafei Dai.
   GameRank: Ranking and Analyzing Baseball Network.
   In
-  *Proc. 2012 ASE International Conference on Social Informatics.* (Acceptance rate: 11.5%)
+  *2012 International Conference on Social Informatics (SocialInformatics). IEEE.* (Acceptance rate: 11.5%)
   [PDF]({{ref:files/gamerank_zifeishan.pdf}})
   [Conference](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6542447)
-
 
 * **Zifei Shan**, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.
   Enhancing and Identifying Cloning Attacks in Online Social Networks.
   In 
   *Proc. the 7th International Conference on Ubiquitous Information Management and Communication (IMCOM / ICUIMC ’13).* (Acceptance rate: 29%)
-  [PDF](http://delivery.acm.org/10.1145/2450000/2448615/a59-shan.pdf?ip=162.105.91.67&acc=ACTIVE%20SERVICE&CFID=304062296&CFTOKEN=69551978&__acm__=1364440771_3b01294c1ce3b4a4160d30d888aa3796)
+  [PDF](http://dl.acm.org/citation.cfm?id=2448615)
 
 * Jing Jiang, **Zifei Shan**, Wenpeng Sha, Xiao Wang, and Yafei Dai.
   Detecting and Validating Sybil Groups in the Wild.
   In 
-  *Proc. 32nd International Conference on Distributed Computing Systems Workshops (ICDCSW '12).*
+  *Proc. 32nd International Conference on Distributed Computing Systems Workshops (ICDCSW ’12).*
   [PDF](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6258146)
   [Conference](http://www.icuimc.org/)
+
+* Jing Jiang, **Zifei Shan**, Xiao Wang, Li Zhang, and Yafei Dai. Understanding Sybil Groups in the Wild. To appear in *Journal of Computer Science and Technology, 2015.*
+  - [PDF]({{ref:files/sybil_final.pdf}})
 
 <!-- ### Manuscripts in Submission
 
@@ -179,16 +196,17 @@ Projects
 
   <div class="col-md-4">
       <div class="thumbnail">
-      <a href="/projects/#beijing3ds"><img class="" title="" src="{{ref:images/bj3ds.png}}" /></a>
-  </div>
-  <p>Beijing 3DS Website</p>
-  </div>
-
-  <div class="col-md-4">
-      <div class="thumbnail">
       <a href="/projects/#qa"><img class="" title="" src="{{ref:images/chinesewiki.png}}" /></a>
   </div>
   <p>Q&A System on Chinese Wikipedia</p>
+  </div>
+
+<!--   
+  <div class="col-md-4">
+      <div class="thumbnail">
+      <a href="/projects/#beijing3ds"><img class="" title="" src="{{ref:images/bj3ds.png}}" /></a>
+  </div>
+  <p>Beijing 3DS Website</p>
   </div>
 
   <div class="col-md-4">
@@ -204,6 +222,7 @@ Projects
   </div>
   <p>2D Shooting Game</p>
   </div>
+ -->
 </div>
 </div>
 

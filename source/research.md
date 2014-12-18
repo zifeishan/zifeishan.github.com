@@ -21,14 +21,25 @@ assessing the impact of user-interaction transparency on their
 behavior.
  -->
 
-Research Group
+Research Groups
 ====
 
-Recently I joined Professor [Chris Re](http://cs.stanford.edu/people/chrismre/)'s group and work on [DeepDive project](http://i.stanford.edu/hazy/projects/). I worked on leveraging structural knowledge to improve ensembled OCR systems, seeking insights how knowledge can help in low-level tasks.
+During my master's studies at Stanford, I have the honor to work with
+Professor [Christopher Ré](http://cs.stanford.edu/people/chrismre/)
+and get inspired by other great minds in InfoLab.  I work on projects
+in Knowledge Base Construction (KBC), the process of populating
+relational databases with information extracted from data.  I develop
+[DeepDive](http://deepdive.stanford.edu/), a data management tool that
+is powerful for KBC. Through these experiences, I discovered how
+systematic research methods boost industrial applications, and how
+engineering tasks facilitate research projects.
+
+I will be a research intern in Knowledge Base Group of 
+[Toshiba Corporation](http://www.toshiba.co.jp/worldwide/), from Jan 2015 to Mar 2015.
 
 I was in [Computer Networks and Distributed Systems Lab](http://net.pku.edu.cn/p2p/doku.php) of Peking University, advised by professor [Yafei Dai](http://cn.linkedin.com/pub/yafei-dai/9/291/b1). I mainly work with Dr. Jing Jiang on Online Social Networks.
 
-I am one of the co-leaders of "Universal UI" research group, advised by Prof. [Daniel A. Freedman](http://www.danielfreedman.org/). My team members are: [Scott Cheng](http://scottcheng.com/), [Haoyu Zhang](http://www.haoyuzhang.org/), Chris (Xiuhan) Hu, and Chen Yu.
+I was one of the co-leaders of "Universal UI" research group, advised by Prof. [Daniel A. Freedman](http://www.danielfreedman.org/). My team members are: [Scott Cheng](http://scottcheng.com/), [Haoyu Zhang](http://www.haoyuzhang.org/), Chris (Xiuhan) Hu, and Chen Yu.
 
 I was on the "Technion-Peking Research Exchange Program", together with seven other PKU students: Annie Liu, [Haoyu Zhang](http://www.haoyuzhang.org), Zhao Yang, [Yilun Zhang](http://www.yilunzhang.com), Michelle Ma, Jason Lv, and Winnie Liu. 
 
@@ -37,9 +48,96 @@ I was on the "Technion-Peking Research Exchange Program", together with seven ot
 Recent Projects
 ====
 
-* I am building an open knowledge base for [Public Library of Science (PLOS)](http://www.plos.org/), which integrates scientific entities and relations extracted by DeepDive.
-* I ported DeepDive into MySQL databases, and now it's available since [DeepDive release 0.04](https://github.com/HazyResearch/deepdive/releases).
-* I am one of the builders of [DeepDive](http://deepdive.stanford.edu/), a generic probabilistic inference engine that uses a declarative language (SQL) to define factor graphs. I have been in charge of a scalable [feature extraction platform](http://deepdive.stanford.edu/doc/basics/extractors.html) in DeepDive, as well as daily maintains.
+## DeepDive
+
+<div class="row" id="deepdive">
+<div class="col-md-12">
+<div class="col-md-3">
+<div class="thumbnail">
+<a href="http://deepdive.stanford.edu/">
+<img class="" title="" src="{{ref:images/deepdive-square.png}}" />
+</a>
+</div>
+</div>
+<div class="col-md-9" markdown=1>
+
+<a href="http://deepdive.stanford.edu/">DeepDive</a>
+is a generic probabilistic inference engine that uses
+declarative languages to specify factor graphs, and performs scalable
+learning and inference. It is most widely used for the task of KBC. I
+made significant contribution to the DeepDive code base, and see my
+infrastructural efforts actually facilitate research projects in
+group. My efforts include:
+
+<ol>
+<li>
+<emph>Contributed to DeepDive's feature extraction pipelines.</emph> DeepDive
+features a pipeline that enables flexible parallel feature
+extraction.
+This pipeline is vitally important and widely used in all our
+applications, but it suffered from unsatisfactory speed. I
+researched into the problem, and found that
+the parallel task scheduler, data loader and unloader were the
+bottlenecks. I implemented two faster code paths to solve this issue:
+one code path uses the system tool "xargs" to manage parallelism, and
+optimized loading and dumping of the database; the other code path
+compiles user's extraction script to 
+a database procedural language,
+to further reduce disk I/Os by running the UDF in database.
+These implementations turned out to be 10x--20x faster than the
+original one, and unblocked many large-scale research projects.
+</li>
+<li>
+<emph>Ported DeepDive from PostgreSQL into 
+<a href="http://deepdive.stanford.edu/doc/advanced/mysql.html">MySQL, MariaDB, and MySQL cluster</a>
+,</emph> to extend its usability. 
+I also refactored the code base for easier
+integration with other DBMS. A challenge occurred that our 
+newly-supported distributed DBMS, MySQL cluster, suffers from slow data
+loading with DeepDive. To tackle this problem, I implemented a faster
+loader for DeepDive using APIs provided by MySQL cluster.
+</li>
+<li>
+<emph>Working on an interactive KBC tool that automates feature engineering</emph>.
+The systematic way of feature engineering in KBC has been proposed,
+but not well automated by DeepDive. I am working on <a href="https://github.com/zifeishan/braindump">a tool named BrainDump</a> to
+automatically generate reports to summarize each run of DeepDive and
+auto-detect possible failure modes.
+I am also working on the visualization of end
+products for KBC, to automatically serve the generated knowledge base
+online, with various ways to interact with users.
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+
+## Public Scientific Knowledge Base
+
+<div class="row" id="plos">
+<div class="col-md-12">
+<div class="col-md-3">
+<div class="thumbnail">
+<a href="{{ref:images/plos.png}}">
+<img class="" title="" src="{{ref:images/plos_thumb.png}}" />
+</a>
+</div>
+</div>
+<div class="col-md-9" markdown=1>
+
+<p>I am building an open knowledge base for 
+<a href="http://www.plos.org/">Public Library of Science (PLOS)</a>,
+which integrates scientific entities and relations extracted by DeepDive. The knowledge base will be released <a href="http://plosdeepdive.stanford.edu/">HERE</a>.
+</p>
+
+<p>
+	The demo to the left shows the view of our interface, where all scientific entity and relation mentions (genes and phenotypes) are highlighted in the paper, and you can easily view top genes and phenotypes in this paper with a summary on the left column. You will be also able to provide feedback on whether each extracted mention is correct, by using the tagging interface to the right.
+</p>
+</div>
+</div>
+</div>
 
 
 Previous Research Projects
@@ -58,21 +156,14 @@ Ranking and analyzing baseball network
 </div>
 <div class="col-md-9" markdown=1>
 
-<p>One topic that especially interests me is ranking and analyzing
-baseball networks. This was my course project for 
+<p>This was my course project for 
 <a href="http://open.umich.edu/education/si/si508/fall2008">SI 508---Networks: Theory and Application</a>, 
-given by Prof. <a href="http://www-personal.umich.edu/~qmei/">Qiaozhu Mei</a> from UMich, in
-which I got an overall picture of network science including network
-models, metrics, evolution, diffusion, resilience, etc. The project
+given by Prof. <a href="http://www-personal.umich.edu/~qmei/">Qiaozhu Mei</a> from UMich.
+The project
 originates from my idea to regard American Major League Baseball (MLB,
 of which I am a big fan) games as a network, with players as nodes and
-their win-lose conditions in games as links. I always enjoy to use
-real-world data, and felt it exciting to find online MLB game records
-and parse them into networks.</p> <!-- Many players can pitch as well as
-hit, and two indicators as pitching and hitting ability rely on each
-other: A pitcher wining over good batters is a good pitcher, and vise
-versa. -->
-
+their win-lose conditions in games as links.
+</p>
 <p>To rank the players in the network, we first tried PageRank, but it
 failed to describe a special attribute of the network: a pitcher who
 defeats good batters is a great pitcher, and a batter who wins skilled
@@ -83,22 +174,13 @@ abilities. Our next problem was to evaluate our algorithm, when there
 are no definite criteria to judge baseball rankings. Therefore I
 compared our results to a prestige ranking system named ESPN Ratings,
 and the plots show that we achieve similar results with ESPN while
-having a simpler model and a wider capability.</p> <!-- First, I plotted
-figures to demonstrate that our algorithm achieves similar results with
-ESPN, with a simpler model and a wider capability. --><!-- and plotted
-figures with Matplotlib comparing their differences. --> <!-- Second, I
-used the intuition that for a good ranking system, players with higher
-ranks should have higher probability to win in games. With this
-assumption, I visualized the win rate for pitchers toward batters at
-different rank levels, both for our algorithm and ESPN Ratings, to
-illustrate that our results are even better. --> 
+having a simpler model and a wider capability.</p>
 <p>In the data-mining
-phase, I studied the network over time, and found <!-- from the degree
-distribution of the baseball network in different years, --> interesting 
+phase, I studied the network over time, and found interesting 
 patterns that recent players are getting closer in their skills than before, 
 and good pitchers are better than ordinary pitchers at batting.</p>
 
-<p>In short, I enjoy this research because it involves understanding
+<!-- <p>In short, I enjoy this research because it involves understanding
 social networks, their evolution, and their application to human
 activities. 
 As a future project, I might try to investigate
@@ -108,7 +190,7 @@ explore their evolution,
 and test the robustness of each team based on data of in-team 
 supports, to see whether the team is too dependent on certain players. 
 Further research might lead to brand new strategies in real games.</p>
-
+ -->
 <p>Paper: [<a href="/files/gamerank_zifeishan.pdf">PDF</a>]</p>
 <p>Slides: [<a href="/files/gamerank_slides_zifei.pptx">PPTX</a>] [<a href="/files/gamerank_slides_zifei.pdf">PDF</a>]</p>
 
@@ -172,15 +254,12 @@ multiple accounts to increase the attacker's power. We aimed at
 detecting Sybil attacks in the wild, in cooperation with Renren---the
 "Facebook in China" with over 200 million users. I worked with Jing
 Jiang, a graduate student in our lab. Our paper is published in ICDCSW
-'12, and improved work submitted to TKDD. I like the project because of
-the chance to discover knowledge of human behaviors in the real-world
-large dataset, the focus on solving widespread security problems, and
-the analysis on network dynamics and communities. In the project, I
-have coded all the programs in all phases from scratch, implemented
+'12, and JCST. In the project, I
+coded all the programs in all phases from scratch, implemented
 efficient algorithms to handle the graph with millions of nodes, and
 designed many measurements based on discussion with Jing.</p>
 
-<p>One special experience to me is in the evaluation phase, where I raised
+<!-- <p>One special experience to me is in the evaluation phase, where I raised
 and revised an indicator. We wanted to verify that the detected Sybil
 groups are controlled by attackers, which matches my interest in
 uncovering human behaviors behind the action pattern. We assumed that
@@ -196,8 +275,9 @@ phenomenon by intuition: as the length of the timeline is limited, the
 more points there are, the more closely they are distributed onto the
 timeline, and the smaller M it has. So I used MN as the new
 indicator, and the diagram shows that the value is unrelated with N.</p>
+ -->
 
-<p>In the measurement phase, I mined the network and discovered lots of
+<!-- <p>In the measurement phase, I mined the network and discovered lots of
 knowledge.  Therein I enjoy the study of "group
 merging pattern", inspired by an interest on evolutions of real-world
 Sybil groups. I spotted that sometimes two connected components merge
@@ -209,6 +289,7 @@ is far rarer than in normal groups, which indicates that Sybil groups
 lack variety in merging pattern, with a majority of joining a new
 account into an existing component. The result improves my interest in
 network dynamics. </p>
+ -->
 
 <p>Paper: [<a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6258146">PDF</a>]</p>
 </div></div></div>
@@ -240,46 +321,8 @@ courses, including seminars in Reliable Distributed Computing by Prof.
 Idit Keidar, and Program Analysis and Synthesis by Prof. Eran Yahav. I
 am also engaging in academic activities at Technion, being exposed to
 lectures and colloquiums on a wide range of topics in Computer Science,
-given by international researchers. Most importantly, I explored new research directions as part of a vibrant group. Our topics col-md-
+given by international researchers. Most importantly, I explored new research directions as part of a vibrant group. Our topics cover
 Programming Language, Systems, and Human Computer Interaction. We
 design description languages to automate the creation of both front-end
 and back-end systems, and discover human behavior
 patterns in interacting with services. 
-
-<!-- 
-Future Research Topics
-----
-
-Other than the future work of my projects mentioned above, I am
-attracted to more questions on constructing networks out of mass data
-and discovering knowledge from them. Specifically, firstly I want to
-scrutinize the evolution, resilience and information diffusion for
-different OSNs, to improve their robustness, explore their dynamics and
-discover human behaviors. Therein I especially want to model how rumors
-and hot topics spread across the network, with the support of mining
-big data. How do the rumors spread in Facebook and Twitter
-respectively? What is the impact of their distinct nature of social
-links (undirected or directed), to their information diffusion? How to
-better model this propagation? What is the implication of this model to
-the design of instant rumor detecting systems? Besides, how do hot
-topics diffuse differently from rumors do? How to model the diffusion
-of hot topics? How do people increase their influence in networks, to
-easier raise hot topics?
-
-Secondly, I want to combine network science with other disciplines to
-solve problems in different areas: product relationships in business,
-transportation organization in society, evil detection in criminology,
-and gene theory in biology. How to study the dependencies and
-centralities in a network of products of a company, to improve their
-marketing strategy? How to model a transportation network, in order to
-balance traffic for roads of high betweenness, and optimize traffic
-lights to increase network capacity according to specific cases of
-cities? How can we find conspiracy in criminal network based on its
-features like long average shortest path? Finally, How can we adapt
-network science, especially resilience theory, to human gene networks,
-and help humans against disease? <!-- As an example, why gene
-duplication has preferential attachment behavior, and how can we
-utilize it? Why do decease genes form hubs or structure holes, and how
-we detect them? -->
-
- -->
