@@ -134,36 +134,37 @@ Publications
 
 <!-- ### Peer-Reviewed Publications -->
  
-* Feature Engineering for Knowledge Base Construction. In *In IEEE Data Eng. Bull. 37(3): 26-40 (2014).*
-  [arXiv](http://arxiv.org/abs/1407.6439)
+* Christopher Ré, Amir Abbas Sadeghian, **Zifei Shan**, Jaeho Shin, Feiran Wang, Sen Wu, Ce Zhang.
+  Feature Engineering for Knowledge Base Construction. In *In IEEE Data Eng. Bull. 37(3): 26-40 (2014).*
+  [[arXiv](http://arxiv.org/abs/1407.6439)]
 
 * Jing Jiang, **Zifei Shan**, Xiao Wang, Li Zhang, and Yafei Dai. 
   Understanding Sybil Groups in the Wild. 
   To appear in *Journal of Computer Science and Technology, 2015*.
-  [PDF]({{ref:files/sybil_final.pdf}})
+  [[PDF]({{ref:files/sybil_final.pdf}})]
 
 * **Zifei Shan**, Shiyingxue Li, and Yafei Dai.
   GameRank: Ranking and Analyzing Baseball Network.
   In
   *2012 International Conference on Social Informatics (SocialInformatics). IEEE.* (Acceptance rate: 11.5%)
-  [PDF]({{ref:files/gamerank_zifeishan.pdf}})
-  [Conference](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6542447)
+  [[PDF]({{ref:files/gamerank_zifeishan.pdf}})]
+  [[Conference](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6542447)]
 
 * **Zifei Shan**, Haowen Cao, Jason Lv, Cong Yan, and Annie Liu.
   Enhancing and Identifying Cloning Attacks in Online Social Networks.
   In 
   *Proc. the 7th International Conference on Ubiquitous Information Management and Communication (IMCOM / ICUIMC ’13).* (Acceptance rate: 29%)
-  [PDF](http://dl.acm.org/citation.cfm?id=2448615)
+  [[PDF](http://dl.acm.org/citation.cfm?id=2448615)]
 
 * Jing Jiang, **Zifei Shan**, Wenpeng Sha, Xiao Wang, and Yafei Dai.
   Detecting and Validating Sybil Groups in the Wild.
   In 
   *Proc. 32nd International Conference on Distributed Computing Systems Workshops (ICDCSW ’12).*
-  [PDF](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6258146)
-  [Conference](http://www.icuimc.org/)
+  [[PDF](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6258146)]
+  [[Conference](http://www.icuimc.org/)]
 
-* Jing Jiang, **Zifei Shan**, Xiao Wang, Li Zhang, and Yafei Dai. Understanding Sybil Groups in the Wild. To appear in *Journal of Computer Science and Technology, 2015.*
-  - [PDF]({{ref:files/sybil_final.pdf}})
+* Jing Jiang, **Zifei Shan**, Xiao Wang, Li Zhang, and Yafei Dai. Understanding Sybil Groups in the Wild. To appear in *Journal of Computer Science and Technology, 2015.* 
+  [[PDF]({{ref:files/sybil_final.pdf}})]
 
 <!-- ### Manuscripts in Submission
 
@@ -179,13 +180,30 @@ Projects
 <div class="row">
 <div class="col-md-10 col-md-offset-1">
 
+<div class="row">
+  <div class="col-md-4">
+      <div class="thumbnail">
+      <a href="/projects/#capital-crunch"><img class="" title="" src="{{ref:images/capital-crunch.png}}" /></a>
+  </div>
+  <p>Capital Crunch: Predicting Investments</p>
+  </div>
+
+
+  <div class="col-md-4">
+      <div class="thumbnail">
+      <a href="/projects/#deepspeech"><img class="" title="" src="{{ref:images/deepspeech.png}}" /></a>
+  </div>
+  <p>DeepSpeech: Speech Recognition Decoding with Knowledge</p>
+  </div>
+
   <div class="col-md-4">
       <div class="thumbnail">
       <a href="/projects/#kaleidoscope"><img class="" title="" src="{{ref:images/kaleidoscope.png}}" /></a>
   </div>
   <p>Kaleidoscope: idea recommender</p>
   </div>
-
+</div>
+<div class="row">
 
   <div class="col-md-4">
       <div class="thumbnail">
@@ -201,13 +219,18 @@ Projects
   <p>Q&A System on Chinese Wikipedia</p>
   </div>
 
-<!--   
   <div class="col-md-4">
       <div class="thumbnail">
       <a href="/projects/#beijing3ds"><img class="" title="" src="{{ref:images/bj3ds.png}}" /></a>
   </div>
   <p>Beijing 3DS Website</p>
   </div>
+</div>
+</div>
+</div>
+
+<!--   
+
 
   <div class="col-md-4">
       <div class="thumbnail">
@@ -223,8 +246,7 @@ Projects
   <p>2D Shooting Game</p>
   </div>
  -->
-</div>
-</div>
+
 
 Click [HERE]({{ref:projects/}}) to know more about my projects.
 

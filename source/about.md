@@ -113,7 +113,7 @@ We got the CHAMPION of the PKU campus slowpitch competitions!!! We are thrilled 
 
 ### Amateur Photography
 
-I used to have a camera, but it got stolen. From then on I only use cellphone to take photos (in my undergrad). I am quite unprofessional and only do it for fun. Here is my little [gallery in Instagram](http://instajelly.com/zifeishan/).
+I used to have a camera, but it got stolen. From then on I only use cellphone to take photos (in my undergrad). I am quite unprofessional and only do it for fun. Here is my little [gallery in Instagram](http://instagram.com/zifeishan) and one on [500px](https://500px.com/ZifeiShan).
 
 ### Chinese Tea
 
