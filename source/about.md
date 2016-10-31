@@ -17,36 +17,18 @@ Contact
 ----
 
 * Email: zifei AT stanford DOT edu
-* Tel: +1-650-561-[too zero three seven] / +86-152-1062-[six three seven three] 
-* Find me on 
-  [Github](https://github.com/zifeishan), 
+* Tel: +1-650-561-[too zero three seven] / +86-152-1062-[six three seven three]
+* Find me on
+  [Github](https://github.com/zifeishan),
   [Facebook](https://www.facebook.com/zifei.shan),
   [LinkedIn](http://www.linkedin.com/pub/zifei-shan/5a/555/6),
-  [Renren](http://www.renren.com/258061142), 
-  [Weibo](http://www.weibo.com/u/1676198360), 
+  [Renren](http://www.renren.com/258061142),
+  [Weibo](http://www.weibo.com/u/1676198360),
   or [Twitter](https://twitter.com/zifeishan).
-
-
-Here is [my Resume]({{ref: files/CV_Zifei_Shan.pdf}}), and my [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/s/Shan:Zifei.html) link.
-
-<!-- 
-My Strength Set
-----
-
-These strengths of mine are explored by [Gallup StrengthQuest](http://www.strengthsquest.com/home.aspx). Not necessarily accurate, just for a quick reference about me.
-
-- **Includer:** accepting of others.
-- **Individualization:** intrigued with the unique qualities of each person.
-- **Maximizer:** seek to transform something strong into something superb.
-- **Focus:** prioritize, then act.
-- **Futuristic:** inspired by the future and what could be.
- -->
 
 
 Hobbies
 ----
-
-<!-- ### Baseball -->
 
 <h3 id="baseball">Baseball</h3>
 
@@ -108,8 +90,6 @@ We got the CHAMPION of the PKU campus slowpitch competitions!!! We are thrilled 
   </div>
 </div>
 
-<!-- 
-![image]({{ref:images/me_baseball.jpg}}) -->
 
 ### Amateur Photography
 
@@ -133,7 +113,7 @@ Life at Technion
 </h2>
 
 During the last year of my undergrad, I joined a research exchange program at Technion in Israel, advised
-by Professor Daniel Freedman. 
+by Professor Daniel Freedman.
 I enjoyed the total immerse of English environment --- both research and courses. I also enjoyed the life in that beautiful and mysterious country.
 
 We traveled to Jerusalem, the Dead Sea, Bahaii Gardens, Beach at Haifa, Tel-aviv and Akko. Below is a photo of our group in the Old City of Jerusalem.
