@@ -16,15 +16,10 @@ a scalable probabilistic inference engine.
 Contact
 ----
 
-* Email: zifei AT stanford DOT edu
-* Tel: +1-650-561-[too zero three seven] / +86-152-1062-[six three seven three]
+* Email: zifeishan AT gmail
 * Find me on
   [Github](https://github.com/zifeishan),
-  [Facebook](https://www.facebook.com/zifei.shan),
-  [LinkedIn](http://www.linkedin.com/pub/zifei-shan/5a/555/6),
-  [Renren](http://www.renren.com/258061142),
-  [Weibo](http://www.weibo.com/u/1676198360),
-  or [Twitter](https://twitter.com/zifeishan).
+  [LinkedIn](http://www.linkedin.com/pub/zifeishan/),
 
 
 Hobbies
