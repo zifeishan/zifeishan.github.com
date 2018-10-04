@@ -1,0 +1,6 @@
+pyyaml
+pystache
+
+
+# # install jekyll: 
+# https://jekyllrb.com/docs/installation/macos/
