@@ -4,13 +4,13 @@ About Me
 Bio
 ----
 
-Zifei Shan is a Master's student in the Department of Computer Science
+Zifei Shan is a Master's in the Department of Computer Science
 at Stanford University. He received his Bachelor's degree in Computer
 Science from Peking University. He was also a visiting student at
 Technion---Israel Institute of Technology. He is currently a research
 assistant working with Professor Christopher Re at Stanford. His
-recent research focuses on building and using knowledge bases, to help
-people better understand and exploit data. He is maintaining DeepDive,
+research in Stanford focuses on building and using knowledge bases, to help
+people better understand and exploit data. He was a major contributor to DeepDive,
 a scalable probabilistic inference engine.
 
 Contact
@@ -18,8 +18,8 @@ Contact
 
 * Email: zifeishan AT gmail
 * Find me on
-  [Github](https://github.com/zifeishan),
-  [LinkedIn](http://www.linkedin.com/pub/zifeishan/),
+  [Github](https://github.com/zifeishan) and 
+  [LinkedIn](http://www.linkedin.com/pub/zifeishan/).
 
 
 Hobbies
@@ -122,20 +122,3 @@ We traveled to Jerusalem, the Dead Sea, Bahaii Gardens, Beach at Haifa, Tel-aviv
     </div>
   </div>
 </div>
-
-
-Links to my Friends
-----
-
-My friends are all promising stars in the future academia!
-
-* [Donghao Ren](http://donghaoren.org/): A romantic photographer, designer, builder, Visualization researcher
-* [Scott Cheng](http://scottcheng.com/): A passionate designer and builder, enjoying crafting things
-* [Haoyu Zhang](http://www.haoyuzhang.org/): A Distributed System guy, fast learner
-* [Hongji Yang](http://www.yanghongji.com/): A girl who loves traveling, food, and programming.
-
-And these are my dear professors:
-
-* [Daniel Freedman](http://www.danielfreedman.org/): My professor in Technion-Peking research exchange program. My research and life advisor.
-* Yafei Dai: My advisor in Peking University. She is a really nice, gentle and helpful teacher.
-* [Ymir Vigfusson](http://www.ymsir.com/): Great professor, cook and [pianist](http://www.ymsir.com/?p=music). We all enjoy the chats and dinners with him at Technion.

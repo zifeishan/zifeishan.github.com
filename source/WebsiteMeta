@@ -28,8 +28,12 @@ Partial("nav", "nav.md")
 Partial("footer", "footer.md")
 Partial("fluid", "fluid.md")
 
+# Partials.
+Partial("about", "index_about.md")
+
+
 # Pages.
-Page("index.html", "index.md", home_template, title = "Home")
+Page("index.html", "index_about.md", home_template, title = "Home")
 Page("projects/index.html", "projects.md", template, title = "Projects")
 Page("about/index.html", "about.md", template, title = "About")
 Page("research/index.html", "research.md", template, title = "Research")
