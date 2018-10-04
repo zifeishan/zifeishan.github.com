@@ -45,7 +45,7 @@ I was on the "Technion-Peking Research Exchange Program", together with seven ot
 
 <!-- Independent research -->
 
-Recent Projects
+Projects at Stanford
 ====
 
 ## DeepDive
@@ -100,10 +100,10 @@ loader for DeepDive using APIs provided by MySQL cluster.
 <li>
 <emph>Working on an interactive KBC tool that automates feature engineering</emph>.
 The systematic way of feature engineering in KBC has been proposed,
-but not well automated by DeepDive. I am working on <a href="https://github.com/zifeishan/braindump">a tool named BrainDump</a> to
+but not well automated by DeepDive. I was working on <a href="https://github.com/zifeishan/braindump">a tool named BrainDump</a> to
 automatically generate reports to summarize each run of DeepDive and
 auto-detect possible failure modes.
-I am also working on the visualization of end
+I was also working on the visualization of end
 products for KBC, to automatically serve the generated knowledge base
 online, with various ways to interact with users.
 </li>
@@ -112,6 +112,29 @@ online, with various ways to interact with users.
 </div>
 </div>
 
+
+## Patent Claim Structure Extraction
+
+<div class="row" id="patent">
+<div class="col-md-12">
+<div class="col-md-3">
+<div class="thumbnail">
+<a href="{{ref:images/patent.png}}">
+<img class="" title="" src="{{ref:images/patent.png}}" />
+</a>
+</div>
+</div>
+<div class="col-md-9" markdown=1>
+
+<p>I led a individual research project in Toshiba R&D, advised by Orihara Ryohei and Okamoto Masayuki, to extract US patent claim structure for analysis and comparison.
+</p>
+
+<p>
+	Patent engineers are spending significant time analyzing patent claim structures to understand the range of technology covered or to compare similar patents in the same patent family. Though patent claims are the most important section in a patent, it is hard for a human to examine them. In this paper, we propose an information-extraction-based technique to grasp the patent claim structure. We confirmed that our approach is promising through empirical evaluation of entity mention extraction and the relation extraction method. We also built a preliminary interface to visualize patent structures, compare patents, and search similar patents. <a href="https://dl.acm.org/citation.cfm?id=3080698">This work has been published in SIGIR 2017.</a>
+</p>
+</div>
+</div>
+</div>
 
 
 ## Public Scientific Knowledge Base
@@ -127,9 +150,9 @@ online, with various ways to interact with users.
 </div>
 <div class="col-md-9" markdown=1>
 
-<p>I am building an open knowledge base for 
+<p>I was building a prototype of open knowledge base for
 <a href="http://www.plos.org/">Public Library of Science (PLOS)</a>,
-which integrates scientific entities and relations extracted by DeepDive. The knowledge base will be released <a href="http://plosdeepdive.stanford.edu/">HERE</a>.
+which integrates scientific entities and relations extracted by DeepDive.
 </p>
 
 <p>
@@ -140,7 +163,8 @@ which integrates scientific entities and relations extracted by DeepDive. The kn
 </div>
 
 
-Previous Research Projects
+
+Research Projects at Peking University
 ====
 
 Ranking and analyzing baseball network

@@ -66,6 +66,7 @@
 						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
 						<li><a href="#" data-nav-section="about">About</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="research">Research</a></li>
 						<li><a href="#" data-nav-section="projects">Projects</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
@@ -278,6 +279,56 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
+
+			<section class="colorlib-research" data-section="research">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Works</span>
+							<h2 class="colorlib-heading">Research Projects</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="/research/#deepdive" class="blog-img"><img src="images/deepdive-square.png" class="img-responsive" alt=""></a>
+								<div class="desc">
+									<span><small>2013-2015</small> | <small> Machine Learning </small></span>
+									<h3><a href="/research/#deepdive">DeepDive</a></h3>
+									<p>A major contributor of the Stanford DeepDive project, a scalable probabilistic inference engine which was later commercialized as Lattice Data.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="/research/#patent" class="blog-img"><img src="images/patent.png" class="img-responsive" alt=""></a>
+								<div class="desc">
+									<span><small>2015</small> | <small> Information Extraction </small></span>
+									<h3><a href="/research/#patent">Patent Claim Structure Extraction</a></h3>
+									<p>Led research project as a Toshiba intern. Using DeepDive to extract patent claim structure for analysis and comparison.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="/research/#gamerank" class="blog-img"><img src="images/mlbi.jpg" class="img-responsive" alt=""></a>
+								<div class="desc">
+									<span><small>Aug 2012 </small> | <small> Network Theory </small></span>
+									<h3><a href="/research/#gamerank">Ranking Baseball Network</a></h3>
+									<p>Introduced GameRank, a ranking algorithm to rank pitchers and batters in baseball networks.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="/research" class="btn btn-primary btn-lg btn-load-more">See more of my research</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
 			<section class="colorlib-projects" data-section="projects">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -335,8 +386,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<a href="/projects/#mlbi" class="blog-img"><img src="images/mlbi_large.png" class="img-responsive" alt=""></a>
 								<div class="desc">
 									<span><small>Aug 2012 </small> | <small> Baseball & Network Theory </small></span>
-									<h3><a href="/projects/#mlbi_large">MLB Illustrator & GameRank</a></h3>
-									<p>Visualizing the MLB player networks, and introduced a ranking algorithm named GameRank to rank batters and pitchers.</p>
+									<h3><a href="/projects/#mlbi_large">MLB Illustrator</a></h3>
+									<p>Visualizing the MLB player networks with player statistics, using GameRank algorithm.</p>
 								</div>
 							</div>
 						</div>
