@@ -20,7 +20,7 @@ I have been playing slowpitch softball for over two years. I love this sport, an
   </div>
 </div>
 
-And here are photos of me playingslowpitch:
+And here are photos of me playing slowpitch:
 
 <div class="row">
   <div class="col-md-10 col-md-offset-1">
