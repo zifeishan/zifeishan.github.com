@@ -3,7 +3,7 @@ Projects
 
 ----
 
-## Recent Course Projects
+## Stanford Course Projects
 
 Here are some fun course projects I led during Master's studies, along
 with the reports and posters. Some of these projects might be
@@ -61,6 +61,26 @@ interesting enough for industry reference.
         </div>
     </div>
 </div>
+
+<h3 id="authorship_attribution">Authorship Attribution in multi-author documents</h3>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-3">
+            <div class="thumbnail">
+            <a href="{{ref:images/authorship_attribution.png}}"><img class="" title="" src="{{ref:images/authorship_attribution.png}}" /></a>
+        </div></div>
+        <div class="col-md-9">
+            <p>Collaborative project with Tim Althoff and Denny Britz.
+            </p>
+            <p>We bring up a novel problem of identifying the authors of scientific publications in a multi-author setting. Initial results show that writing styles can be used to predict authors with significant accuracy. This challenges the assumption that simply removing names from a paper submission ensures anonymity in a double-blind process.
+            </p>
+            <p>Report: [<a href="/files/authorship_attribution.pdf">PDF</a>]</p>
+            <p>Slides: [<a href="/files/authorship_attribution_slides.pdf">PDF</a>]</p>
+        </div>
+    </div>
+</div>
+
 
 ----
 

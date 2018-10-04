@@ -35,7 +35,7 @@
 	<!-- Flexslider  -->
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!--<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">-->
 	<!-- Owl Carousel -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -67,7 +67,6 @@
 						<li><a href="#" data-nav-section="about">About</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
 						<li><a href="#" data-nav-section="projects">Projects</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
@@ -181,7 +180,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					               </div>
 
 					               <div class="timeline-label">
-					                  <h2><a href="#">Machine Learning at Apple, China</a> <span>Mar 2018 - Present</span></h2>
+					                  <h2>Machine Learning at Apple, China <span>Mar 2018 - Present</span></h2>
 					               </div>
 					            </div>
 					         </article>
@@ -193,7 +192,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Engineering Manager at Apple, California</a> <span>May 2017 - Feb 2018</span></h2>
+					               	<h2>Engineering Manager at Apple, California <span>May 2017 - Feb 2018</span></h2>
 					            </div>
 					         </article>
 
@@ -203,7 +202,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Founding Engineer at Lattice Data</a> <span>Jul 2015 - May 2017</span></h2>
+					               	<h2>Founding Engineer at Lattice Data <span>Jul 2015 - May 2017</span></h2>
 					                  <ul>
 										<li>Employee #4 and Staff Engineer at Lattice Data, <a href="https://techcrunch.com/2017/05/13/apple-acquires-ai-company-lattice-data-a-specialist-in-unstructured-dark-data/">acquired by Apple</a> for ~$200M.</li>
 										<li>Expert in transforming unstructured “dark data” to structured knowledge.</li>
@@ -223,8 +222,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Research Assistant at Stanford</a> <span>2013 - 2015</span></h2>
-					                  <p>At Stanford, I was a research assistant advised by Professor Christopher Re, working on building and using knowledge bases. I was one of the active contributors of <a href="http://deepdive.stanford.edu/">DeepDive</a>, a scalable probabilistic inference engine well-received by both academy and industry.
+					               	<h2>Research Assistant at Stanford <span>2013 - 2015</span></h2>
+					                  <p>At Stanford, I was a research assistant advised by Professor Christopher Re, working on building and using knowledge bases. I was one of the active contributors of <a href="/research#deepdive">DeepDive</a>, a scalable probabilistic inference engine well-received by both academy and industry.
 					                  </p>
 					               </div>
 					            </div>
@@ -236,7 +235,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Research Intern at Toshiba, Japan</a> <span>2017-2018</span></h2>
+					               	<h2>Research Intern at Toshiba, Japan <span>2017-2018</span></h2>
 					                  <p>Led a project in patent analysis. Extracted patent claim structures using probabilistic relation extraction techniques. Built a system that visualizes, compares, and searches patents, with the help of extracted structures. </p>
 					                  <p>Collaborated on constructing knowledge base for semiconductor material attributes from research papers, using machine reading and relation extraction techniques.</p>
 					               </div>
@@ -245,12 +244,24 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-6">
+					               <div class="timeline-icon color-1">
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Software Engineering Intern at Tableau Data</a> <span>Aug 2014 - Sep 2014</span></h2>
+					               	<h2>Software Engineering Intern at Tableau Data <span>Aug 2014 - Sep 2014</span></h2>
 					                  <p>Worked on backend functionalities of the new generation of Tableau Server, including user and group logics, and general internal tools.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2>Prior research projects</h2>
+					                  <p>See my <a href="/research">prior research projects</a> in Stanford and Peking University.</p>
 					               </div>
 					            </div>
 					         </article>
@@ -350,54 +361,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images-jackson/blog-1.jpg" class="img-responsive" alt=""></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images-jackson/blog-2.jpg" class="img-responsive" alt=""></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images-jackson/blog-3.jpg" class="img-responsive" alt=""></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
-
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -410,32 +373,32 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-5">
 							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
+									<i class="icon-at"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="#">info@domain.com</a></p>
+									<p><a href="#">zifeishan AT Gmail</a></p>
 								</div>
 							</div>
 
 							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="colorlib-icon">
-									<i class="icon-map"></i>
+									<i class="icon-linkedin2"></i>
 								</div>
 								<div class="colorlib-text">
-									<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+									<p><a href="https://www.linkedin.com/in/zifeishan/">My LinkedIn</a></p>
 								</div>
 							</div>
 
 							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
+									<i class="icon-link"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="tel://">+123 456 7890</a></p>
+									<p><a href="https://scholar.google.com/citations?user=DGIdpTwAAAAJ&hl=en">Google Scholar</a></p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-7 col-md-push-1">
+						<!--<div class="col-md-7 col-md-push-1">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
 									<form action="">
@@ -458,7 +421,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								</div>
 								
 							</div>
-						</div>
+						</div>-->
 					</div>
 				</div>
 			</section>
