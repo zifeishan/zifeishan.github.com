@@ -1,26 +1,5 @@
-About Me
+More About Me
 ====
-
-Bio
-----
-
-Zifei Shan is a Master's in the Department of Computer Science
-at Stanford University. He received his Bachelor's degree in Computer
-Science from Peking University. He was also a visiting student at
-Technion---Israel Institute of Technology. He is currently a research
-assistant working with Professor Christopher Re at Stanford. His
-research in Stanford focuses on building and using knowledge bases, to help
-people better understand and exploit data. He was a major contributor to DeepDive,
-a scalable probabilistic inference engine.
-
-Contact
-----
-
-* Email: zifeishan AT gmail
-* Find me on
-  [Github](https://github.com/zifeishan) and 
-  [LinkedIn](http://www.linkedin.com/pub/zifeishan/).
-
 
 Hobbies
 ----
@@ -85,10 +64,6 @@ We got the CHAMPION of the PKU campus slowpitch competitions!!! We are thrilled 
   </div>
 </div>
 
-
-### Amateur Photography
-
-I used to have a camera, but it got stolen. From then on I only use cellphone to take photos (in my undergrad). I am quite unprofessional and only do it for fun. Here is my little [gallery in Instagram](http://instagram.com/zifeishan) and one on [500px](https://500px.com/ZifeiShan).
 
 ### Chinese Tea
 
