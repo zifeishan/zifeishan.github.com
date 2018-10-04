@@ -237,7 +237,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					               </div>
 					               <div class="timeline-label">
 					               	<h2>Research Intern at Toshiba, Japan <span>2017-2018</span></h2>
-					                  <p>Led a project in patent analysis. Extracted patent claim structures using probabilistic relation extraction techniques. Built a system that visualizes, compares, and searches patents, with the help of extracted structures. </p>
+					                  <p>Led a project in patent analysis. Extracted patent claim structures using probabilistic relation extraction techniques. Built a system that visualizes, compares, and searches patents, with the help of extracted structures. Published work on SIGIR 2017.</p>
 					                  <p>Collaborated on constructing knowledge base for semiconductor material attributes from research papers, using machine reading and relation extraction techniques.</p>
 					               </div>
 					            </div>
@@ -251,18 +251,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					               <div class="timeline-label">
 					               	<h2>Software Engineering Intern at Tableau Data <span>Aug 2014 - Sep 2014</span></h2>
 					                  <p>Worked on backend functionalities of the new generation of Tableau Server, including user and group logics, and general internal tools.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2>Prior research projects</h2>
-					                  <p>See my <a href="/research">prior research projects</a> in Stanford and Peking University.</p>
 					               </div>
 					            </div>
 					         </article>
