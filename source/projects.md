@@ -9,6 +9,23 @@ Here are some fun course projects I led during Master's studies, along
 with the reports and posters. Some of these projects might be
 interesting enough for industry reference.
 
+
+<h3 id="ensemble-ocr">Ensemble Optical Character Recognition (OCR) Systems</h3>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-3">
+            <div class="thumbnail">
+            <a href="{{ref:images/ensemble-ocr.png}}"><img class="" title="" src="{{ref:images/ensemble-ocr.png}}" /></a>
+        </div></div>
+        <div class="col-md-9">
+            <p>This is the course project for Stanford CS229 Machine Learning, and independent study with Professor Christopher Re. I was the main contributor of this project.</p>
+            <p>We studied the problem of Optical Character Recognition on domain-specific articles (geo-science papers), and found that multiple OCR systems often make independent errors that can be fixed by each other. We implemented an offline Machine Learning model (SVM) to predict the correct output when the two OCR systems differ. This combines two state-of-the-art OCR systems at the time, <em>Tesseract</em> and <em>Cuneiform</em>. For error examples, Tesseract would often recognize <code>rn</code> as <code>m</code>, and Cuneiform would often recognize <code>e</code> as <code>c</code>.  Our ensemble system was able to choose the correct answer in most cases, and achieves 89.80% accuracy when two OCR differs and one of them is correct, yielding a significant accuracy increase to any single OCR system involved.</p>
+            <p>Report: [<a href="/files/ensemble-ocr.pdf">PDF</a>]</p>
+        </div>
+    </div>
+</div>
+
 <h3 id="capital-crunch">Capital Crunch: Predicting Investments in Tech Companies</h3>
 
 <div class="row">
@@ -84,7 +101,7 @@ interesting enough for industry reference.
 
 ----
 
-## Previous Projects 
+## Previous Projects
 
 <h3 id="mlbi">MLB illustrator</h3>
 
