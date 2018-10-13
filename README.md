@@ -1,6 +1,6 @@
 zifeishan.github.com
 ====================
 
-My personal website.
+Zifei Shan's personal website.
 
 http://www.zifeishan.org/
