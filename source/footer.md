@@ -1,1 +1,0 @@
-&copy;Zifei Shan, 2013
